@@ -1,0 +1,404 @@
+<html>
+<head>
+    <title>فونت فارسی ساحل - صفحه رسمی پروژه</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta name="description" content="فونت فارسی ساحل از نوع سانس سریف">
+    <meta name="keywords" content="فونت,فارسی,ساحل,سانس سریف,font,farsi,Sahel,sans-serif">
+    <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rastikerdar/sahel-font/v1.0.0-alpha/dist/font-face.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+    <style>
+
+    html {font-size: 14px;}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    p { margin-bottom: 10px; }
+    a {
+        text-decoration: none;
+        color: #3b7d00;
+    }
+    h1,h2,h3,h4,h5,h6 {
+        line-height: 1.5;
+    }
+    li { list-style-type: none; }
+
+    body {
+        background-color: #4a4e55;
+        color: #000;
+        font-size: 14px;
+        direction: rtl;
+        line-height: 1.7;
+        font-family: Sahel,open sans,Tahoma,"DejaVu Sans",helvetica,arial,freesans,sans-serif;
+    }
+
+    .main {
+        padding: 20px 50px 40px;
+        background-color: #f7f9fb;
+    }
+
+    header, .sample, footer {
+        margin: 0 auto;
+        max-width: 660px;
+        padding: 20px 10px;
+    }
+
+    .sample {
+        text-align: center;
+    }
+
+    header {
+        text-align: right;
+        color: #404040;
+        border: none;
+        /*width: 50%;*/
+        padding: 20px 10px 0;
+    }
+
+    header .get {
+        margin: 20px 0 0;
+        text-align: center;
+    }
+
+    header .get a {
+        border: 1px solid #eaeaea;
+        border-radius: 5px;
+        box-shadow: 0 0 9px #f5f5f5;
+        color: #007fba;
+        display: inline-block;
+        font-size: 1.3em;
+        margin: 10px 10px;
+        padding: 7px 13px;
+    }
+
+    header .get .payment {
+        color: #329300;
+    }
+
+    header .payment {
+        position: relative;
+    }
+
+    header .payment:hover .tooltip {
+        display: block;
+    }
+
+    header .tooltip {
+        background-color: #e2f7eb;
+        border: 1px solid #e4e4e4;
+        border-radius: 5px;
+        box-shadow: 0 0 15px #e4e4e4;
+        color: #348157;
+        display: none;
+        font-size: 0.9rem;
+        margin-top: 10px;
+        padding: 10px;
+        position: absolute;
+        right: -125px;
+        width: 340px;
+        z-index: 1000;
+    }
+
+    header .info {
+        color: #999;
+        font-size: 12px;
+    }
+
+    header .version {
+        position: absolute;
+        left: 0;
+        top: -5px;
+        color: #999;
+        font-size: 12px;
+        direction: ltr;
+    }
+
+    header .notice {
+        color: #B40000;
+        font-size: 13px;
+    }
+
+    header .inthename {
+        color:#859300;
+        font-weight: bold;
+    }
+
+    header .bigtitle {
+        color:#353535;
+        font-weight: 900;
+        font-size: 2rem;
+        margin-bottom: 15px;
+        max-width: 400px;
+    }
+
+    header .normaltitle {
+        color:#3E6792;
+        font-weight: bold;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin-bottom: 15px;
+        max-width: 500px;
+    }
+
+    .infobox {
+        background-color: #f4f7ff;
+        border: 1px solid #e2e2e2;
+        border-radius: 5px;
+        color: #656565;
+        font-weight: 900;
+        line-height: 2;
+        margin: 15px auto;
+        max-width: 600px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .infobox.license {
+        background-color: #f2f7ed;
+        border: 1px solid #e2e2e2;
+        border-radius: 5px;
+        color: #24501d;
+        font-weight: bold;
+        line-height: 2;
+        margin: 15px auto;
+        max-width: 600px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .donors h3 {
+        color: #286c93;
+        font-size: 1.7rem;
+        font-weight: 900;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .donors img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    .donors .donor {
+        position: relative;
+        display: inline-block;
+    }
+
+    .donors .shadow {
+        position: fixed;
+        right: 0;
+        top: -100px;
+        left: 0;
+        bottom: 0;
+        background-color: #000;
+        opacity: 0.5;
+        display: none;
+    }
+
+    .donors .shadow.show {
+        display: block;
+        z-index: 999;
+    }
+
+    .donor .profile {
+        background-color: #f8f8f8;
+        border: 1px solid #e4e4e4;
+        border-radius: 5px;
+        color: #333;
+        display: none;
+        font-size: 0.95rem;
+        right: -50px;
+        margin-top: 10px;
+        width: 420px;
+        padding: 10px;
+        position: absolute;
+        text-align: right;
+        top: -50px;
+        z-index: 1000;
+        max-height: 400px;
+        overflow-y: auto;
+    }
+
+    .donor .profile img{
+        float: left;
+    }
+
+    .donor .profile .close{
+        color: #fff;
+        position: absolute;
+        right: 0;
+        top: -27px;
+    }
+
+    .donor.show .profile {
+        display: block;
+    }
+
+    .donor.show.right-side .profile {
+        left: -50px;
+        right: auto;;
+    }
+
+    .donor.show .shadow{
+        display: block;
+    }
+
+    .donor .profile .name {
+        color: #5181cd;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    header h1 {
+        position: relative;
+        display: inline-block;
+        color:#B54E00;
+    }
+
+    footer {
+        background-color: #4a4e55;
+        border-radius: 0;
+        color: #eee;
+        margin: 0;
+        max-width: 100%;
+        text-align: center;
+        clear: both;
+    }
+
+    footer a {
+        color: #f1fc45;
+        text-decoration: underline;
+    }
+
+    @media all and (max-width: 768px){
+        header, .sample, footer {
+            padding: 20px 20px;
+            width: 100%;
+            margin: 0;
+            border-radius: 0;
+        }
+
+        .donor .profile{
+             bottom: 10px;
+             margin-right: -150px;
+             margin-top: -25%;
+             max-height: 300px;
+             overflow-y: auto;
+             position: fixed;
+             right: 50%;
+             top: 50%;
+             width: 300px;
+        }
+    }
+
+    @media all and (max-width: 480px){
+        .main { padding:0 0 40px;margin:0; }
+        header, .sample, footer {
+            border: none;
+            padding: 20px 20px;
+            width: 100%;
+            border: none;
+            margin: 0;
+            border-radius: 0;
+        }
+
+        header {padding-bottom: 10px;}
+    }
+
+    .clear { clear: both; }
+    </style>
+</head>
+
+<body contenteditable="false">
+    <div class="main">
+        <header>
+            <h3 class="inthename">به نام دوست</h3>
+            <h1 class="bigtitle">فونت ساحل</h1>
+            <h3 class="normaltitle">در وزن‌های معمولی، ضخیم و تیتر تقدیم می گردد.</h3>
+            <div class="description">این یک  نسخه اولیه از قلم ساحل می باشد. تقاضا می‌گردد هر گونه ایراد یا کاستی در قلم می بینید و یا پیشنهادی برای بهتر شدن آن دارید لطفا در قسمت ایشوهای گیت‌هاب و یا از طریق آدرس saber.rastikerdar بر روی Gmail.com در میان بگذارید. برای قلم ترکیبی با لاتین Open Sans یا Roboto پیشنهاد می‌گردد.</div>
+            <div class="infobox license">مجوز OFL به طور خلاصه می‌گوید شما اجازه استفاده از قلم در هر کاری چه شخصی و چه تجاری خواهید داشت منوط به اینکه چه خود فونت‌ به تنهایی و چه نسخه های ویرایش شده آن را نباید بفروشید.</div>
+            <div class="infobox donate">اگرچه این قلم آزاد و تحت مجوز OFL منتشر گردیده و الزامی برای پرداخت هزینه ندارید اما از آنجایی که برای طراحی و تولید فونت زحمت بسیاری کشیده شده خواهشمند است در صورت امکان و علاقه مبلغی را برای حمایت از این اثر هدیه فرمایید. با سپاس</div>
+            <div class="get">
+                <a href="https://github.com/rastikerdar/sahel-font/releases/download/v1.0.0-alpha/sahel-font-v1.0.0-alpha.zip" class="download">دریافت (دانلود)</a>
+                <a href="https://github.com/rastikerdar/sahel-font" class="github">GitHub</a>
+                <div style="color: #8b2b2b">لطفا این فونت را در سایت دیگری برای دانلود قرار <b style="font-weight: 900;">ندهید</b> و در عوض به این اینجا لینک دهید تا این صفحه دیده شود.</div>
+                <br>
+                <a href="https://www.payping.ir/saber" class="payment">
+                    پرداخت وجه
+                    <span class="tooltip">در صورت تمایل هنگام پرداخت، لطفا نام، ایمیل، آدرس وب و متن مورد نظرتان را نیز درج بفرمایید. بدیهیست ایمیل منتشر نخواهد شد.</span>
+                </a>
+            </div>
+
+            <!-- <div class="info">
+                <div>آخرین نسخه: <span dir="ltr">1.0.0</span></div>
+            </div> -->
+
+        </header>
+
+        <section class="sample donors">
+            <h3>حامیان</h3>
+            <div id="shadow" class="shadow" onclick="closeProfile()"></div>
+            <ul>
+                <li class="donor">
+                    <a id="donor-1" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="bird.svg" /></a>
+                    <div class="profile">
+                        <div class="title">
+                            <img src="bird.svg" />
+                            <span class="name">پرنده مهاجر</span>
+                            <br>
+                        </div>
+                        <div class="text">یادمه اولین باری که با گروه پرواز می‌کردم داشتم از هیجان منفجر می‌شدم. آخه از همه کوچکتر بودم. توی سفر کلی سوتی می دادم و بقیه رو حسابی می خندوندم. چون تازه کار بودم حواسم زیاد پرت می شد و گروه رو به زحمت می انداختم. ولی خب دوستام همیشه مراقب بودند و سر به سرم می‌ذاشتن. اسم من پرنده مهاجر هست.</div>
+                        <div><a href="https://rastikerdar.blog.ir" target="_blank">rastikerdar.blog.ir</a></div>
+                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
+                        <div class="amount">۰ تومان</div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <div class="clear"></div>
+    </div>
+    <footer>
+        ثبت دیدگاه پیرامون فونت ساحل:
+        <a href="http://rastikerdar.blog.ir/post/16" target="_blank">rastikerdar.blog.ir</a>
+        <br>
+        توسط صابر راستی کردار
+        <br>
+        saber.rastikerdar بر روی جی‌میل
+        <br>
+        © 2016
+    </footer>
+<script>
+  "use strict";
+  var onTopDonor = null;
+  function getOffset(el) {
+      el = el.getBoundingClientRect();
+      return {
+          left: el.left + window.scrollX,
+          top: el.top + window.scrollY
+      }
+  }
+  function showProfile(donor, event) {
+      //var donor = document.getElementById(id);
+      if (getOffset(donor).left < window.innerWidth/2 - 100) {
+          donor.parentNode.className = 'donor show right-side';
+      } else {
+          donor.parentNode.className = 'donor show';
+      }
+      onTopDonor = donor;
+      var shadow = document.getElementById('shadow');
+      shadow.className = "shadow show";
+  }
+
+  function closeProfile() {
+      var shadow = document.getElementById('shadow');
+      shadow.className = "shadow";
+      onTopDonor.parentNode.className = 'donor';
+      onTopDonor = null;
+  }
+
+</script>
+</body>
+</html>
