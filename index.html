@@ -9,6 +9,19 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
     <style>
 
+    @font-face {
+        font-family: 'gift';
+        src: url('gift.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .gifticon{
+        font-family: gift;
+        font-size: 3em;
+        color:#009155;
+    }
+
     html {font-size: 14px;}
     * {
         margin: 0;
@@ -172,14 +185,16 @@
     }
 
     .donors img {
-        max-width: 150px;
+        max-width: 120px;
         height: auto;
-        max-height: 150px;
+        max-height: 120px;
     }
 
     .donors .donor {
         position: relative;
         display: inline-block;
+        width: 120px;
+        margin-bottom: 10px;
     }
 
     .donors .shadow {
@@ -198,6 +213,7 @@
         z-index: 999;
     }
 
+    .donor a .name{display: block; color: #555;}
     .donor .profile {
         background-color: #f8f8f8;
         border: 1px solid #e4e4e4;
@@ -217,7 +233,7 @@
         overflow-y: auto;
     }
 
-    .donor .profile img{
+    .donor .profile img, .donor .profile .gifticon{
         float: left;
     }
 
@@ -338,8 +354,36 @@
             <div id="shadow" class="shadow" onclick="closeProfile()"></div>
             <ul>
                 <li class="donor">
-                    <a id="donor-1" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="bird.svg" /></a>
+                    <a id="donor-2" href="#" target="_blank" onclick="showProfile(this); return false;"><span class="gifticon big">&#xe900;</span><span class="name">حسام مطهری</span></a>
                     <div class="profile">
+                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
+                        <div class="title">
+                            <span class="gifticon">&#xe900;</span>
+                            <span class="name">حسام مطهری</span>
+                            <br>
+                        </div>
+                        <div class="text"></div>
+                        <div><a href="http://www.hmotahari.com/blog" target="_blank">hmotahari.com/blog</a></div>
+                        <div class="amount">۲۰٬۰۰۰ تومان</div>
+                    </div>
+                </li>
+                <li class="donor">
+                    <a id="donor-1" href="#" target="_blank" onclick="showProfile(this); return false;"><span class="gifticon big">&#xe900;</span><span class="name">علی علی‌اکبری</span></a>
+                    <div class="profile">
+                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
+                        <div class="title">
+                            <span class="gifticon">&#xe900;</span>
+                            <span class="name">علی علی‌اکبری</span>
+                            <br>
+                        </div>
+                        <div class="text"></div>
+                        <div class="amount">۲۰٬۰۰۰ تومان</div>
+                    </div>
+                </li>
+                <li class="donor">
+                    <a id="donor-0" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="bird.svg" /><br><span class="name">پرنده مهاجر</span></a>
+                    <div class="profile">
+                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
                         <div class="title">
                             <img src="bird.svg" />
                             <span class="name">پرنده مهاجر</span>
@@ -347,7 +391,6 @@
                         </div>
                         <div class="text">یادمه اولین باری که با گروه پرواز می‌کردم داشتم از هیجان منفجر می‌شدم. آخه از همه کوچکتر بودم. توی سفر کلی سوتی می دادم و بقیه رو حسابی می خندوندم. چون تازه کار بودم حواسم زیاد پرت می شد و گروه رو به زحمت می انداختم. ولی خب دوستام همیشه مراقب بودند و سر به سرم می‌ذاشتن. اسم من پرنده مهاجر هست.</div>
                         <div><a href="https://rastikerdar.blog.ir" target="_blank">rastikerdar.blog.ir</a></div>
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
                         <div class="amount">۰ تومان</div>
                     </div>
                 </li>
