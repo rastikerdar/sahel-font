@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <meta name="description" content="فونت فارسی ساحل از نوع سانس سریف">
     <meta name="keywords" content="فونت,فارسی,ساحل,سانس سریف,font,farsi,Sahel,sans-serif">
-    <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rastikerdar/sahel-font/v1.0.0-alpha/dist/font-face.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rastikerdar/sahel-font/v1.0.0-alpha2/dist/font-face.css">
     <style>
 
     @font-face {
@@ -42,7 +41,6 @@
     body {
         background-color: #4a4e55;
         color: #000;
-        font-size: 14px;
         direction: rtl;
         line-height: 1.7;
         font-family: Sahel,open sans,Tahoma,"DejaVu Sans",helvetica,arial,freesans,sans-serif;
@@ -50,7 +48,7 @@
 
     .main {
         padding: 20px 50px 40px;
-        background-color: #f7f9fb;
+        background-color: #fff;
     }
 
     header, .sample, footer {
@@ -160,7 +158,7 @@
         background-color: #f4f7ff;
         border: 1px solid #e2e2e2;
         border-radius: 5px;
-        color: #656565;
+        color: #284559;
         font-weight: 900;
         line-height: 2;
         margin: 15px auto;
@@ -184,10 +182,16 @@
         margin-bottom: 20px;
     }
 
-    .donors img {
-        max-width: 120px;
+    .donors .profile img {
+        max-width: 150px;
+        max-height: 150px;
+        border-radius: 5px;
+    }
+
+    .donors a img {
+        max-width: 80px;
         height: auto;
-        max-height: 120px;
+        max-height: 80px;
         border-radius: 5px;
     }
 
@@ -340,7 +344,7 @@
             <div class="infobox license">مجوز OFL به طور خلاصه می‌گوید شما اجازه استفاده از قلم در هر کاری چه شخصی و چه تجاری خواهید داشت منوط به اینکه چه خود فونت‌ به تنهایی و چه نسخه های ویرایش شده آن را نباید بفروشید.</div>
             <div class="infobox donate">اگرچه این قلم آزاد و تحت مجوز OFL منتشر گردیده و الزامی برای پرداخت هزینه ندارید اما از آنجایی که برای طراحی و تولید فونت زحمت بسیاری کشیده شده خواهشمند است در صورت امکان و علاقه مبلغی را برای حمایت از این اثر هدیه فرمایید. با سپاس</div>
             <div class="get">
-                <a href="https://github.com/rastikerdar/sahel-font/releases/download/v1.0.0-alpha/sahel-font-v1.0.0-alpha.zip" class="download">دریافت (دانلود)</a>
+                <a href="https://github.com/rastikerdar/sahel-font/releases/download/v1.0.0-alpha2/sahel-font-v1.0.0-alpha2.zip" class="download">دریافت (دانلود)</a>
                 <a href="https://github.com/rastikerdar/sahel-font" class="github">GitHub</a>
                 <div style="color: #8b2b2b">لطفا این فونت را در سایت دیگری برای دانلود قرار <b style="font-weight: 900;">ندهید</b> و در عوض به اینجا لینک دهید تا این صفحه دیده شود.</div>
                 <br>
@@ -409,6 +413,19 @@
                         <div class="text"></div>
                         <div><a href="http://www.pixeler.ir/" target="_blank">pixeler.ir</a></div>
                         <div class="amount">۲۰٬۰۰۰ تومان</div>
+                    </div>
+                </li>
+                <li class="donor">
+                    <a id="donor-5" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="https://avatars0.githubusercontent.com/u/9208642?v=3&s=400" /><span class="name">سیدحمیدرضا سماک</span></a>
+                    <div class="profile">
+                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
+                        <div class="title">
+                            <img src="https://avatars0.githubusercontent.com/u/9208642?v=3&s=150" />
+                            <span class="name">سیدحمیدرضا سماک</span>
+                        </div>
+                        <div class="text"></div>
+                        <div><a href="https://github.com/hamidsamak" target="_blank">github.com/hamidsamak</a></div>
+                        <div class="amount">۱۰٬۰۰۰ تومان</div>
                     </div>
                 </li>
                 <li class="donor">
