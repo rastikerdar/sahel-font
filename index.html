@@ -186,99 +186,56 @@
         margin-right: 5px;
     }
 
-    .donors h3 {
-        color: #286c93;
-        font-size: 1.7rem;
-        font-weight: 900;
-        text-align: center;
-        margin-bottom: 20px;
-    }
 
-    .donors .profile img {
-        max-width: 150px;
-        max-height: 150px;
-        border-radius: 5px;
-    }
+        .sort  a{
+            display: inline-block;
+            min-width: 3em;
+        }
 
-    .donors a img {
-        max-width: 80px;
-        height: auto;
-        max-height: 80px;
-        border-radius: 5px;
-    }
+        .sort  a.selected{
+            border-bottom: 1px dotted #bbb;
+        }
 
-    .donors .donor {
-        position: relative;
-        display: inline-block;
-        width: 120px;
-        margin-bottom: 10px;
-    }
+        .donation h3 {
+            color: #286c93;
+            font-size: 1.7rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+            text-align: center;
+        }
 
-    .donors .shadow {
-        position: fixed;
-        right: 0;
-        top: -100px;
-        left: 0;
-        bottom: 0;
-        background-color: #000;
-        opacity: 0.5;
-        display: none;
-    }
+        .donors li {
+             display: inline-block;
+             margin: 0 0 5px;
+             min-height: 100px;
+             text-align: center;
+             vertical-align: top;
+             width: 65px;
+             font-size: 13px;
+        }
 
-    .donors .shadow.show {
-        display: block;
-        z-index: 999;
-    }
+        .donors li a {
+            /*display: block;*/
+        }
 
-    .donor a .name{display: block; color: #555;}
-    .donor .profile {
-        background-color: #f8f8f8;
-        border: 1px solid #e4e4e4;
-        border-radius: 5px;
-        color: #333;
-        display: none;
-        font-size: 0.95rem;
-        right: -50px;
-        margin-top: 10px;
-        width: 420px;
-        padding: 10px;
-        position: absolute;
-        text-align: right;
-        top: -50px;
-        z-index: 1000;
-        max-height: 400px;
-        overflow-y: auto;
-    }
+        .donors li .name {
+            margin-top: 3px;
+            display: block;
+            line-height: 1.3;
+        }
 
-    .donor .profile img, .donor .profile .gifticon{
-        float: left;
-    }
+        .donors li .gifticon {
+            display: block;
+            height: 50px;
+            padding-top: 20px;
+            text-align: center;
+            width: 100%;
+        }
 
-    .donor .profile .close{
-        color: #fff;
-        position: absolute;
-        right: 0;
-        top: -27px;
-    }
-
-    .donor.show .profile {
-        display: block;
-    }
-
-    .donor.show.right-side .profile {
-        left: -50px;
-        right: auto;;
-    }
-
-    .donor.show .shadow{
-        display: block;
-    }
-
-    .donor .profile .name {
-        color: #5181cd;
-        font-size: 1.1rem;
-        font-weight: bold;
-    }
+        .donors li img {
+            width: 50px;
+            border-radius: 50%;
+        }
 
     header h1 {
         position: relative;
@@ -366,7 +323,7 @@
                 <br>
                 <a href="https://www.payping.ir/saber" class="payment">
                     پرداخت وجه
-                    <span class="tooltip"> در هنگام پرداخت، لطفا نام، ایمیل، آدرس وب، تصویر و متن مورد نظرتان را نیز درج و یا به آدرس ایمیل بالا ارسال بفرمایید. بدیهیست ایمیل منتشر نخواهد شد.</span>
+                    <span class="tooltip"> در هنگام پرداخت لطفا نام، ایمیل و آدرس وب مورد نظرتان را نیز درج بفرمایید. بدیهیست ایمیل منتشر نخواهد شد.</span>
                 </a>
             </div>
             <div class="infobox angoor">
@@ -379,278 +336,23 @@
 
         </header>
 
-        <section class="sample donors">
+        <section class="sample donation">
             <h3>حامیان</h3>
-            <div id="shadow" class="shadow" onclick="closeProfile()"></div>
-            <ul>
-                <li class="donor">
-                    <a id="donor-14" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="https://www.gravatar.com/avatar/63735612cfb3fc32f4dcbd907e7674fa" /><span class="name">ehsanix</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="https://www.gravatar.com/avatar/63735612cfb3fc32f4dcbd907e7674fa" />
-                            <span class="name">ehsanix</span>
-                        </div>
-                        <div class="text"></div>
-                        <div class="amount">۱۰۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-13" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="https://avatars0.githubusercontent.com/u/977610?v=3&s=150" /><span class="name">عباس مشایخ</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="https://avatars0.githubusercontent.com/u/977610?v=3&s=150" />
-                            <span class="name">عباس مشایخ</span>
-                        </div>
-                        <div class="text"></div>
-                        <div><a href="https://github.com/martianboy" target="_blank">github.com/martianboy</a></div>
-                        <div class="amount">۵۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-17" href="#" target="_blank" onclick="showProfile(this); return false;"><span class="gifticon big">&#xe900;</span><span class="name">سعید کاوندی</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <span class="gifticon">&#xe900;</span>
-                            <span class="name">سعید کاوندی</span>
-                        </div>
-                        <div class="text"></div>
-                        <div class="amount">۵۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-1" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="https://www.gravatar.com/avatar/e5f49df33be0f49b6aaadb559742d150" /><span class="name">حسام مطهری</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="https://www.gravatar.com/avatar/e5f49df33be0f49b6aaadb559742d150" />
-                            <span class="name">حسام مطهری</span>
-                        </div>
-                        <div class="text"></div>
-                        <div><a href="http://www.hmotahari.com/blog" target="_blank">hmotahari.com/blog</a></div>
-                        <div class="amount">۲۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-2" href="#" target="_blank" onclick="showProfile(this); return false;"><span class="gifticon big">&#xe900;</span><span class="name">علی علی‌اکبری</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <span class="gifticon">&#xe900;</span>
-                            <span class="name">علی علی‌اکبری</span>
-                        </div>
-                        <div class="text"></div>
-                        <div class="amount">۲۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-3" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="https://www.gravatar.com/avatar/e56684ec108e7046de6dfadb196c333c" /><span class="name">بابک فرخی</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="https://www.gravatar.com/avatar/e56684ec108e7046de6dfadb196c333c" />
-                            <span class="name">بابک فرخی</span>
-                        </div>
-                        <div class="text"></div>
-                        <div><a href="https://farrokhi.net" target="_blank">farrokhi.net</a></div>
-                        <div class="amount">۲۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-4" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="https://www.gravatar.com/avatar/952f817e088118256365a17605d41af5" /><span class="name">مهدی خدادادی</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="https://www.gravatar.com/avatar/952f817e088118256365a17605d41af5" />
-                            <span class="name">مهدی خدادادی</span>
-                        </div>
-                        <div class="text"></div>
-                        <div><a href="http://www.pixeler.ir/" target="_blank">pixeler.ir</a></div>
-                        <div class="amount">۲۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-7" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="donors-img/bitlog.ir.png" /><span class="name">بیتلاگ</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="donors-img/bitlog.ir.png" />
-                            <span class="name">بیتلاگ</span>
-                        </div>
-                        <div class="text"></div>
-                        <div><a href="http://bitlog.ir" target="_blank">bitlog.ir</a></div>
-                        <div class="amount">۲۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-9" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="https://www.gravatar.com/avatar/fe52d9867c3b9c4a4293915a5a372b27" /><span class="name">محمد صالح سوزنچی</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="https://www.gravatar.com/avatar/fe52d9867c3b9c4a4293915a5a372b27" />
-                            <span class="name">محمد صالح سوزنچی</span>
-                        </div>
-                        <div class="text"></div>
-                        <div><a href="https://github.com/font-store/" target="_blank">github.com/font-store</a></div>
-                        <div class="amount">۲۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-15" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="donors-img/sadeq.ir.png" /><span class="name">h0n3s7</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="donors-img/sadeq.ir.png" />
-                            <span class="name">h0n3s7</span>
-                        </div>
-                        <div class="text"></div>
-                        <div><a href="https://sadeq.ir" target="_blank">sadeq.ir</a></div>
-                        <div class="amount">۲۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-16" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="donors-img/nie.ir.jpg" /><span class="name">مهدی شریفی راد</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="donors-img/nie.ir.jpg" />
-                            <span class="name">مهدی شریفی راد</span>
-                        </div>
-                        <div class="text"></div>
-                        <div><a href="https://nie.ir" target="_blank">nie.ir</a></div>
-                        <div class="amount">۲۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-5" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="https://www.gravatar.com/avatar/b1fbbec75b5c3b0c5b1ab6f14024c8fe" /><span class="name">کاوه شاه حسینی</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="https://www.gravatar.com/avatar/b1fbbec75b5c3b0c5b1ab6f14024c8fe" />
-                            <span class="name">کاوه شاه حسینی</span>
-                        </div>
-                        <div class="text"></div>
-                        <div class="amount">۱۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-6" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="https://avatars0.githubusercontent.com/u/9208642?v=3&s=400" /><span class="name">سیدحمیدرضا سماک</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="https://avatars0.githubusercontent.com/u/9208642?v=3&s=150" />
-                            <span class="name">سیدحمیدرضا سماک</span>
-                        </div>
-                        <div class="text"></div>
-                        <div><a href="https://github.com/hamidsamak" target="_blank">github.com/hamidsamak</a></div>
-                        <div class="amount">۱۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-8" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="donors-img/irfont.ir.png" /><span class="name">ایران فونت</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="donors-img/irfont.ir.png" />
-                            <span class="name">ایران فونت</span>
-                        </div>
-                        <div class="text"></div>
-                        <div><a href="http://irfont.ir" target="_blank">irfont.ir</a></div>
-                        <div class="amount">۱۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-12" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="donors-img/webhow.ir.png" /><span class="name">وب هاو</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="donors-img/webhow.ir.png" />
-                            <span class="name">وب هاو</span>
-                        </div>
-                        <div class="text"></div>
-                        <div><a href="http://webhow.ir" target="_blank">webhow.ir</a></div>
-                        <div class="amount">۱۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-19" href="#" target="_blank" onclick="showProfile(this); return false;"><span class="gifticon">&#xe900;</span><span class="name">داریوش</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <span class="gifticon">&#xe900;</span>
-                            <span class="name">داریوش</span>
-                        </div>
-                        <div class="text"></div>
-                        <div class="amount">۱۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-20" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="donors-img/panoman.ir.png" /><span class="name">پانومن</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="donors-img/panoman.ir.png" />
-                            <span class="name">پانومن</span>
-                        </div>
-                        <div class="text"></div>
-                        <div><a href="http://panoman.ir" target="_blank">panoman.ir</a></div>
-                        <div class="amount">۱۰٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-10" href="#" target="_blank" onclick="showProfile(this); return false;"><span class="gifticon big">&#xe900;</span><span class="name">امید روزخوب</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <span class="gifticon">&#xe900;</span>
-                            <span class="name">امید روزخوب</span>
-                        </div>
-                        <div class="text"></div>
-                        <div class="amount">۲٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-11" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="https://www.gravatar.com/avatar/5a8980a72c01041d8d03364bc09e01c5" /><span class="name">بردیــا جوادی</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="https://www.gravatar.com/avatar/5a8980a72c01041d8d03364bc09e01c5" />
-                            <span class="name">بردیــا جوادی</span>
-                        </div>
-                        <div class="text"></div>
-                        <div class="amount">۲٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-18" href="#" target="_blank" onclick="showProfile(this); return false;"><span class="gifticon">&#xe900;</span><span class="name">تخریبچی</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <span class="gifticon">&#xe900;</span>
-                            <span class="name">تخریبچی</span>
-                        </div>
-                        <div class="text"></div>
-                        <div class="amount">۲٬۰۰۰ تومان</div>
-                    </div>
-                </li>
-                <li class="donor">
-                    <a id="donor-0" href="#" target="_blank" onclick="showProfile(this); return false;"><img src="bird.svg" /><span class="name">پرنده مهاجر</span></a>
-                    <div class="profile">
-                        <a class="close" href="#" onclick="closeProfile(); return false;">X</a>
-                        <div class="title">
-                            <img src="bird.svg" />
-                            <span class="name">پرنده مهاجر</span>
-                        </div>
-                        <div class="text">یادمه اولین باری که با گروه پرواز می‌کردم داشتم از هیجان منفجر می‌شدم. آخه از همه کوچکتر بودم. توی سفر کلی سوتی می دادم و بقیه رو حسابی می خندوندم. چون تازه کار بودم حواسم زیاد پرت می شد و گروه رو به زحمت می انداختم. ولی خب دوستام همیشه مراقب بودند و سر به سرم می‌ذاشتن. اسم من پرنده مهاجر هست.</div>
-                        <div><a href="https://rastikerdar.blog.ir" target="_blank">rastikerdar.blog.ir</a></div>
-                        <div class="amount">۰ تومان</div>
-                    </div>
-                </li>
+            <b>کمک های مالی (جمعا <span id="amount-sum"></span> تومان)</b>
+            <br>از صفحه <a href="http://rastikerdar.github.io/vazir-font/">فونت وزیر</a>
+            <br>
+            <div class="sort">
+                نمایش به ترتیب:
+                <a id="sort-by-date" class="selected" href="#" onclick="sortBy('date'); return false;">زمان</a>
+                |
+                <a id="sort-by-amount" href="#" onclick="sortBy('amount'); return false;">مبلغ</a>
+            </div>
+            <br>
+            <ul id="donors" class="donors">
             </ul>
             <br>
-            <a href="https://rastikerdar.github.io/vazir-font/">مشاهده حامیان در صفحه فونت وزیر</a>
+            <p>جهت مشاهده یا تغییر اطلاعات این فهرست به <a href="https://github.com/rastikerdar/vazir-font/blob/gh-pages/donations.txt" target="_blank">این فایل</a> مراجعه نمایید.</p>
+            <p>سپاس</p>
         </section>
         <div class="clear"></div>
     </div>
@@ -685,34 +387,83 @@
 </script>
     </footer>
 <script>
-  "use strict";
-  var onTopDonor = null;
-  function getOffset(el) {
-      el = el.getBoundingClientRect();
-      return {
-          left: el.left + window.scrollX,
-          top: el.top + window.scrollY
-      }
-  }
-  function showProfile(donor, event) {
-      //var donor = document.getElementById(id);
-      if (getOffset(donor).left < window.innerWidth/2 - 100) {
-          donor.parentNode.className = 'donor show right-side';
-      } else {
-          donor.parentNode.className = 'donor show';
-      }
-      onTopDonor = donor;
-      var shadow = document.getElementById('shadow');
-      shadow.className = "shadow show";
-  }
+var donations = null;
 
-  function closeProfile() {
-      var shadow = document.getElementById('shadow');
-      shadow.className = "shadow";
-      onTopDonor.parentNode.className = 'donor';
-      onTopDonor = null;
-  }
+function formatNumber(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
 
+function createNodes(donations) {
+    var html = "";
+    var amountSum = 0
+
+    for (var i=0; i<donations.length; i++) {
+        var dnt = donations[i];
+        li = "<li title='"+formatNumber(dnt.amount)+" تومان'>";
+        if (dnt.web) {
+            li += '<a href="'+dnt.web+'" target="_blank">';
+        }
+        if (!dnt.img) {
+            dnt.img = "https://s.gravatar.com/avatar/"+i+"?noemail&s=80&d=wavatar";
+        }
+        li += '<img src="'+dnt.img+'">';
+        li += '<span class="name">'+dnt.name+'</span>';
+        if (dnt.web) {
+            li += '</a>';
+        }
+        li += '</li>';
+        html += li;
+        amountSum += dnt["amount"]
+    }
+    document.getElementById("donors").innerHTML = html;
+    document.getElementById("amount-sum").innerHTML = formatNumber(amountSum);
+}
+
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      donations = JSON.parse(this.responseText);
+      sortBy('amount');
+      //createNodes(donations);
+      //sortBy('amount');
+    }
+  };
+  xhttp.open("GET", "http://rastikerdar.github.io/vazir-font/donations.txt", true);
+  xhttp.send();
+}
+
+function sortBy(key) {
+    var swapped = true;
+    while (swapped) {
+        swapped = false
+        for (var i=1; i<donations.length; i++) {
+            var condition = (key == 'date') ?
+                donations[i-1][key] > donations[i][key] :
+                donations[i-1][key] < donations[i][key];
+
+            if (condition) {
+                var t = donations[i-1];
+                donations[i-1] = donations[i];
+                donations[i] = t;
+                swapped = true;
+            }
+        }
+    }
+
+    if (key == "date") {
+        document.getElementById("sort-by-date").className = "selected";
+        document.getElementById("sort-by-amount").className = "";
+    }else {
+        document.getElementById("sort-by-date").className = "";
+        document.getElementById("sort-by-amount").className = "selected";
+    }
+
+    createNodes(donations);
+}
+loadDoc();
+
+</script>
 </script>
 </body>
 </html>
