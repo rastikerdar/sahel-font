@@ -4,7 +4,7 @@ FullName: Sahel Black
 FamilyName: Sahel Black
 Weight: Black
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(Latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 1.0.0-alpha7
+Version: 1.0.0-alpha8
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1480337703
+ModificationTime: 1480402631
 PfmFamily: 33
 TTFWeight: 900
 TTFWidth: 5
@@ -1912,7 +1912,7 @@ ShortTable: maxp 16
   8
   4
 EndShort
-LangName: 1033 "" "" "" "Sahel Black " "" "Version 1.0.0-alpha7" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel Black" "Black"
+LangName: 1033 "" "" "" "Sahel Black " "" "Version 1.0.0-alpha8" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel Black" "Black"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -2001,7 +2001,7 @@ Encoding: 32 32 0
 Width: 501
 VWidth: 2275
 GlyphClass: 2
-Flags: WO
+Flags: W
 LayerCount: 2
 EndChar
 
@@ -3144,13 +3144,14 @@ SplineSet
  365 960 365 960 476.821289062 961.955078125 c 0,19,20
  721 966 721 966 805.818359375 663.370117188 c 0,21,22
  850 507 850 507 856.275390625 336.002929688 c 0,23,24
- 867 69 867 69 805.93359375 -119.795898438 c 0,25,26
- 722 -377 722 -377 574.569335938 -500 c 0,27,28
- 540 -529 540 -529 491 -534.287109375 c 0,29,30
- 444 -539 444 -539 385 -537 c 0,31,32
- 200 -531 200 -531 41.767578125 -503.25390625 c 0,33,34
- -16 -493 -16 -493 -1.005859375 -442.1953125 c 0,35,36
- 4 -425 4 -425 66.8935546875 -383.8828125 c 0,37,38
+ 857.961085498 294.035390006 857.961085498 294.035390006 857.873142049 254 c 0,25,26
+ 857.249145347 -30.0683625352 857.249145347 -30.0683625352 754.095463676 -253 c 4,27,28
+ 680.822967883 -411.353606033 680.822967883 -411.353606033 574.569335938 -500 c 0,29,30
+ 540 -529 540 -529 491 -534.287109375 c 0,31,32
+ 444 -539 444 -539 385 -537 c 0,33,34
+ 200 -531 200 -531 41.767578125 -503.25390625 c 0,35,36
+ -16 -493 -16 -493 -1.005859375 -442.1953125 c 0,37,38
+ 4 -425 4 -425 66.8935546875 -383.8828125 c 0,39,40
  430 -145 430 -145 547 -2.1806640625 c 9,10,-1
 EndSplineSet
 Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uniFEEE
@@ -5082,12 +5083,12 @@ SplineSet
  505.443359375 803.048828125 l 1,10,-1
  526.337890625 668.008789062 l 2,11,12
  553.010685251 494.930664062 553.010685251 494.930664062 705.548828125 494.930664062 c 2,13,-1
- 724 494.930664062 l 6,14,15
- 799.340820312 495.000315081 799.340820312 495.000315081 799.340820312 303 c 6,16,-1
- 799.340820312 171 l 6,17,18
- 799 0 799 0 724 0 c 6,19,-1
- 703.407226562 0 l 2,20,21
- 540 0 540 0 411.748046875 172.262695312 c 1,22,23
+ 724 494.930664062 l 2,14,15
+ 799.340820312 495.000315081 799.340820312 495.000315081 799.340820312 303 c 2,16,-1
+ 799.340820312 171 l 2,17,18
+ 799 0 799 0 724 0 c 2,19,-1
+ 703.407226562 0 l 6,20,21
+ 510 0 510 0 411.748046875 172.262695312 c 1,22,23
  291 0 291 0 41.16796875 0 c 2,24,-1
  -4.6591796875 0 l 2,0,1
 EndSplineSet
