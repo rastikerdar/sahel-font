@@ -4,7 +4,7 @@ FullName: Sahel Bold
 FamilyName: Sahel
 Weight: Bold
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 1.0.0-alpha8
+Version: 1.0.0-alpha9
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1480402505
+ModificationTime: 1485503902
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -52,6 +52,8 @@ OS2SupXOff: 0
 OS2SupYOff: 983
 OS2StrikeYSize: 102
 OS2StrikeYPos: 530
+OS2CapHeight: 1638
+OS2XHeight: 1082
 OS2Vendor: 'PfEd'
 OS2CodePages: 00000041.20080000
 OS2UnicodeRanges: 8000200f.80000000.00000008.00000000
@@ -1912,7 +1914,7 @@ ShortTable: maxp 16
   8
   4
 EndShort
-LangName: 1033 "" "" "" "Sahel Bold" "" "Version 1.0.0-alpha8" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Bold"
+LangName: 1033 "" "" "" "Sahel Bold" "" "Version 1.0.0-alpha9" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Bold"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -1993,6 +1995,7 @@ Grid
 -8834.41308594 6032.05175781 m 0
  17974.3828125 6032.05175781 l 1024
 EndSplineSet
+TeXData: 1 0 0 256512 128256 85504 553984 -1048576 85504 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0" "'mkmk' Mark to Mark in Arabic lookup 0 subtable" "Anchor-1" "'mkmk' Mark to Mark in Arabic lookup 1 subtable" "Anchor-2" "'mkmk' Mark to Mark in Lao lookup 2 subtable" "Anchor-3" "'mkmk' Mark to Mark in Lao lookup 3 subtable" "Anchor-4" "'mkmk' Mark to Mark lookup 4 anchor 0" "Anchor-5" "'mkmk' Mark to Mark lookup 4 anchor 1" "Anchor-6" "'mark' Mark Positioning lookup 5 subtable" "Anchor-7" "'mark' Mark Positioning lookup 6 subtable" "Anchor-8" "'mark' Mark Positioning lookup 7 subtable" "Anchor-9" "'mark' Mark Positioning lookup 8 subtable" "Anchor-10" "'mark' Mark Positioning lookup 9 subtable" "Anchor-11" "" "Anchor-12" "" "Anchor-13" "" "Anchor-14" "" "Anchor-15" "" "Anchor-16" "" "Anchor-17" "" "Anchor-18" "" "Anchor-19" "" 
 BeginChars: 65565 310
 
