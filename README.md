@@ -66,7 +66,7 @@ Replace [X.Y.Z] with the latest version (e.g. 1.0.0-alpha9) and integrate the fo
 font-family: 'Sahel', sans-serif;
 ```
 
-####Arch Linux
+#### Arch Linux
 
 Arch user's could use [sahel-fonts](https://aur.archlinux.org/packages/sahel-fonts/) package from [AUR](https://aur.archlinux.org/) repository to install sahel font. Use your favourite [AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers) like pacaur or yaourt for installing package:
 
