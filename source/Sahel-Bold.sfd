@@ -4,7 +4,7 @@ FullName: Sahel Bold
 FamilyName: Sahel
 Weight: Bold
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 1.0.0-alpha11
+Version: 1.0.0-alpha12
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1513589484
+ModificationTime: 1513621755
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -1914,7 +1914,7 @@ ShortTable: maxp 16
   8
   4
 EndShort
-LangName: 1033 "" "" "" "Sahel Bold" "" "Version 1.0.0-alpha11" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Bold"
+LangName: 1033 "" "" "" "Sahel Bold" "" "Version 1.0.0-alpha12" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Bold"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
