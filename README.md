@@ -45,7 +45,7 @@ A Persian (Farsi) Font
   src: url('Sahel-Black.eot');
   src: url('Sahel-Black.eot?#iefix') format('embedded-opentype'),
        url('Sahel-Black.woff') format('woff'),
-       url('Sahel-MedBlackium.ttf') format('truetype');
+       url('Sahel-Black.ttf') format('truetype');
   font-weight: 900;
 }
 ```
@@ -60,7 +60,7 @@ Or [RawGit](https://rawgit.com) CDN:
 <link href="https://cdn.rawgit.com/rastikerdar/sahel-font/v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
 ```
 
-Replace [X.Y.Z] with the latest version (e.g. 1.0.0-alpha9) and integrate the font into your CSS:
+Replace [X.Y.Z] with the latest version (e.g. 1.0.0-alpha10) and integrate the font into your CSS:
 
 ```
 font-family: 'Sahel', sans-serif;
