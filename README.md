@@ -60,7 +60,7 @@ Or [RawGit](https://rawgit.com) CDN:
 <link href="https://cdn.rawgit.com/rastikerdar/sahel-font/v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
 ```
 
-Replace [X.Y.Z] with the latest version (e.g. 1.0.0-alpha17) and integrate the font into your CSS:
+Replace [X.Y.Z] with the latest version (e.g. 1.0.0-alpha18) and integrate the font into your CSS:
 
 ```
 font-family: 'Sahel', sans-serif;
