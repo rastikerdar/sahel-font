@@ -1,468 +1,479 @@
 <html>
+
 <head>
-    <title>فونت فارسی ساحل - صفحه رسمی پروژه</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-    <meta name="description" content="فونت فارسی ساحل از نوع سانس سریف">
-    <meta name="keywords" content="فونت,فارسی,ساحل,سانس سریف,font,farsi,Sahel,sans-serif">
-    <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rastikerdar/sahel-font/v1.0.0-alpha20/dist/font-face.css">
-    <style>
-
-    @font-face {
-        font-family: 'gift';
-        src: url('gift.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
+  <title>فونت فارسی ساحل - صفحه رسمی پروژه</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <meta name="description" content="فونت فارسی ساحل از نوع سانس سریف">
+  <meta name="keywords" content="فونت,فارسی,ساحل,سانس سریف,font,farsi,Sahel,sans-serif">
+  <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rastikerdar/sahel-font/v1.0.0-alpha20/dist/font-face.css">
+  <style>
+    html {
+      font-size: 14px;
     }
 
-    .gifticon{
-        font-family: gift;
-        font-size: 3em;
-        color:#009155;
-    }
-
-    html {font-size: 14px;}
     * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    p { margin-bottom: 10px; }
+    p {
+      margin-bottom: 10px;
+    }
+
     a {
-        text-decoration: none;
-        color: #3b7d00;
+      text-decoration: none;
+      color: #3b7d00;
     }
-    h1,h2,h3,h4,h5,h6 {
-        line-height: 1.5;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      line-height: 1.5;
     }
-    li { list-style-type: none; }
+
+    li {
+      list-style-type: none;
+    }
 
     body {
-        background-color: #4a4e55;
-        color: #000;
-        direction: rtl;
-        line-height: 1.7;
-        font-family: Sahel,open sans,Tahoma,"DejaVu Sans",helvetica,arial,freesans,sans-serif;
+      background-color: #4a4e55;
+      color: #000;
+      direction: rtl;
+      line-height: 1.7;
+      font-family: Sahel, open sans, Tahoma, "DejaVu Sans", helvetica, arial, freesans, sans-serif;
     }
 
     .main {
-        padding: 20px 50px 40px;
-        background-color: #fff;
+      padding: 20px 50px 40px;
+      background-color: #fff;
     }
 
-    header, .sample, footer {
-        margin: 0 auto;
-        max-width: 660px;
-        padding: 20px 10px;
+    header,
+    .sample,
+    footer {
+      margin: 0 auto;
+      max-width: 660px;
+      padding: 20px 10px;
     }
 
     .sample {
-        text-align: center;
+      text-align: center;
     }
 
     header {
-        text-align: right;
-        color: #404040;
-        border: none;
-        /*width: 50%;*/
-        padding: 20px 10px 0;
+      text-align: right;
+      color: #404040;
+      border: none;
+      /*width: 50%;*/
+      padding: 20px 10px 0;
     }
 
     header .get {
-        margin: 20px 0 0;
-        text-align: center;
+      margin: 20px 0 0;
+      text-align: center;
     }
 
     header .get a {
-        border: 1px solid #eaeaea;
-        border-radius: 5px;
-        box-shadow: 0 0 9px #f5f5f5;
-        color: #007fba;
-        display: inline-block;
-        font-size: 1.3em;
-        margin: 10px 10px;
-        padding: 7px 13px;
+      border: 1px solid #eaeaea;
+      border-radius: 5px;
+      box-shadow: 0 0 9px #f5f5f5;
+      color: #007fba;
+      display: inline-block;
+      font-size: 1.3em;
+      margin: 10px 10px;
+      padding: 7px 13px;
     }
 
     header .get .payment {
-        color: #329300;
+      color: #329300;
     }
 
     header .payment {
-        position: relative;
+      position: relative;
     }
 
     header .payment:hover .tooltip {
-        display: block;
+      display: block;
     }
 
     header .tooltip {
-        background-color: #e2f7eb;
-        border: 1px solid #e4e4e4;
-        border-radius: 5px;
-        box-shadow: 0 0 15px #e4e4e4;
-        color: #348157;
-        display: none;
-        font-size: 0.9rem;
-        margin-top: 10px;
-        padding: 10px;
-        position: absolute;
-        right: -125px;
-        width: 340px;
-        z-index: 1000;
+      background-color: #e2f7eb;
+      border: 1px solid #e4e4e4;
+      border-radius: 5px;
+      box-shadow: 0 0 15px #e4e4e4;
+      color: #348157;
+      display: none;
+      font-size: 0.9rem;
+      margin-top: 10px;
+      padding: 10px;
+      position: absolute;
+      right: -125px;
+      width: 340px;
+      z-index: 1000;
     }
 
     header .info {
-        color: #999;
-        font-size: 12px;
+      color: #999;
+      font-size: 12px;
     }
 
     header .version {
-        position: absolute;
-        left: 0;
-        top: -5px;
-        color: #999;
-        font-size: 12px;
-        direction: ltr;
+      position: absolute;
+      left: 0;
+      top: -5px;
+      color: #999;
+      font-size: 12px;
+      direction: ltr;
     }
 
     header .notice {
-        color: #B40000;
-        font-size: 13px;
+      color: #B40000;
+      font-size: 13px;
     }
 
     header .inthename {
-        color:#859300;
-        font-weight: bold;
+      color: #859300;
+      font-weight: bold;
     }
 
     header .bigtitle {
-        color:#353535;
-        font-weight: 900;
-        font-size: 2rem;
-        margin-bottom: 15px;
-        max-width: 400px;
+      color: #353535;
+      font-weight: 900;
+      font-size: 2rem;
+      margin-bottom: 15px;
+      max-width: 400px;
     }
 
     header .normaltitle {
-        color:#3E6792;
-        font-weight: bold;
-        font-size: 1.2rem;
-        line-height: 1.5;
-        margin-bottom: 15px;
-        max-width: 500px;
+      color: #3E6792;
+      font-weight: bold;
+      font-size: 1.2rem;
+      line-height: 1.5;
+      margin-bottom: 15px;
+      max-width: 500px;
     }
 
     .infobox {
-        background-color: #f4f7ff;
-        border: 1px solid #e2e2e2;
-        border-radius: 5px;
-        color: #284559;
-        font-weight: 400;
-        line-height: 2;
-        margin: 15px auto;
-        max-width: 600px;
-        padding: 5px;
-        text-align: center;
+      background-color: #f4f7ff;
+      border: 1px solid #e2e2e2;
+      border-radius: 5px;
+      color: #284559;
+      font-weight: 400;
+      line-height: 2;
+      margin: 15px auto;
+      max-width: 600px;
+      padding: 5px;
+      text-align: center;
     }
 
     .infobox.license {
-        background-color: #f2f7ed;
-        color: #24501d;
-        font-weight: bold;
+      background-color: #f2f7ed;
+      color: #24501d;
+      font-weight: bold;
     }
 
     .infobox.angoor {
-        /*background-color: #f2f7ed;
+      /*background-color: #f2f7ed;
         color: #24501d;*/
-        text-align: right;
+      text-align: right;
     }
 
     .infobox.angoor img {
-        float: left;
-        width: 120px;
-        height: auto;
-        margin-right: 5px;
+      float: left;
+      width: 120px;
+      height: auto;
+      margin-right: 5px;
     }
 
 
-        .sort  a{
-            display: inline-block;
-            min-width: 3em;
-        }
+    .sort a {
+      display: inline-block;
+      min-width: 3em;
+    }
 
-        .sort  a.selected{
-            border-bottom: 1px dotted #bbb;
-        }
+    .sort a.selected {
+      border-bottom: 1px dotted #bbb;
+    }
 
-        .donation h3 {
-            color: #286c93;
-            font-size: 1.7rem;
-            font-weight: 900;
-            margin-bottom: 20px;
-            text-align: center;
-        }
+    .donation h3 {
+      color: #286c93;
+      font-size: 1.7rem;
+      font-weight: 900;
+      margin-bottom: 20px;
+      text-align: center;
+    }
 
-        .donors li {
-             display: inline-block;
-             margin: 0 0 5px;
-             min-height: 100px;
-             text-align: center;
-             vertical-align: top;
-             width: 65px;
-             font-size: 13px;
-        }
+    .donors li {
+      display: inline-block;
+      margin: 0 0 5px;
+      min-height: 100px;
+      text-align: center;
+      vertical-align: top;
+      width: 65px;
+      font-size: 13px;
+    }
 
-        .donors li a {
-            /*display: block;*/
-        }
+    .donors li a {
+      /*display: block;*/
+    }
 
-        .donors li .name {
-            margin-top: 3px;
-            display: block;
-            line-height: 1.3;
-        }
+    .donors li .name {
+      margin-top: 3px;
+      display: block;
+      line-height: 1.3;
+    }
 
-        .donors li .gifticon {
-            display: block;
-            height: 50px;
-            padding-top: 20px;
-            text-align: center;
-            width: 100%;
-        }
+    .donors li .amount {
+      font-size: 0.85em;
+      color: #aaa;
+    }
 
-        .donors li img {
-            width: 50px;
-            border-radius: 50%;
-        }
+    .donors li img {
+      width: 50px;
+      border-radius: 50%;
+    }
 
     header h1 {
-        position: relative;
-        display: inline-block;
-        color:#B54E00;
+      position: relative;
+      display: inline-block;
+      color: #B54E00;
     }
 
     footer {
-        background-color: #4a4e55;
-        border-radius: 0;
-        color: #eee;
-        margin: 0;
-        max-width: 100%;
-        text-align: center;
-        clear: both;
+      background-color: #4a4e55;
+      border-radius: 0;
+      color: #eee;
+      margin: 0;
+      max-width: 100%;
+      text-align: center;
+      clear: both;
     }
 
     footer a {
-        color: #f1fc45;
-        text-decoration: underline;
+      color: #f1fc45;
+      text-decoration: underline;
     }
 
-    @media all and (max-width: 768px){
-        header, .sample, footer {
-            padding: 20px 20px;
-            width: 100%;
-            margin: 0;
-            border-radius: 0;
-        }
+    @media all and (max-width: 768px) {
+      header,
+      .sample,
+      footer {
+        padding: 20px 20px;
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+      }
 
-        .donor .profile{
-             bottom: 10px;
-             margin-right: -150px;
-             margin-top: -25%;
-             max-height: 300px;
-             overflow-y: auto;
-             position: fixed;
-             right: 50%;
-             top: 50%;
-             width: 300px;
-        }
+      .donor .profile {
+        bottom: 10px;
+        margin-right: -150px;
+        margin-top: -25%;
+        max-height: 300px;
+        overflow-y: auto;
+        position: fixed;
+        right: 50%;
+        top: 50%;
+        width: 300px;
+      }
 
 
-        .donor.show.right-side .profile {
-            left: auto;
-            right: auto;
-        }
+      .donor.show.right-side .profile {
+        left: auto;
+        right: auto;
+      }
     }
 
-    @media all and (max-width: 480px){
-        .main { padding:0 0 40px;margin:0; }
-        header, .sample, footer {
-            border: none;
-            padding: 20px 20px;
-            width: 100%;
-            border: none;
-            margin: 0;
-            border-radius: 0;
-        }
+    @media all and (max-width: 480px) {
+      .main {
+        padding: 0 0 40px;
+        margin: 0;
+      }
+      header,
+      .sample,
+      footer {
+        border: none;
+        padding: 20px 20px;
+        width: 100%;
+        border: none;
+        margin: 0;
+        border-radius: 0;
+      }
 
-        header {padding-bottom: 10px;}
+      header {
+        padding-bottom: 10px;
+      }
     }
 
-    .clear { clear: both; }
-    </style>
+    .clear {
+      clear: both;
+    }
+  </style>
 </head>
 
 <body contenteditable="false">
-    <div class="main">
-        <header>
-            <h3 class="inthename">به نام دوست</h3>
-            <h1 class="bigtitle">فونت ساحل</h1>
-            <h3 class="normaltitle">در وزن‌های معمولی، ضخیم و تیتر تقدیم می گردد.</h3>
-            <div class="description">این یک  نسخه اولیه از قلم ساحل می باشد. تقاضا می‌گردد هر گونه ایراد یا کاستی در قلم می بینید و یا پیشنهادی برای بهتر شدن آن دارید لطفا در قسمت ایشوهای گیت‌هاب و یا از طریق آدرس saber.rastikerdar بر روی Gmail.com در میان بگذارید.
-            برای حروف لاتین از گلیف های قلم Open Sans استفاده شده است.
-            <br>
-            نسخه: آلفا۲۰ - بیست و نهم خرداد ۹۷
-            </div>
-            <div>
-                صفحه
-                <a href="test.html" target="_blank" style="font-size: 1.2rem;">تست۱</a> و <a href="test2.html" target="_blank" style="font-size: 1.2rem;">تست۲</a>
-                فونت
-            </div>
-            <div class="get">
-                <a href="https://github.com/rastikerdar/sahel-font/releases/download/v1.0.0-alpha20/sahel-font-v1.0.0-alpha20.zip" class="download">دریافت (دانلود)</a>
-                <a href="https://github.com/rastikerdar/sahel-font" class="github">GitHub</a>
-                <br>
-                <a href="https://www.payping.net/saber" class="payment">
-                    پرداخت وجه
-<br>
-<small>(بالای یک هزار تومان)</small>
-                    <span class="tooltip"> در هنگام پرداخت لطفا نام، ایمیل و آدرس وب مورد نظرتان را نیز درج بفرمایید. بدیهیست ایمیل منتشر نخواهد شد.</span>
-                </a>
-            </div>
-		<div class="infobox">نسخه مناسب حسابداری با ارقام هم‌عرض را از <a href="https://github.com/rastikerdar/sahel-font/releases/download/v1.0.0-alpha20/sahel-smd-font-v1.0.0-alpha20.zip">اینجا</a> دریافت نمایید.</div>
-        </header>
+  <div class="main">
+    <header>
+      <h3 class="inthename">به نام دوست</h3>
+      <h1 class="bigtitle">فونت ساحل</h1>
+      <h3 class="normaltitle">در وزن‌های معمولی، ضخیم و تیتر تقدیم می گردد.</h3>
+      <div class="description">این یک نسخه اولیه از قلم ساحل می باشد. تقاضا می‌گردد هر گونه ایراد یا کاستی در قلم می بینید و یا پیشنهادی برای بهتر
+        شدن آن دارید لطفا در قسمت ایشوهای گیت‌هاب و یا از طریق آدرس saber.rastikerdar بر روی Gmail.com در میان بگذارید. برای
+        حروف لاتین از گلیف های قلم Open Sans استفاده شده است.
+        <br> نسخه: آلفا۲۰ - بیست و نهم خرداد ۹۷
+      </div>
+      <div>
+        صفحه
+        <a href="test.html" target="_blank" style="font-size: 1.2rem;">تست۱</a> و
+        <a href="test2.html" target="_blank" style="font-size: 1.2rem;">تست۲</a>
+        فونت
+      </div>
+      <div class="get">
+        <a href="https://github.com/rastikerdar/sahel-font/releases/download/v1.0.0-alpha20/sahel-font-v1.0.0-alpha20.zip" class="download">دریافت (دانلود)</a>
+        <a href="https://github.com/rastikerdar/sahel-font" class="github">GitHub</a>
+        <br>
+        <a href="https://www.payping.net/saber" class="payment">
+          پرداخت وجه
+          <br>
+          <small>(بالای یک هزار تومان)</small>
+          <span class="tooltip"> در هنگام پرداخت لطفا نام، ایمیل و آدرس وب مورد نظرتان را نیز درج بفرمایید. بدیهیست ایمیل منتشر نخواهد شد.
+          </span>
+        </a>
+      </div>
+      <div class="infobox">نسخه مناسب حسابداری با ارقام هم‌عرض را از
+        <a href="https://github.com/rastikerdar/sahel-font/releases/download/v1.0.0-alpha20/sahel-smd-font-v1.0.0-alpha20.zip">اینجا</a> دریافت نمایید.
+      </div>
+    </header>
 
-        <section class="sample donation">
-            <h3>حامیان</h3>
-            <b>کمک های مالی (جمعا <span id="amount-sum"></span> تومان)</b>
-            <br>از صفحه <a href="http://rastikerdar.github.io/vazir-font/">فونت وزیر</a>
-            <br>
-            <div class="sort">
-                نمایش به ترتیب:
-                <a id="sort-by-date" class="selected" href="#" onclick="sortBy('date'); return false;">زمان</a>
-                |
-                <a id="sort-by-amount" href="#" onclick="sortBy('amount'); return false;">مبلغ</a>
-            </div>
-            <br>
-            <ul id="donors" class="donors">
-            </ul>
-            <br>
-            <p>جهت مشاهده یا تغییر اطلاعات این فهرست به <a href="https://github.com/rastikerdar/vazir-font/blob/gh-pages/donations.txt" target="_blank">این فایل</a> مراجعه نمایید.</p>
-            <p>سپاس</p>
-        </section>
-        <div class="clear"></div>
+    <section class="sample donation">
+      <h3>حامیان</h3>
+      <b>کمک های مالی (جمعا
+        <span id="amount-sum"></span> تومان)</b>
+      <br>از صفحه
+      <a href="http://rastikerdar.github.io/vazir-font/">فونت وزیر</a>
+      <br>
+      <div class="sort">
+        نمایش به ترتیب:
+        <a id="sort-by-date" class="selected" href="#" onclick="sortBy('date'); return false;">زمان</a>
+        |
+        <a id="sort-by-amount" href="#" onclick="sortBy('amount'); return false;">مبلغ</a>
+      </div>
+      <br>
+      <ul id="donors" class="donors">
+      </ul>
+      <br>
+      <p>جهت مشاهده یا تغییر اطلاعات این فهرست به
+        <a href="https://github.com/rastikerdar/vazir-font/blob/gh-pages/donations.txt" target="_blank">این فایل</a> مراجعه نمایید.
+      </p>
+      <p>سپاس</p>
+    </section>
+    <div class="clear"></div>
+  </div>
+  <footer>
+    ثبت دیدگاه پیرامون فونت ساحل:
+    <a href="http://rastikerdar.blog.ir/1395/05/01/%D9%82%D9%84%D9%85-%D9%81%D9%88%D9%86%D8%AA-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%AD%D9%84"
+      target="_blank">rastikerdar.blog.ir</a>
+    <br> توسط صابر راستی کردار
+    <br> saber.rastikerdar بر روی جی‌میل
+    <br> © 2016
+    <div class="other-fonts">سایر قلم‌های آزاد:
+      <a href="http://rastikerdar.github.io/vazir-font/" target="_blank">وزیر</a>،
+      <a href="http://rastikerdar.github.io/samim-font/" target="_blank">صمیم</a>،
+      <a href="http://rastikerdar.github.io/shabnam-font/" target="_blank">شبنم</a>،
+      <a href="http://rastikerdar.github.io/tanha-font/" target="_blank">تنها</a>،
+      <a href="http://rastikerdar.github.io/parastoo-font/" target="_blank">پرستو</a>،
+      <a href="http://rastikerdar.github.io/gandom-font/" target="_blank">گندم</a>،
+      <a href="http://rastikerdar.github.io/vazir-code-font/" target="_blank">وزیرکد</a> (برای کدنویسی)
     </div>
-    <footer>
-        ثبت دیدگاه پیرامون فونت ساحل:
-        <a href="http://rastikerdar.blog.ir/1395/05/01/%D9%82%D9%84%D9%85-%D9%81%D9%88%D9%86%D8%AA-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-%D8%B3%D8%A7%D8%AD%D9%84" target="_blank">rastikerdar.blog.ir</a>
-        <br>
-        توسط صابر راستی کردار
-        <br>
-        saber.rastikerdar بر روی جی‌میل
-        <br>
+  </footer>
+  <script>
+    var donations = null;
 
-        © 2016
-        <div class="other-fonts">سایر قلم‌های آزاد:
-           <a href="http://rastikerdar.github.io/vazir-font/" target="_blank">وزیر</a>،
-           <a href="http://rastikerdar.github.io/samim-font/" target="_blank">صمیم</a>،
-           <a href="http://rastikerdar.github.io/shabnam-font/" target="_blank">شبنم</a>،
-           <a href="http://rastikerdar.github.io/tanha-font/" target="_blank">تنها</a>،
-           <a href="http://rastikerdar.github.io/parastoo-font/" target="_blank">پرستو</a>،
-           <a href="http://rastikerdar.github.io/gandom-font/" target="_blank">گندم</a>،
-           <a href="http://rastikerdar.github.io/vazir-code-font/" target="_blank">وزیرکد</a> (برای کدنویسی)
-        </div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    function formatNumber(x) {
+      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "٬");
+    }
 
-  ga('create', 'UA-67139606-2', 'auto');
-  ga('send', 'pageview');
+    function convertNumberToPersian(x) {
+      var nums = { 0: '۰', 1: '۱', 2: '۲', 3: '۳', 4: '۴', 5: '۵', 6: '۶', 7: '۷', 8: '۸', 9: '۹' };
+      return x.toString().replace(/[0-9]/gi, function (m) { return nums[m] });
+    }
 
-</script>
-    </footer>
-<script>
-var donations = null;
+    function createNodes(donations) {
+      var html = "";
+      var amountSum = 0
 
-function formatNumber(x) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}
-
-function createNodes(donations) {
-    var html = "";
-    var amountSum = 0
-
-    for (var i=0; i<donations.length; i++) {
+      for (var i = 0; i < donations.length; i++) {
         var dnt = donations[i];
-        li = "<li title='"+formatNumber(dnt.amount)+" تومان'>";
+        li = "<li title='" + dnt.date.split(' ')[0] + "'>";
         if (dnt.web) {
-            li += '<a href="'+dnt.web+'" target="_blank">';
+          li += '<a href="' + dnt.web + '" target="_blank">';
         }
         if (!dnt.img) {
-            dnt.img = "https://s.gravatar.com/avatar/"+donations[i]["id"]+"?noemail&s=80&d=wavatar";
+          dnt.img = "https://s.gravatar.com/avatar/" + i + "?noemail&s=50&d=wavatar";
         }
-        li += '<img src="'+dnt.img+'">';
-        li += '<span class="name">'+dnt.name+'</span>';
+        li += '<img src="' + dnt.img + '">';
+        li += '<span class="name">' + dnt.name + '</span>';
+        li += '<span class="amount">' + convertNumberToPersian(formatNumber(dnt.amount)) + '</span>';
         if (dnt.web) {
-            li += '</a>';
+          li += '</a>';
         }
         li += '</li>';
         html += li;
         amountSum += dnt["amount"]
-    }
-    document.getElementById("donors").innerHTML = html;
-    document.getElementById("amount-sum").innerHTML = formatNumber(amountSum);
-}
-
-function loadDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      donations = JSON.parse(this.responseText);
-      for (var i=0; i<donations.length; i++) {
-          donations[i]["id"] = i;
       }
-      //createNodes(donations);
-      sortBy('amount');
+      document.getElementById("donors").innerHTML = html;
+      document.getElementById("amount-sum").innerHTML = convertNumberToPersian(formatNumber(amountSum));
     }
-  };
-  xhttp.open("GET", "https://rastikerdar.github.io/vazir-font/donations.txt", true);
-  xhttp.send();
-}
 
-function sortBy(key) {
-    var swapped = true;
-    while (swapped) {
-        swapped = false
-        for (var i=1; i<donations.length; i++) {
-            var condition = (key == 'date') ?
-                donations[i-1][key] > donations[i][key] :
-                donations[i-1][key] < donations[i][key];
-
-            if (condition) {
-                var t = donations[i-1];
-                donations[i-1] = donations[i];
-                donations[i] = t;
-                swapped = true;
-            }
+    function loadDoc() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          donations = JSON.parse(this.responseText);
+          createNodes(donations);
         }
+        sortBy('amount');
+      };
+      xhttp.open("GET", "https://rastikerdar.github.io/vazir-font/donations.txt", true);
+      xhttp.send();
     }
 
-    if (key == "date") {
+    function sortBy(key) {
+      var swapped = true;
+      while (swapped) {
+        swapped = false
+        for (var i = 1; i < donations.length; i++) {
+          var condition = (key == 'date') ?
+            donations[i - 1][key] > donations[i][key] :
+            donations[i - 1][key] < donations[i][key];
+
+          if (condition) {
+            var t = donations[i - 1];
+            donations[i - 1] = donations[i];
+            donations[i] = t;
+            swapped = true;
+          }
+        }
+      }
+
+      if (key == "date") {
         document.getElementById("sort-by-date").className = "selected";
         document.getElementById("sort-by-amount").className = "";
-    }else {
+      } else {
         document.getElementById("sort-by-date").className = "";
         document.getElementById("sort-by-amount").className = "selected";
+      }
+
+      createNodes(donations);
     }
+    loadDoc();
 
-    createNodes(donations);
-}
-loadDoc();
-
-</script>
-</script>
+  </script>
+  </script>
 </body>
+
 </html>
