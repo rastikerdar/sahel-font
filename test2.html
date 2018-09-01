@@ -35,8 +35,8 @@
 
       header {
         text-align: right;
-        background-color: #fff;
-        color: #555555;
+        background-color: #25252d;
+        color: #c6c6c6;
       }
       
       header .logo {
@@ -80,6 +80,35 @@
         text-decoration: underline;
       }
 
+      body.light header {
+        background-color: #fff;
+        color: #555555;
+      }
+
+      body.light .sample {
+        background-color: #F6F6F7;
+        color: #393939;
+      }
+
+      body.light #lightSwitch {
+        background-color: #e6e6e6;
+        color: #6c6c00;
+      }
+
+      #lightSwitch {
+        position: fixed;
+        right: 5px;
+        top: 5px;
+        border-radius: 50%;
+        display: block;
+        padding: 5px;
+        outline: none;
+        font-size: 16px;
+        background-color: #000000;
+        color: #d3d300;
+        font-weight: 400;
+      }
+
       @media all and (max-width: 640px){
         header .logo {
           font-size: 10rem;
@@ -109,10 +138,11 @@
   </head>
   
   <body>
+    <a href="#" id="lightSwitch" onclick="document.body.classList.toggle('light'); return false;">چراغ</a>
     <header contenteditable="true" spellcheck="false">
       <div contenteditable="false" class="logo">و</div>
       <h1>هنر ایرانی</h1>
-      <div class="short">یکی از غنی‌ترین میراث‌های هنری در جهان</div>
+      <div class="short">هنر <span style="color: #c65656;">ایران</span> یکی از غنی‌ترین میراث‌های هنری در جهان</div>
       <div class="long">هنر ایران یکی از غنی‌ترین میراث‌های هنری در تاریخ جهان است و دربرگیرنده بسیاری از رشته‌ها از جمله معماری، نقاشی، بافندگی، سفالگری، موسیقی، خوشنویسی و فلزکاری می‌باشد. خوشنویسی ایرانی بخشی از خوشنویسی اسلامی است که در ایران و سرزمین‌های وابسته یا تحت نفوذ او همچون کشورهای آسیای میانه، افغانستان و شبه قاره هند به تدریج حول محور فرهنگ ایرانی شکل گرفت؛ و نه تنها از مفاخر هنر ایرانی بلکه از مفاخر هنر اسلامی و حتی هنر جهان به شمار می‌رود. </div>
       <div style="clear: both;"></div>
     </header>
