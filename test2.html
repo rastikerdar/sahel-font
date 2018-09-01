@@ -16,11 +16,13 @@
         text-decoration: none;
         color: #007fba;
       }
-      
+      html{
+        font-size: 20px;
+        
+      }
       body {
-        background-color: #444752;
-        color: #232323;
-        font-size: 15px;
+        background-color: #000;
+        color: #000;
         direction: rtl;
         line-height: 1.8;
         font-family: Sahel,Tahoma,"DejaVu Sans",helvetica,arial,freesans,sans-serif;
@@ -33,47 +35,44 @@
 
       header {
         text-align: right;
-        background-color: #f3f3f3;
+        background-color: #fff;
+        color: #555555;
       }
       
       header .logo {
-        font-size: 30rem;
-        font-weight: 900;
+        font-size: 18rem;
+        font-weight: bold;
         float: left;
-        line-height: 1.2;
-        margin-top: -16rem;
+        line-height: 1.1;
+        margin-top: -8rem;
         color: #d5c799;
       }
       
       header h1 {
-        font-size: 3rem;
+        font-size: 2.2rem;
         font-weight: 900;
-        color: #c6316b;
+        /* color: #c6316b; */
+        color: #0095ba;
       }
 
       header .short {
-        color: #B40000;
-        font-size: 1.1rem;
+        font-size: 1.5rem;
         font-weight: bold;
-        color: #548100;
       }
 
       header .long {
         margin-top: 20px;
-        color: #B40000;
-        font-size: 1rem;
-        color: #303030;
       }
       
       .sample {
-        background-color: #d7d5cf;
-        text-align: center;
+        border-top: 0 ;
+        background-color: #1E1E1E;
+        color: #d4d4d4;
       }
             
       footer {
         color: #eee;
         text-align: center;
-        font-size: 14px;
       }
       
       footer a {
@@ -83,11 +82,20 @@
 
       @media all and (max-width: 640px){
         header .logo {
-          float: none;
+          font-size: 10rem;
+          font-weight: bold;
+          float: left;
+          line-height: 1.1;
+          margin-top: -5rem;
+          color: #d5c799;
         }
 
          header, .sample, footer {
           padding: 50px 50px;
+        }
+
+        html {
+          font-size: 17px;
         }
       }
       
@@ -102,15 +110,15 @@
   
   <body>
     <header contenteditable="true" spellcheck="false">
-      <div class="logo">ر</div>
+      <div contenteditable="false" class="logo">و</div>
       <h1>هنر ایرانی</h1>
-      <div class="short">هنر ایران یکی از غنی‌ترین میراث‌های هنری در تاریخ جهان است و دربرگیرنده بسیاری از رشته‌ها از جمله معماری، نقاشی، بافندگی، سفالگری، موسیقی، خوشنویسی و فلزکاری می‌باشد. </div>
-      <div class="long">خوشنویسی ایرانی بخشی از خوشنویسی اسلامی است که در ایران و سرزمین‌های وابسته یا تحت نفوذ او همچون کشورهای آسیای میانه، افغانستان و شبه قاره هند به تدریج حول محور فرهنگ ایرانی شکل گرفت؛ و نه تنها از مفاخر هنر ایرانی بلکه از مفاخر هنر اسلامی و حتی هنر جهان به شمار می‌رود. </div>
+      <div class="short">یکی از غنی‌ترین میراث‌های هنری در جهان</div>
+      <div class="long">هنر ایران یکی از غنی‌ترین میراث‌های هنری در تاریخ جهان است و دربرگیرنده بسیاری از رشته‌ها از جمله معماری، نقاشی، بافندگی، سفالگری، موسیقی، خوشنویسی و فلزکاری می‌باشد. خوشنویسی ایرانی بخشی از خوشنویسی اسلامی است که در ایران و سرزمین‌های وابسته یا تحت نفوذ او همچون کشورهای آسیای میانه، افغانستان و شبه قاره هند به تدریج حول محور فرهنگ ایرانی شکل گرفت؛ و نه تنها از مفاخر هنر ایرانی بلکه از مفاخر هنر اسلامی و حتی هنر جهان به شمار می‌رود. </div>
       <div style="clear: both;"></div>
     </header>
 
-    <section class="sample sec-test second" contenteditable="true" spellcheck="false">
-      <p style="font-weight: normal;">ادبیات پارسی به ادبیاتی گفته می‌شود که به زبان فارسی نوشته شده باشد. ادبیات فارسی تاریخی هزار و صد ساله دارد. شعر فارسی و نثر فارسی دو گونه اصلی در ادب فارسی هستند. برخی کتابهای قدیمی در موضوعات غیرادبی مانند تاریخ، مناجات و علوم گوناگون نیز دارای ارزش ادبی هستند و با گذشت زمان در زمره آثار کلاسیک ادبیات فارسی قرار گرفته‌اند.
+    <section class="sample" contenteditable="true" spellcheck="false">
+      <p style="font-weight: normal;"><strong style="color: #f84ea2;">ادبیات پارسی</strong> به ادبیاتی گفته می‌شود که به زبان فارسی نوشته شده باشد. ادبیات فارسی تاریخی هزار و صد ساله دارد. شعر فارسی و نثر فارسی دو گونه اصلی در ادب فارسی هستند. برخی کتابهای قدیمی در موضوعات غیرادبی مانند تاریخ، مناجات و علوم گوناگون نیز دارای ارزش ادبی هستند و با گذشت زمان در زمره آثار کلاسیک ادبیات فارسی قرار گرفته‌اند.
 
 آوازه برخی شاعران و نویسندگان ایرانی از مرزهای ایران فراتر رفته‌است. شاعران و نویسندگانی نظیر فردوسی، سعدی، حافظ شیرازی، مولوی، عمر خیام و نظامی شهرتی جهانی دارند.
       </p>
