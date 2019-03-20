@@ -60,7 +60,7 @@ Or [RawGit](https://rawgit.com) CDN:
 <link href="https://cdn.rawgit.com/rastikerdar/sahel-font/v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
 ```
 
-Replace [X.Y.Z] with the latest version (e.g. 1.0.0-alpha22) and integrate the font into your CSS:
+Replace [X.Y.Z] with the latest version (e.g. 1.0.0-alpha23) and integrate the font into your CSS:
 
 ```
 font-family: 'Sahel', sans-serif;
@@ -73,3 +73,6 @@ Arch user's could use [sahel-fonts](https://aur.archlinux.org/packages/sahel-fon
 ```shell
 pacaur -S sahel-fonts
 ```
+
+## License
+2016 Saber Rastikerdar ([@rastikerdar](https://github.com/rastikerdar)). See the `LICENSE` file.
