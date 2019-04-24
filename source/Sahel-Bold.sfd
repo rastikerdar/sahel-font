@@ -4,7 +4,7 @@ FullName: Sahel Bold
 FamilyName: Sahel
 Weight: Bold
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(Latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 1.0.0-alpha23
+Version: 1.0.0-alpha24
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1553084310
+ModificationTime: 1556133684
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -1912,7 +1912,7 @@ ShortTable: maxp 16
   8
   4
 EndShort
-LangName: 1033 "" "" "" "Sahel Bold " "" "Version 1.0.0-alpha23" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Bold"
+LangName: 1033 "" "" "" "Sahel Bold " "" "Version 1.0.0-alpha24" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Bold"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -2574,10 +2574,10 @@ VWidth: 2865
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-7" 331.78 -681.673 basechar 0
-AnchorPoint: "Anchor-10" 389.269 1352.55 basechar 0
+AnchorPoint: "Anchor-10" 409.269 1352.55 basechar 0
 LayerCount: 2
 Fore
-Refer: 261 -1 S 1 0 0 1 300.798 861.328 2
+Refer: 261 -1 S 1 0 0 1 320.798 861.328 2
 Refer: 22 1585 N 1 0 0 1 0 0 2
 Kerns2: 153 0 "'kern' Horizontal Kerning lookup 15-1"
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFB58 dx=20 dy=0 dh=20 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -6462,10 +6462,10 @@ VWidth: 3741
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-7" 331.78 -681.673 basechar 0
-AnchorPoint: "Anchor-10" 386.269 1290.55 basechar 0
+AnchorPoint: "Anchor-10" 416.269 1290.55 basechar 0
 LayerCount: 2
 Fore
-Refer: 261 -1 S 1 0 0 1 310.798 821.328 2
+Refer: 261 -1 S 1 0 0 1 340.798 821.328 2
 Refer: 182 65198 N 1 0 0 1 0 0 2
 Kerns2: 153 0 "'kern' Horizontal Kerning lookup 15-1"
 PairPos2: "'kern' Horizontal Kerning lookup 15-1" uniFEF3 dx=20 dy=0 dh=20 dv=0 dx=0 dy=0 dh=0 dv=0
