@@ -1,6 +1,6 @@
 # Sahel-Font (Variable V2.0.0 and above)
 
-known problems:
+## known problems:
 - mark placement issues with firefox and chrome.
 
 ## To Do:
