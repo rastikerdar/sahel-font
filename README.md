@@ -76,3 +76,18 @@ pacaur -S sahel-fonts
 
 ## License
 2016 Saber Rastikerdar ([@rastikerdar](https://github.com/rastikerdar)). See the `LICENSE` file.
+
+# Sahel-VF (V2.0 and above)
+variable version of Sahel font.
+
+## Known Problems
+- mark placement distortion.
+
+## To Do
+- [x] Adding all 3 Weights as masters to variable version.
+- [ ] Font testing page
+- [ ] Latin section is empty. it's better to use an opensource variable font with a wide range.
+- [ ] testing font in all supported programs.
+- [ ] adding other axes.
+
+
