@@ -80,6 +80,8 @@ pacaur -S sahel-fonts
 # Sahel-VF (V2.0 and above)
 variable version of Sahel font.
 
+![Sahel-VF](https://user-images.githubusercontent.com/25493297/62076134-204a8200-b25c-11e9-9cb4-2a03076b225a.gif)
+
 ## Known Problems
 - mark placement distortion.
 
