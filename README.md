@@ -81,7 +81,7 @@ pacaur -S sahel-fonts
 
 ## Contributors
 
-- Amin Abedi [@aziz](https://github.com/aminabedi68)
+- Amin Abedi [@aminabedi68](https://github.com/aminabedi68)
 
 ## License
 2016 Saber Rastikerdar ([@rastikerdar](https://github.com/rastikerdar)). See the `LICENSE` file.
