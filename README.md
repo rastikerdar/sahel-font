@@ -1,20 +1,25 @@
 # Sahel-Font
-A Persian (Farsi) Font
+A Persian (Farsi) Font with variable version
 
-<p dir="rtl">
-فونت فارسی ساحل <br />
+![Sahel-VF](https://user-images.githubusercontent.com/25493297/62076134-204a8200-b25c-11e9-9cb4-2a03076b225a.gif)
 
-<a href="http://rastikerdar.github.io/sahel-font/">نمایش فونت</a> <br />
-<a href="https://github.com/rastikerdar/sahel-font/releases">صفحه دریافت (دانلود) بسته فونت شامل فایل های ttf,woff,eot</a> <br />
+فونت فارسی ساحل  
+[نمایش فونت](http://rastikerdar.github.io/sahel-font/)  
+[صفحه دریافت (دانلود) بسته فونت شامل فایل های ttf,woff,eot](https://github.com/rastikerdar/sahel-font/releases)  
+با تشکر از برنامه [FontForge](https://fontforge.github.io)  
 
-با تشکر از برنامه <a href="https://fontforge.github.io">FontForge</a><br />
+## Known Problems for variable version
+- mark placement distortion.
 
-</p>
+## To Do
+- [x] Adding all 3 Weights as masters to variable version.
+- [ ] Font testing page
+- [ ] Latin section is empty. it's better to use an opensource variable font with a wide range.
+- [ ] Testing font in all supported programs.
+- [ ] Adding other axes.
 
-
-<h1 dir="rtl">
+##
 طریقه استفاده در صفحات وب:
-</h1>
 
 <p dir="rtl">
 کد زیر را در قسمت style یا فایل css وارد نمایید:
@@ -74,22 +79,10 @@ Arch user's could use [sahel-fonts](https://aur.archlinux.org/packages/sahel-fon
 pacaur -S sahel-fonts
 ```
 
+## Contributors
+
+- Amin Abedi [@aziz](https://github.com/aminabedi68)
+
 ## License
 2016 Saber Rastikerdar ([@rastikerdar](https://github.com/rastikerdar)). See the `LICENSE` file.
-
-# Sahel-VF (V2.0 and above)
-variable version of Sahel font.
-
-![Sahel-VF](https://user-images.githubusercontent.com/25493297/62076134-204a8200-b25c-11e9-9cb4-2a03076b225a.gif)
-
-## Known Problems
-- mark placement distortion.
-
-## To Do
-- [x] Adding all 3 Weights as masters to variable version.
-- [ ] Font testing page
-- [ ] Latin section is empty. it's better to use an opensource variable font with a wide range.
-- [ ] testing font in all supported programs.
-- [ ] adding other axes.
-
 
