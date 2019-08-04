@@ -2,6 +2,7 @@
   font-family: Sahel;
   src: url('Sahel.eot');
   src: url('Sahel.eot?#iefix') format('embedded-opentype'),
+       url('Sahel.woff2') format('woff2'),
        url('Sahel.woff') format('woff'),
        url('Sahel.ttf') format('truetype');
   font-weight: normal;
@@ -11,6 +12,7 @@
   font-family: Sahel;
   src: url('Sahel-Bold.eot');
   src: url('Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Sahel-Bold.woff2') format('woff2'),
        url('Sahel-Bold.woff') format('woff'),
        url('Sahel-Bold.ttf') format('truetype');
   font-weight: bold;
@@ -20,6 +22,7 @@
   font-family: Sahel;
   src: url('Sahel-SemiBold.eot');
   src: url('Sahel-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('Sahel-SemiBold.woff2') format('woff2'),
        url('Sahel-SemiBold.woff') format('woff'),
        url('Sahel-SemiBold.ttf') format('truetype');
   font-weight: 600;
@@ -29,6 +32,7 @@
   font-family: Sahel;
   src: url('Sahel-Black.eot');
   src: url('Sahel-Black.eot?#iefix') format('embedded-opentype'),
+       url('Sahel-Black.woff2') format('woff2'),
        url('Sahel-Black.woff') format('woff'),
        url('Sahel-Black.ttf') format('truetype');
   font-weight: 900;
