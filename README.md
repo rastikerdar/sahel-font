@@ -8,13 +8,13 @@ A Persian (Farsi) Font with variable version
 [صفحه دریافت (دانلود) بسته فونت شامل فایل های ttf,woff,eot](https://github.com/rastikerdar/sahel-font/releases)  
 با تشکر از برنامه [FontForge](https://fontforge.github.io)  
 
-## Known Problems for variable version
+## Known problems for variable version
 - mark placement distortion.
 
 ## To Do
 - [x] Adding all 3 Weights as masters to variable version.
 - [ ] Font testing page
-- [ ] Latin section is empty. it's better to use an opensource variable font with a wide range.
+- [ ] Latin section is empty. It's better to use an opensource variable font with a wide range.
 - [ ] Testing font in all supported programs.
 - [ ] Adding other axes.
 
@@ -44,6 +44,15 @@ A Persian (Farsi) Font with variable version
        url('Sahel-Bold.ttf') format('truetype');
   font-weight: bold;
 }
+      
+@font-face {
+  font-family: Sahel;
+  src: url('Sahel-SemiBold.eot');
+  src: url('Sahel-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('Sahel-SemiBold.woff') format('woff'),
+       url('Sahel-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
 
 @font-face {
   font-family: Sahel;
@@ -65,7 +74,7 @@ Or [RawGit](https://rawgit.com) CDN:
 <link href="https://cdn.rawgit.com/rastikerdar/sahel-font/v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
 ```
 
-Replace [X.Y.Z] with the latest version (e.g. 1.0.0) and integrate the font into your CSS:
+Replace [X.Y.Z] with the latest version (e.g. 2.0.0) and integrate the font into your CSS:
 
 ```
 font-family: 'Sahel', sans-serif;

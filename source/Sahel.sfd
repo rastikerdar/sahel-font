@@ -23,7 +23,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1564344105
+ModificationTime: 1564877709
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -127,17 +127,16 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 31 11
+WinInfo: 50 25 11
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 281600 140800 93866 553984 -1048576 93866 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "Anchor-0" "'mkmk' Mark to Mark in Arabic lookup 5 subtable" "Anchor-1" "'mkmk' Mark to Mark in Arabic lookup 6 subtable" "Anchor-2"""  "Anchor-3"""  "Anchor-4"""  "Anchor-5"""  "Anchor-6" "'mark' Mark Positioning lookup 3 subtable" "Anchor-7" "'mark' Mark Positioning lookup 4 subtable" "Anchor-8"""  "Anchor-9" "'mark' Mark Positioning lookup 1 subtable" "Anchor-10" "'mark' Mark Positioning lookup 2 subtable" "Anchor-11"""  "Anchor-12"""  "Anchor-13"""  "Anchor-14"""  "Anchor-15"""  "Anchor-16"""  "Anchor-17"""  "Anchor-18"""  "Anchor-19""" 
+AnchorClass2: "Anchor-0" "'mkmk' Mark to Mark in Arabic lookup 5 subtable" "Anchor-1" "'mkmk' Mark to Mark in Arabic lookup 6 subtable" "Anchor-2"""  "Anchor-3"""  "Anchor-4"""  "Anchor-5"""  "Anchor-6" "'mark' Mark Positioning lookup 3 subtable" "Anchor-7" "'mark' Mark Positioning lookup 4 subtable" "Anchor-8"""  "Anchor-9" "'mark' Mark Positioning lookup 1 subtable" "Anchor-10" "'mark' Mark Positioning lookup 2 subtable"
 BeginChars: 65568 307
 
 StartChar: space
 Encoding: 32 32 0
 Width: 560
-VWidth: 2275
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -146,7 +145,6 @@ EndChar
 StartChar: uni00A0
 Encoding: 160 160 1
 Width: 560
-VWidth: 2275
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -155,7 +153,6 @@ EndChar
 StartChar: commaarabic
 Encoding: 1548 1548 2
 Width: 748
-VWidth: 3387
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -174,7 +171,6 @@ EndChar
 StartChar: uni0615
 Encoding: 1557 1557 3
 Width: 0
-VWidth: 3435
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 702 1946 mark 0
@@ -205,7 +201,6 @@ EndChar
 StartChar: uni061B
 Encoding: 1563 1563 4
 Width: 748
-VWidth: 3387
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -229,7 +224,6 @@ EndChar
 StartChar: uni061F
 Encoding: 1567 1567 5
 Width: 914
-VWidth: 3375
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -264,7 +258,6 @@ EndChar
 StartChar: uni0621
 Encoding: 1569 1569 6
 Width: 891
-VWidth: 3747
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 459 -88 basechar 0
@@ -293,7 +286,6 @@ EndChar
 StartChar: uni0622
 Encoding: 1570 1570 7
 Width: 559
-VWidth: 2817
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 265 1852 basechar 0
@@ -313,7 +305,6 @@ EndChar
 StartChar: uni0623
 Encoding: 1571 1571 8
 Width: 454
-VWidth: 2809
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 220 1963 basechar 0
@@ -329,7 +320,6 @@ EndChar
 StartChar: uni0624
 Encoding: 1572 1572 9
 Width: 806
-VWidth: 2855
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-7" 272 -738 basechar 0
@@ -345,7 +335,6 @@ EndChar
 StartChar: uni0625
 Encoding: 1573 1573 10
 Width: 464
-VWidth: 2849
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 243 1611 basechar 0
@@ -361,7 +350,6 @@ EndChar
 StartChar: uni0626
 Encoding: 1574 1574 11
 Width: 1474
-VWidth: 2853
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 472 1439 basechar 0
@@ -380,7 +368,6 @@ EndChar
 StartChar: uni0627
 Encoding: 1575 1575 12
 Width: 464
-VWidth: 3705
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 208 1514 basechar 0
@@ -402,7 +389,6 @@ EndChar
 StartChar: uni0628
 Encoding: 1576 1576 13
 Width: 1788
-VWidth: 2899
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 886 1132 basechar 0
@@ -419,7 +405,6 @@ EndChar
 StartChar: uni0629
 Encoding: 1577 1577 14
 Width: 877
-VWidth: 2834
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 352 1475 basechar 0
@@ -434,7 +419,6 @@ EndChar
 StartChar: uni062A
 Encoding: 1578 1578 15
 Width: 1788
-VWidth: 2845
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 845 1377 basechar 0
@@ -451,7 +435,6 @@ EndChar
 StartChar: uni062B
 Encoding: 1579 1579 16
 Width: 1788
-VWidth: 2839
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 809 -206 basechar 0
@@ -468,7 +451,6 @@ EndChar
 StartChar: uni062C
 Encoding: 1580 1580 17
 Width: 1296
-VWidth: 3736
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 572 -813 basechar 0
@@ -485,7 +467,6 @@ EndChar
 StartChar: uni062D
 Encoding: 1581 1581 18
 Width: 1296
-VWidth: 3739
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 562 -813 basechar 0
@@ -493,13 +474,13 @@ AnchorPoint: "Anchor-10" 591 1253 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-786 -485 m 0
- 903 -485 1029 -476 1165 -458 c 0
- 1178 -456 1184 -461 1182 -472 c 2
- 1156 -575 l 2
- 1146 -612 1116 -633 1067 -640 c 0
- 998 -649 911 -655 808 -655 c 0
- 409 -655 123 -526 123 -164 c 0
+786 -485 m 4
+ 903 -485 1029 -476 1165 -458 c 4
+ 1178 -456 1184 -461 1182 -472 c 6
+ 1156 -575 l 6
+ 1146 -612 1116 -633 1067 -640 c 4
+ 998 -649 911 -655 808 -655 c 4
+ 409 -655 123 -526 123 -164 c 4
  123 218 392 484 775 560 c 1
  652 591 454 628 389 628 c 0
  318 628 250 588 185 509 c 1
@@ -509,8 +490,8 @@ SplineSet
  813 708 984 657 1203 636 c 0
  1215 635 1218 629 1213 616 c 2
  1144 453 l 1
- 726 441 270 243 270 -134 c 0
- 270 -368 442 -485 786 -485 c 0
+ 726 441 270 243 270 -134 c 4
+ 270 -368 442 -485 786 -485 c 4
 EndSplineSet
 Substitution2: "'init' Initial Forms in Arabic lookup 3 subtable" uniFEA3
 Substitution2: "'medi' Medial Forms in Arabic lookup 2 subtable" uniFEA4
@@ -520,7 +501,6 @@ EndChar
 StartChar: uni062E
 Encoding: 1582 1582 19
 Width: 1300
-VWidth: 3736
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 572 -813 basechar 0
@@ -537,7 +517,6 @@ EndChar
 StartChar: uni062F
 Encoding: 1583 1583 20
 Width: 1020
-VWidth: 3737
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 429 1206 basechar 0
@@ -568,7 +547,6 @@ EndChar
 StartChar: uni0630
 Encoding: 1584 1584 21
 Width: 1020
-VWidth: 3734
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 461 -228 basechar 0
@@ -587,7 +565,6 @@ EndChar
 StartChar: uni0631
 Encoding: 1585 1585 22
 Width: 752
-VWidth: 3744
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 350 -718 basechar 0
@@ -597,10 +574,10 @@ Fore
 SplineSet
 528 529 m 17
  623 389 667 256 667 116 c 0
- 667 -378 180 -537 107 -537 c 0
- 91 -537 73 -526 58 -508 c 2
- 19 -459 l 2
- 3 -437 -14 -409 16 -401 c 0
+ 667 -378 180 -537 107 -537 c 4
+ 91 -537 73 -526 58 -508 c 6
+ 19 -459 l 6
+ 3 -437 -14 -409 16 -401 c 4
  311 -320 517 -156 517 71 c 0
  517 162 479 261 402 370 c 1
  528 529 l 17
@@ -668,7 +645,6 @@ EndChar
 StartChar: uni0632
 Encoding: 1586 1586 23
 Width: 752
-VWidth: 2865
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 272 -738 basechar 0
@@ -742,7 +718,6 @@ EndChar
 StartChar: uni0633
 Encoding: 1587 1587 24
 Width: 2349
-VWidth: 3744
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 636 -764 basechar 0
@@ -786,7 +761,6 @@ EndChar
 StartChar: uni0634
 Encoding: 1588 1588 25
 Width: 2349
-VWidth: 2860
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 1631 1423 basechar 0
@@ -803,7 +777,6 @@ EndChar
 StartChar: uni0635
 Encoding: 1589 1589 26
 Width: 2603
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 636 -764 basechar 0
@@ -842,7 +815,6 @@ EndChar
 StartChar: uni0636
 Encoding: 1590 1590 27
 Width: 2603
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 636 -764 basechar 0
@@ -858,33 +830,32 @@ EndChar
 
 StartChar: uni0637
 Encoding: 1591 1591 28
-Width: 1570
-VWidth: 3745
+Width: 1540
 GlyphClass: 2
 Flags: HW
-AnchorPoint: "Anchor-10" 486 1533 basechar 0
-AnchorPoint: "Anchor-7" 713 -220 basechar 0
+AnchorPoint: "Anchor-10" 456 1533 basechar 0
+AnchorPoint: "Anchor-7" 683 -220 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1467 419 m 0
- 1467 139 1247 0 808 0 c 2
- 260 0 l 1
- 151 85 96 140 96 163 c 0
- 96 175 105 181 124 181 c 2
- 423 181 l 1
- 445 215 468 248 492 282 c 1
- 491 372 471 931 429 1320 c 1
- 579 1407 l 2
- 596 1417 605 1409 605 1382 c 2
- 621 451 l 1
- 787 645 959 743 1136 743 c 0
- 1340 743 1467 608 1467 419 c 0
-1308 400 m 0
- 1308 505 1236 566 1123 566 c 0
- 965 566 781 438 569 181 c 1
- 810 181 l 2
- 1108 181 1308 208 1308 400 c 0
+1437 419 m 0
+ 1437 139 1217 0 778 0 c 2
+ 220 0 l 1
+ 108 155 l 2
+ 100 164 105 181 124 181 c 2
+ 393 181 l 1
+ 415 215 438 248 462 282 c 1
+ 461 372 441 931 399 1320 c 1
+ 549 1407 l 2
+ 566 1417 575 1409 575 1382 c 2
+ 591 451 l 1
+ 757 645 929 743 1106 743 c 0
+ 1310 743 1437 608 1437 419 c 0
+1278 400 m 0
+ 1278 505 1206 566 1093 566 c 0
+ 935 566 751 438 539 181 c 1
+ 780 181 l 2
+ 1078 181 1278 208 1278 400 c 0
 EndSplineSet
 Substitution2: "'init' Initial Forms in Arabic lookup 3 subtable" uniFEC3
 Substitution2: "'medi' Medial Forms in Arabic lookup 2 subtable" uniFEC4
@@ -893,15 +864,14 @@ EndChar
 
 StartChar: uni0638
 Encoding: 1592 1592 29
-Width: 1570
-VWidth: 3742
+Width: 1540
 GlyphClass: 2
 Flags: HW
-AnchorPoint: "Anchor-7" 733 -218 basechar 0
-AnchorPoint: "Anchor-10" 510 1555 basechar 0
+AnchorPoint: "Anchor-7" 683 -220 basechar 0
+AnchorPoint: "Anchor-10" 456 1533 basechar 0
 LayerCount: 2
 Fore
-Refer: 261 -1 N 1 0 0 1 965 1031 2
+Refer: 261 -1 N 1 0 0 1 935 1031 2
 Refer: 28 1591 N 1 0 0 1 0 0 2
 Substitution2: "'init' Initial Forms in Arabic lookup 3 subtable" uniFEC7
 Substitution2: "'medi' Medial Forms in Arabic lookup 2 subtable" uniFEC8
@@ -911,7 +881,6 @@ EndChar
 StartChar: uni0639
 Encoding: 1593 1593 30
 Width: 1262
-VWidth: 3739
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 562 -813 basechar 0
@@ -948,7 +917,6 @@ EndChar
 StartChar: uni063A
 Encoding: 1594 1594 31
 Width: 1262
-VWidth: 3736
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 572 -813 basechar 0
@@ -965,7 +933,6 @@ EndChar
 StartChar: uni0640
 Encoding: 1600 1600 32
 Width: 245
-VWidth: 3772
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 128 870 basechar 0
@@ -988,7 +955,6 @@ EndChar
 StartChar: uni0641
 Encoding: 1601 1601 33
 Width: 1728
-VWidth: 3770
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 809 -206 basechar 0
@@ -1005,7 +971,6 @@ EndChar
 StartChar: uni0642
 Encoding: 1602 1602 34
 Width: 1390
-VWidth: 3770
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 933 1347 basechar 0
@@ -1022,7 +987,6 @@ EndChar
 StartChar: uni0643
 Encoding: 1603 1603 35
 Width: 1878
-VWidth: 3705
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 916 1515 basechar 0
@@ -1067,7 +1031,6 @@ EndChar
 StartChar: uni0644
 Encoding: 1604 1604 36
 Width: 1325
-VWidth: 3705
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 571 1009 basechar 0
@@ -1096,7 +1059,6 @@ EndChar
 StartChar: uni0645
 Encoding: 1605 1605 37
 Width: 1110
-VWidth: 3775
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 609 1158 basechar 0
@@ -1131,7 +1093,6 @@ EndChar
 StartChar: uni0646
 Encoding: 1606 1606 38
 Width: 1395
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 670 1173 basechar 0
@@ -1148,7 +1109,6 @@ EndChar
 StartChar: uni0647
 Encoding: 1607 1607 39
 Width: 877
-VWidth: 3738
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 377 1134 basechar 0
@@ -1176,7 +1136,6 @@ EndChar
 StartChar: uni0648
 Encoding: 1608 1608 40
 Width: 806
-VWidth: 3773
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 356 -678 basechar 0
@@ -1206,7 +1165,6 @@ EndChar
 StartChar: uni0649
 Encoding: 1609 1609 41
 Width: 1474
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 613 958 basechar 0
@@ -1241,7 +1199,6 @@ EndChar
 StartChar: uni064A
 Encoding: 1610 1610 42
 Width: 1474
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 591 983 basechar 0
@@ -1258,7 +1215,6 @@ EndChar
 StartChar: uni064B
 Encoding: 1611 1611 43
 Width: 0
-VWidth: 2402
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 637 1173 mark 0
@@ -1268,23 +1224,22 @@ AnchorPoint: "Anchor-1" 637 1173 mark 0
 LayerCount: 2
 Fore
 SplineSet
-382 1403 m 1
- 382 1504 l 1
- 777 1670 l 1
- 777 1569 l 1
- 382 1403 l 1
 382 1153 m 1
  382 1254 l 1
  777 1420 l 1
  777 1319 l 1
  382 1153 l 1
+382 1403 m 1
+ 382 1504 l 1
+ 777 1670 l 1
+ 777 1569 l 1
+ 382 1403 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni064C
 Encoding: 1612 1612 44
 Width: 0
-VWidth: 2402
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 707 1262 mark 0
@@ -1318,7 +1273,6 @@ EndChar
 StartChar: uni064D
 Encoding: 1613 1613 45
 Width: 0
-VWidth: 2231
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-7" 520 9 mark 0
@@ -1344,7 +1298,6 @@ EndChar
 StartChar: uni064E
 Encoding: 1614 1614 46
 Width: 0
-VWidth: 2231
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 541 1315 mark 0
@@ -1365,7 +1318,6 @@ EndChar
 StartChar: uni064F
 Encoding: 1615 1615 47
 Width: 0
-VWidth: 2231
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 598 1262 mark 0
@@ -1397,7 +1349,6 @@ EndChar
 StartChar: uni0650
 Encoding: 1616 1616 48
 Width: 0
-VWidth: 2231
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-7" 549 -78 mark 0
@@ -1418,7 +1369,6 @@ EndChar
 StartChar: uni0651
 Encoding: 1617 1617 49
 Width: 0
-VWidth: 2238
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 590 1343 mark 0
@@ -1452,7 +1402,6 @@ EndChar
 StartChar: uni0652
 Encoding: 1618 1618 50
 Width: 0
-VWidth: 2789
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 732 1489 mark 0
@@ -1478,7 +1427,6 @@ EndChar
 StartChar: uni0653
 Encoding: 1619 1619 51
 Width: 0
-VWidth: 2759
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 485 1566 mark 0
@@ -1504,7 +1452,6 @@ EndChar
 StartChar: uni0654
 Encoding: 1620 1620 52
 Width: 0
-VWidth: 2447
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 672 1684 mark 0
@@ -1519,7 +1466,6 @@ EndChar
 StartChar: uni0655
 Encoding: 1621 1621 53
 Width: 0
-VWidth: 2447
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-7" 615 44 mark 0
@@ -1534,7 +1480,6 @@ EndChar
 StartChar: uni0657
 Encoding: 1623 1623 54
 Width: 0
-VWidth: 3005
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 744 1752 mark 0
@@ -1566,7 +1511,6 @@ EndChar
 StartChar: uni065A
 Encoding: 1626 1626 55
 Width: 1473
-VWidth: 3008
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 744 1755 mark 0
@@ -1590,7 +1534,6 @@ EndChar
 StartChar: uni0660
 Encoding: 1632 1632 56
 Width: 897
-VWidth: 3201
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -1607,7 +1550,6 @@ EndChar
 StartChar: uni0661
 Encoding: 1633 1633 57
 Width: 731
-VWidth: 3192
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -1626,7 +1568,6 @@ EndChar
 StartChar: uni0662
 Encoding: 1634 1634 58
 Width: 1095
-VWidth: 3192
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -1653,7 +1594,6 @@ EndChar
 StartChar: uni0663
 Encoding: 1635 1635 59
 Width: 1295
-VWidth: 3192
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -1687,7 +1627,6 @@ EndChar
 StartChar: uni0664
 Encoding: 1636 1636 60
 Width: 991
-VWidth: 3198
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -1715,7 +1654,6 @@ EndChar
 StartChar: uni0665
 Encoding: 1637 1637 61
 Width: 1115
-VWidth: 3521
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -1739,7 +1677,6 @@ EndChar
 StartChar: uni0666
 Encoding: 1638 1638 62
 Width: 1171
-VWidth: 3201
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -1761,7 +1698,6 @@ EndChar
 StartChar: uni0667
 Encoding: 1639 1639 63
 Width: 1203
-VWidth: 3202
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -1783,7 +1719,6 @@ EndChar
 StartChar: uni0668
 Encoding: 1640 1640 64
 Width: 1203
-VWidth: 3202
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -1805,7 +1740,6 @@ EndChar
 StartChar: uni0669
 Encoding: 1641 1641 65
 Width: 1039
-VWidth: 3202
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -1830,7 +1764,6 @@ EndChar
 StartChar: uni066A
 Encoding: 1642 1642 66
 Width: 1154
-VWidth: 3432
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -1857,7 +1790,6 @@ EndChar
 StartChar: uni066B
 Encoding: 1643 1643 67
 Width: 822
-VWidth: 2952
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -1877,7 +1809,6 @@ EndChar
 StartChar: uni066C
 Encoding: 1644 1644 68
 Width: 503
-VWidth: 3048
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -1899,7 +1830,6 @@ EndChar
 StartChar: uni066D
 Encoding: 1645 1645 69
 Width: 1734
-VWidth: 3186
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -1922,7 +1852,6 @@ EndChar
 StartChar: uni066E
 Encoding: 1646 1646 70
 Width: 1788
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 778 1272 basechar 0
@@ -1951,7 +1880,6 @@ EndChar
 StartChar: uni066F
 Encoding: 1647 1647 71
 Width: 1390
-VWidth: 3773
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 537 1166 basechar 0
@@ -1985,7 +1913,6 @@ EndChar
 StartChar: uni0670
 Encoding: 1648 1648 72
 Width: 0
-VWidth: 2975
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 756 1750 mark 0
@@ -2006,7 +1933,6 @@ EndChar
 StartChar: uni0674
 Encoding: 1652 1652 73
 Width: 802
-VWidth: 2763
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -2032,7 +1958,6 @@ EndChar
 StartChar: uni067E
 Encoding: 1662 1662 74
 Width: 1834
-VWidth: 2902
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 919 1147 basechar 0
@@ -2049,14 +1974,41 @@ EndChar
 StartChar: uni0686
 Encoding: 1670 1670 75
 Width: 1296
-VWidth: 3736
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 572 -813 basechar 0
 AnchorPoint: "Anchor-10" 630 1168 basechar 0
 LayerCount: 2
 Fore
-Refer: 264 -1 N 1 0 0 1 457 -100 2
+SplineSet
+784 -67 m 2
+ 894 -177 l 2
+ 899 -182 898 -187 894 -191 c 2
+ 782 -303 l 2
+ 778 -307 774 -307 769 -303 c 2
+ 660 -194 l 2
+ 654 -188 653 -181 659 -175 c 2
+ 766 -68 l 2
+ 771 -63 778 -61 784 -67 c 2
+930 159 m 2
+ 1040 49 l 2
+ 1045 44 1044 39 1040 35 c 2
+ 928 -77 l 2
+ 924 -81 920 -81 915 -77 c 2
+ 806 32 l 2
+ 800 38 799 45 805 51 c 2
+ 912 158 l 2
+ 917 163 924 165 930 159 c 2
+638 159 m 2
+ 748 49 l 2
+ 753 44 752 39 748 35 c 2
+ 636 -77 l 2
+ 632 -81 628 -81 623 -77 c 2
+ 514 32 l 2
+ 508 38 507 45 513 51 c 2
+ 620 158 l 2
+ 625 163 632 165 638 159 c 2
+EndSplineSet
 Refer: 18 1581 N 1 0 0 1 0 0 2
 Substitution2: "'fina' Terminal Forms in Arabic lookup 1 subtable" uniFB7B
 Substitution2: "'medi' Medial Forms in Arabic lookup 2 subtable" uniFB7D
@@ -2066,7 +2018,6 @@ EndChar
 StartChar: uni0698
 Encoding: 1688 1688 76
 Width: 752
-VWidth: 2858
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 411 1433 basechar 0
@@ -2145,7 +2096,6 @@ EndChar
 StartChar: uni06A1
 Encoding: 1697 1697 77
 Width: 1728
-VWidth: 3773
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 740 1448 basechar 0
@@ -2179,7 +2129,6 @@ EndChar
 StartChar: uni06A9
 Encoding: 1705 1705 78
 Width: 1892
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 799 -206 basechar 0
@@ -2211,7 +2160,6 @@ EndChar
 StartChar: uni06AF
 Encoding: 1711 1711 79
 Width: 1904
-VWidth: 3749
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 799 -206 basechar 0
@@ -2244,7 +2192,6 @@ EndChar
 StartChar: uni06BA
 Encoding: 1722 1722 80
 Width: 1395
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -2271,7 +2218,6 @@ EndChar
 StartChar: uni06CC
 Encoding: 1740 1740 81
 Width: 1474
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 841 1243 basechar 0
@@ -2287,7 +2233,6 @@ EndChar
 StartChar: uni06D5
 Encoding: 1749 1749 82
 Width: 877
-VWidth: 2853
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 408 1448 basechar 0
@@ -2301,7 +2246,6 @@ EndChar
 StartChar: uni06F0
 Encoding: 1776 1776 83
 Width: 897
-VWidth: 3201
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -2321,7 +2265,6 @@ EndChar
 StartChar: uni06F1
 Encoding: 1777 1777 84
 Width: 731
-VWidth: 3192
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -2334,7 +2277,6 @@ EndChar
 StartChar: uni06F2
 Encoding: 1778 1778 85
 Width: 1095
-VWidth: 3192
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -2347,7 +2289,6 @@ EndChar
 StartChar: uni06F3
 Encoding: 1779 1779 86
 Width: 1295
-VWidth: 3192
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -2360,7 +2301,6 @@ EndChar
 StartChar: uni06F4
 Encoding: 1780 1780 87
 Width: 1190
-VWidth: 2927
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -2393,7 +2333,6 @@ EndChar
 StartChar: uni06F5
 Encoding: 1781 1781 88
 Width: 1192
-VWidth: 3002
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -2429,7 +2368,6 @@ EndChar
 StartChar: uni06F6
 Encoding: 1782 1782 89
 Width: 1180
-VWidth: 3397
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -2457,7 +2395,6 @@ EndChar
 StartChar: uni06F7
 Encoding: 1783 1783 90
 Width: 1203
-VWidth: 3202
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -2473,7 +2410,6 @@ EndChar
 StartChar: uni06F8
 Encoding: 1784 1784 91
 Width: 1203
-VWidth: 3202
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -2490,7 +2426,6 @@ EndChar
 StartChar: uni06F9
 Encoding: 1785 1785 92
 Width: 1039
-VWidth: 3202
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -2505,7 +2440,6 @@ EndChar
 StartChar: uniFB56
 Encoding: 64342 64342 93
 Width: 1834
-VWidth: 2902
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 880 1335 basechar 0
@@ -2518,7 +2452,6 @@ EndChar
 StartChar: uniFB57
 Encoding: 64343 64343 94
 Width: 1942
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 833 1230 basechar 0
@@ -2532,7 +2465,6 @@ EndChar
 StartChar: uniFB58
 Encoding: 64344 64344 95
 Width: 626
-VWidth: 2904
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 341 -861 basechar 0
@@ -2546,7 +2478,6 @@ EndChar
 StartChar: uniFB59
 Encoding: 64345 64345 96
 Width: 728
-VWidth: 2908
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 342 1225 basechar 0
@@ -2560,7 +2491,6 @@ EndChar
 StartChar: uniFB7A
 Encoding: 64378 64378 97
 Width: 1296
-VWidth: 2873
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 735 1423 basechar 0
@@ -2573,21 +2503,47 @@ EndChar
 StartChar: uniFB7B
 Encoding: 64379 64379 98
 Width: 1319
-VWidth: 2873
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 572 -813 basechar 0
 AnchorPoint: "Anchor-10" 653 1171 basechar 0
 LayerCount: 2
 Fore
-Refer: 264 -1 N 1 0 0 1 335 -173 2
+SplineSet
+663 -143 m 2
+ 773 -253 l 2
+ 778 -258 777 -263 773 -267 c 2
+ 661 -379 l 2
+ 657 -383 653 -383 648 -379 c 2
+ 539 -270 l 2
+ 533 -264 532 -257 538 -251 c 2
+ 645 -144 l 2
+ 650 -139 657 -137 663 -143 c 2
+809 83 m 2
+ 919 -27 l 2
+ 924 -32 923 -37 919 -41 c 2
+ 807 -153 l 2
+ 803 -157 799 -157 794 -153 c 2
+ 685 -44 l 2
+ 679 -38 678 -31 684 -25 c 2
+ 791 82 l 2
+ 796 87 803 89 809 83 c 2
+517 83 m 2
+ 627 -27 l 2
+ 632 -32 631 -37 627 -41 c 2
+ 515 -153 l 2
+ 511 -157 507 -157 502 -153 c 2
+ 393 -44 l 2
+ 387 -38 386 -31 392 -25 c 2
+ 499 82 l 2
+ 504 87 511 89 517 83 c 2
+EndSplineSet
 Refer: 170 65186 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFB7C
 Encoding: 64380 64380 99
 Width: 1300
-VWidth: 2905
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 529 1196 basechar 0
@@ -2601,7 +2557,6 @@ EndChar
 StartChar: uniFB7D
 Encoding: 64381 64381 100
 Width: 1326
-VWidth: 2906
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 530 1145 basechar 0
@@ -2615,7 +2570,6 @@ EndChar
 StartChar: uniFB8A
 Encoding: 64394 64394 101
 Width: 752
-VWidth: 2858
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 437 1386 basechar 0
@@ -2628,7 +2582,6 @@ EndChar
 StartChar: uniFB8B
 Encoding: 64395 64395 102
 Width: 854
-VWidth: 2856
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 407 1382 basechar 0
@@ -2708,7 +2661,6 @@ EndChar
 StartChar: uniFB8E
 Encoding: 64398 64398 103
 Width: 1892
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 723 -234 basechar 0
@@ -2721,7 +2673,6 @@ EndChar
 StartChar: uniFB8F
 Encoding: 64399 64399 104
 Width: 2123
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 799 -206 basechar 0
@@ -2757,7 +2708,6 @@ EndChar
 StartChar: uniFB90
 Encoding: 64400 64400 105
 Width: 975
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 269 1443 basechar 0
@@ -2770,7 +2720,6 @@ EndChar
 StartChar: uniFB91
 Encoding: 64401 64401 106
 Width: 1211
-VWidth: 2828
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 256 1449 basechar 0
@@ -2783,7 +2732,6 @@ EndChar
 StartChar: uniFB92
 Encoding: 64402 64402 107
 Width: 1904
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 470 1541 basechar 0
@@ -2796,7 +2744,6 @@ EndChar
 StartChar: uniFB93
 Encoding: 64403 64403 108
 Width: 2064
-VWidth: 3749
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 799 -206 basechar 0
@@ -2833,7 +2780,6 @@ EndChar
 StartChar: uniFB94
 Encoding: 64404 64404 109
 Width: 974
-VWidth: 3749
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 280 1605 basechar 0
@@ -2863,7 +2809,6 @@ EndChar
 StartChar: uniFB95
 Encoding: 64405 64405 110
 Width: 1135
-VWidth: 3749
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 264 1613 basechar 0
@@ -2900,7 +2845,6 @@ EndChar
 StartChar: uniFB9E
 Encoding: 64414 64414 111
 Width: 1395
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 890 1021 basechar 0
@@ -2913,7 +2857,6 @@ EndChar
 StartChar: uniFB9F
 Encoding: 64415 64415 112
 Width: 1453
-VWidth: 3744
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 577 1006 basechar 0
@@ -2946,7 +2889,6 @@ EndChar
 StartChar: uniFBAC
 Encoding: 64428 64428 113
 Width: 1226
-VWidth: 2854
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 539 1529 basechar 0
@@ -2959,7 +2901,6 @@ EndChar
 StartChar: uniFBAD
 Encoding: 64429 64429 114
 Width: 928
-VWidth: 2875
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 471 1388 basechar 0
@@ -2972,7 +2913,6 @@ EndChar
 StartChar: uniFBE8
 Encoding: 64488 64488 115
 Width: 626
-VWidth: 3744
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 323 1302 basechar 0
@@ -2998,7 +2938,6 @@ EndChar
 StartChar: uniFBE9
 Encoding: 64489 64489 116
 Width: 728
-VWidth: 3744
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 412 1159 basechar 0
@@ -3030,7 +2969,6 @@ EndChar
 StartChar: uniFBFC
 Encoding: 64508 64508 117
 Width: 1474
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 659 1024 basechar 0
@@ -3043,7 +2981,6 @@ EndChar
 StartChar: uniFBFD
 Encoding: 64509 64509 118
 Width: 1441
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 707 616 basechar 0
@@ -3056,7 +2993,6 @@ EndChar
 StartChar: uniFBFE
 Encoding: 64510 64510 119
 Width: 626
-VWidth: 3741
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 299 1135 basechar 0
@@ -3070,7 +3006,6 @@ EndChar
 StartChar: uniFBFF
 Encoding: 64511 64511 120
 Width: 728
-VWidth: 3741
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 344 1077 basechar 0
@@ -3084,7 +3019,6 @@ EndChar
 StartChar: uniFE70
 Encoding: 65136 65136 121
 Width: 769
-VWidth: 2621
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 385 2177 basechar 0
@@ -3098,7 +3032,6 @@ EndChar
 StartChar: uniFE71
 Encoding: 65137 65137 122
 Width: 769
-VWidth: 2621
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 385 2177 basechar 0
@@ -3115,7 +3048,6 @@ EndChar
 StartChar: uniFE72
 Encoding: 65138 65138 123
 Width: 769
-VWidth: 2621
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 385 2369 basechar 0
@@ -3129,7 +3061,6 @@ EndChar
 StartChar: uniFE73
 Encoding: 65139 65139 124
 Width: 785
-VWidth: 3435
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 369 1242 basechar 0
@@ -3152,7 +3083,6 @@ EndChar
 StartChar: uniFE74
 Encoding: 65140 65140 125
 Width: 769
-VWidth: 2621
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 385 1535 basechar 0
@@ -3166,7 +3096,6 @@ EndChar
 StartChar: uniFE76
 Encoding: 65142 65142 126
 Width: 769
-VWidth: 2621
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 385 1920 basechar 0
@@ -3180,7 +3109,6 @@ EndChar
 StartChar: uniFE77
 Encoding: 65143 65143 127
 Width: 769
-VWidth: 2621
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 385 1920 basechar 0
@@ -3197,7 +3125,6 @@ EndChar
 StartChar: uniFE78
 Encoding: 65144 65144 128
 Width: 769
-VWidth: 2621
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 385 2369 basechar 0
@@ -3211,7 +3138,6 @@ EndChar
 StartChar: uniFE79
 Encoding: 65145 65145 129
 Width: 769
-VWidth: 2621
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 385 2369 basechar 0
@@ -3228,7 +3154,6 @@ EndChar
 StartChar: uniFE7A
 Encoding: 65146 65146 130
 Width: 769
-VWidth: 2621
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 385 1535 basechar 0
@@ -3242,7 +3167,6 @@ EndChar
 StartChar: uniFE7B
 Encoding: 65147 65147 131
 Width: 769
-VWidth: 2621
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 385 1535 basechar 0
@@ -3259,7 +3183,6 @@ EndChar
 StartChar: uniFE7C
 Encoding: 65148 65148 132
 Width: 769
-VWidth: 2621
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 385 2305 basechar 0
@@ -3273,7 +3196,6 @@ EndChar
 StartChar: uniFE7D
 Encoding: 65149 65149 133
 Width: 769
-VWidth: 2621
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 385 2305 basechar 0
@@ -3290,7 +3212,6 @@ EndChar
 StartChar: uniFE7E
 Encoding: 65150 65150 134
 Width: 769
-VWidth: 2621
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 385 2369 basechar 0
@@ -3304,7 +3225,6 @@ EndChar
 StartChar: uniFE7F
 Encoding: 65151 65151 135
 Width: 769
-VWidth: 2621
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-10" 385 2369 basechar 0
@@ -3321,7 +3241,6 @@ EndChar
 StartChar: uniFE80
 Encoding: 65152 65152 136
 Width: 891
-VWidth: 3736
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 432 1210 basechar 0
@@ -3334,7 +3253,6 @@ EndChar
 StartChar: uniFE81
 Encoding: 65153 65153 137
 Width: 559
-VWidth: 2817
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 346 2145 basechar 0
@@ -3347,7 +3265,6 @@ EndChar
 StartChar: uniFE82
 Encoding: 65154 65154 138
 Width: 541
-VWidth: 2817
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 196 1759 basechar 0
@@ -3361,7 +3278,6 @@ EndChar
 StartChar: uniFE83
 Encoding: 65155 65155 139
 Width: 454
-VWidth: 2809
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 250 2299 basechar 0
@@ -3374,7 +3290,6 @@ EndChar
 StartChar: uniFE84
 Encoding: 65156 65156 140
 Width: 541
-VWidth: 2809
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 229 1920 basechar 0
@@ -3388,7 +3303,6 @@ EndChar
 StartChar: uniFE85
 Encoding: 65157 65157 141
 Width: 806
-VWidth: 2855
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 261 1547 basechar 0
@@ -3401,7 +3315,6 @@ EndChar
 StartChar: uniFE86
 Encoding: 65158 65158 142
 Width: 816
-VWidth: 3770
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 344 1517 basechar 0
@@ -3415,7 +3328,6 @@ EndChar
 StartChar: uniFE87
 Encoding: 65159 65159 143
 Width: 464
-VWidth: 2849
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 222 1547 basechar 0
@@ -3428,7 +3340,6 @@ EndChar
 StartChar: uniFE88
 Encoding: 65160 65160 144
 Width: 541
-VWidth: 2849
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 208 1533 basechar 0
@@ -3442,7 +3353,6 @@ EndChar
 StartChar: uniFE89
 Encoding: 65161 65161 145
 Width: 1590
-VWidth: 2853
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 389 -739 basechar 0
@@ -3455,7 +3365,6 @@ EndChar
 StartChar: uniFE8A
 Encoding: 65162 65162 146
 Width: 1494
-VWidth: 2875
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 585 1301 basechar 0
@@ -3469,7 +3378,6 @@ EndChar
 StartChar: uniFE8B
 Encoding: 65163 65163 147
 Width: 626
-VWidth: 2834
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 300 1608 basechar 0
@@ -3483,7 +3391,6 @@ EndChar
 StartChar: uniFE8C
 Encoding: 65164 65164 148
 Width: 728
-VWidth: 2838
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 350 1470 basechar 0
@@ -3497,7 +3404,6 @@ EndChar
 StartChar: uniFE8D
 Encoding: 65165 65165 149
 Width: 464
-VWidth: 3702
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 249 1749 basechar 0
@@ -3510,7 +3416,6 @@ EndChar
 StartChar: uniFE8E
 Encoding: 65166 65166 150
 Width: 541
-VWidth: 3705
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 208 1514 basechar 0
@@ -3536,7 +3441,6 @@ EndChar
 StartChar: uniFE8F
 Encoding: 65167 65167 151
 Width: 1788
-VWidth: 2899
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 768 1243 basechar 0
@@ -3549,7 +3453,6 @@ EndChar
 StartChar: uniFE90
 Encoding: 65168 65168 152
 Width: 1942
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 897 1029 basechar 0
@@ -3563,7 +3466,6 @@ EndChar
 StartChar: uniFE91
 Encoding: 65169 65169 153
 Width: 576
-VWidth: 2898
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 272 1194 basechar 0
@@ -3577,7 +3479,6 @@ EndChar
 StartChar: uniFE92
 Encoding: 65170 65170 154
 Width: 688
-VWidth: 3741
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 302 1066 basechar 0
@@ -3591,7 +3492,6 @@ EndChar
 StartChar: uniFE93
 Encoding: 65171 65171 155
 Width: 877
-VWidth: 2834
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 311 1565 basechar 0
@@ -3604,7 +3504,6 @@ EndChar
 StartChar: uniFE94
 Encoding: 65172 65172 156
 Width: 1036
-VWidth: 2834
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 425 1664 basechar 0
@@ -3618,7 +3517,6 @@ EndChar
 StartChar: uniFE95
 Encoding: 65173 65173 157
 Width: 1788
-VWidth: 2845
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 762 1498 basechar 0
@@ -3631,7 +3529,6 @@ EndChar
 StartChar: uniFE96
 Encoding: 65174 65174 158
 Width: 1942
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 879 1269 basechar 0
@@ -3645,7 +3542,6 @@ EndChar
 StartChar: uniFE97
 Encoding: 65175 65175 159
 Width: 626
-VWidth: 2840
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 257 1390 basechar 0
@@ -3659,7 +3555,6 @@ EndChar
 StartChar: uniFE98
 Encoding: 65176 65176 160
 Width: 728
-VWidth: 3741
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 300 1321 basechar 0
@@ -3673,7 +3568,6 @@ EndChar
 StartChar: uniFE99
 Encoding: 65177 65177 161
 Width: 1788
-VWidth: 2839
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 848 1552 basechar 0
@@ -3686,7 +3580,6 @@ EndChar
 StartChar: uniFE9A
 Encoding: 65178 65178 162
 Width: 1942
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 905 1384 basechar 0
@@ -3700,7 +3593,6 @@ EndChar
 StartChar: uniFE9B
 Encoding: 65179 65179 163
 Width: 626
-VWidth: 2834
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 273 1552 basechar 0
@@ -3714,7 +3606,6 @@ EndChar
 StartChar: uniFE9C
 Encoding: 65180 65180 164
 Width: 728
-VWidth: 3741
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 287 1423 basechar 0
@@ -3728,7 +3619,6 @@ EndChar
 StartChar: uniFE9D
 Encoding: 65181 65181 165
 Width: 1296
-VWidth: 2873
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 606 1361 basechar 0
@@ -3741,7 +3631,6 @@ EndChar
 StartChar: uniFE9E
 Encoding: 65182 65182 166
 Width: 1319
-VWidth: 3736
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 572 -813 basechar 0
@@ -3755,7 +3644,6 @@ EndChar
 StartChar: uniFE9F
 Encoding: 65183 65183 167
 Width: 1300
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 518 1185 basechar 0
@@ -3769,7 +3657,6 @@ EndChar
 StartChar: uniFEA0
 Encoding: 65184 65184 168
 Width: 1326
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 513 1192 basechar 0
@@ -3783,7 +3670,6 @@ EndChar
 StartChar: uniFEA1
 Encoding: 65185 65185 169
 Width: 1296
-VWidth: 3736
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 574 1250 basechar 0
@@ -3796,7 +3682,6 @@ EndChar
 StartChar: uniFEA2
 Encoding: 65186 65186 170
 Width: 1319
-VWidth: 3739
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 562 -813 basechar 0
@@ -3836,7 +3721,6 @@ EndChar
 StartChar: uniFEA3
 Encoding: 65187 65187 171
 Width: 1300
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 527 1134 basechar 0
@@ -3868,7 +3752,6 @@ EndChar
 StartChar: uniFEA4
 Encoding: 65188 65188 172
 Width: 1326
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 532 1136 basechar 0
@@ -3907,7 +3790,6 @@ EndChar
 StartChar: uniFEA5
 Encoding: 65189 65189 173
 Width: 1300
-VWidth: 2858
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 572 -813 basechar 0
@@ -3920,7 +3802,6 @@ EndChar
 StartChar: uniFEA6
 Encoding: 65190 65190 174
 Width: 1319
-VWidth: 3736
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 572 -813 basechar 0
@@ -3934,7 +3815,6 @@ EndChar
 StartChar: uniFEA7
 Encoding: 65191 65191 175
 Width: 1300
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 506 1438 basechar 0
@@ -3948,7 +3828,6 @@ EndChar
 StartChar: uniFEA8
 Encoding: 65192 65192 176
 Width: 1326
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 534 -236 basechar 0
@@ -3962,7 +3841,6 @@ EndChar
 StartChar: uniFEA9
 Encoding: 65193 65193 177
 Width: 1020
-VWidth: 3734
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 363 1475 basechar 0
@@ -3975,7 +3853,6 @@ EndChar
 StartChar: uniFEAA
 Encoding: 65194 65194 178
 Width: 1122
-VWidth: 3737
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 621 1233 basechar 0
@@ -4013,7 +3890,6 @@ EndChar
 StartChar: uniFEAB
 Encoding: 65195 65195 179
 Width: 1020
-VWidth: 2834
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 340 1858 basechar 0
@@ -4026,7 +3902,6 @@ EndChar
 StartChar: uniFEAC
 Encoding: 65196 65196 180
 Width: 1122
-VWidth: 3734
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 570 1572 basechar 0
@@ -4044,7 +3919,6 @@ EndChar
 StartChar: uniFEAD
 Encoding: 65197 65197 181
 Width: 752
-VWidth: 3741
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 461 1146 basechar 0
@@ -4057,7 +3931,6 @@ EndChar
 StartChar: uniFEAE
 Encoding: 65198 65198 182
 Width: 854
-VWidth: 3744
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 350 -718 basechar 0
@@ -4145,7 +4018,6 @@ EndChar
 StartChar: uniFEAF
 Encoding: 65199 65199 183
 Width: 752
-VWidth: 2865
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 427 1443 basechar 0
@@ -4158,7 +4030,6 @@ EndChar
 StartChar: uniFEB0
 Encoding: 65200 65200 184
 Width: 854
-VWidth: 3741
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 272 -738 basechar 0
@@ -4230,7 +4101,6 @@ EndChar
 StartChar: uniFEB1
 Encoding: 65201 65201 185
 Width: 2349
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 771 1097 basechar 0
@@ -4243,7 +4113,6 @@ EndChar
 StartChar: uniFEB2
 Encoding: 65202 65202 186
 Width: 2463
-VWidth: 3744
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 1664 1102 basechar 0
@@ -4290,7 +4159,6 @@ EndChar
 StartChar: uniFEB3
 Encoding: 65203 65203 187
 Width: 1532
-VWidth: 3744
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 845 1020 basechar 0
@@ -4330,7 +4198,6 @@ EndChar
 StartChar: uniFEB4
 Encoding: 65204 65204 188
 Width: 1641
-VWidth: 3744
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 845 1020 basechar 0
@@ -4376,7 +4243,6 @@ EndChar
 StartChar: uniFEB5
 Encoding: 65205 65205 189
 Width: 2349
-VWidth: 2860
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 771 1079 basechar 0
@@ -4389,7 +4255,6 @@ EndChar
 StartChar: uniFEB6
 Encoding: 65206 65206 190
 Width: 2463
-VWidth: 2860
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 1630 1447 basechar 0
@@ -4403,7 +4268,6 @@ EndChar
 StartChar: uniFEB7
 Encoding: 65207 65207 191
 Width: 1532
-VWidth: 2841
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 822 1460 basechar 0
@@ -4417,7 +4281,6 @@ EndChar
 StartChar: uniFEB8
 Encoding: 65208 65208 192
 Width: 1641
-VWidth: 2841
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 813 1458 basechar 0
@@ -4431,7 +4294,6 @@ EndChar
 StartChar: uniFEB9
 Encoding: 65209 65209 193
 Width: 2603
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 716 946 basechar 0
@@ -4444,7 +4306,6 @@ EndChar
 StartChar: uniFEBA
 Encoding: 65210 65210 194
 Width: 2651
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 2100 1170 basechar 0
@@ -4488,7 +4349,6 @@ EndChar
 StartChar: uniFEBB
 Encoding: 65211 65211 195
 Width: 1685
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 1133 1208 basechar 0
@@ -4524,7 +4384,6 @@ EndChar
 StartChar: uniFEBC
 Encoding: 65212 65212 196
 Width: 1733
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 1143 1218 basechar 0
@@ -4567,7 +4426,6 @@ EndChar
 StartChar: uniFEBD
 Encoding: 65213 65213 197
 Width: 2603
-VWidth: 2859
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 769 1084 basechar 0
@@ -4580,7 +4438,6 @@ EndChar
 StartChar: uniFEBE
 Encoding: 65214 65214 198
 Width: 2651
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 2042 1503 basechar 0
@@ -4594,7 +4451,6 @@ EndChar
 StartChar: uniFEBF
 Encoding: 65215 65215 199
 Width: 1685
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 1156 1465 basechar 0
@@ -4608,7 +4464,6 @@ EndChar
 StartChar: uniFEC0
 Encoding: 65216 65216 200
 Width: 1733
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 1156 1465 basechar 0
@@ -4621,8 +4476,7 @@ EndChar
 
 StartChar: uniFEC1
 Encoding: 65217 65217 201
-Width: 1570
-VWidth: 3742
+Width: 1540
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 733 -226 basechar 0
@@ -4634,47 +4488,45 @@ EndChar
 
 StartChar: uniFEC2
 Encoding: 65218 65218 202
-Width: 1612
-VWidth: 3745
+Width: 1582
 GlyphClass: 2
 Flags: HW
-AnchorPoint: "Anchor-10" 490 1522 basechar 0
-AnchorPoint: "Anchor-7" 787 -236 basechar 0
+AnchorPoint: "Anchor-7" 683 -220 basechar 0
+AnchorPoint: "Anchor-10" 456 1533 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1467 418 m 0
- 1467 316 1439 237 1382 180 c 1
- 1619 180 l 2
- 1635 180 1643 155 1643 103 c 2
- 1643 78 l 2
- 1643 27 1635 1 1619 1 c 2
- 1569 1 l 2
- 1460 1 1348 24 1233 71 c 1
- 1133 24 985 0 789 0 c 2
- 260 0 l 1
- 151 85 96 140 96 163 c 0
- 96 175 105 181 124 181 c 2
- 423 181 l 1
- 447 215 470 248 492 282 c 1
- 492 496 450 1143 429 1320 c 1
- 579 1407 l 2
- 596 1417 605 1409 605 1382 c 2
- 621 451 l 1
- 788 647 960 745 1137 745 c 0
- 1338 745 1467 602 1467 418 c 0
-1307 400 m 0
- 1307 506 1237 566 1123 566 c 0
- 966 566 781 438 569 181 c 1
- 800 181 l 2
- 1105 181 1307 204 1307 400 c 0
+220 0 m 1
+ 108 155 l 2
+ 100 164 105 181 124 181 c 2
+ 393 181 l 1
+ 416 215 440 248 462 282 c 1
+ 462 496 420 1143 399 1320 c 1
+ 549 1407 l 2
+ 566 1417 575 1409 575 1382 c 2
+ 591 451 l 1
+ 758 647 930 745 1107 745 c 0
+ 1308 745 1437 602 1437 418 c 0
+ 1437 316 1409 237 1352 180 c 1
+ 1589 180 l 2
+ 1605 180 1613 155 1613 103 c 2
+ 1613 78 l 2
+ 1613 27 1605 1 1589 1 c 2
+ 1539 1 l 2
+ 1430 1 1318 24 1203 71 c 1
+ 1103 24 955 0 759 0 c 2
+ 220 0 l 1
+1277 400 m 0
+ 1277 506 1207 566 1093 566 c 0
+ 936 566 751 438 539 181 c 1
+ 770 181 l 2
+ 1075 181 1277 204 1277 400 c 0
 EndSplineSet
 EndChar
 
 StartChar: uniFEC3
 Encoding: 65219 65219 203
 Width: 1296
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 483 -230 basechar 0
@@ -4707,7 +4559,6 @@ EndChar
 StartChar: uniFEC4
 Encoding: 65220 65220 204
 Width: 1339
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 476 -225 basechar 0
@@ -4746,8 +4597,7 @@ EndChar
 
 StartChar: uniFEC5
 Encoding: 65221 65221 205
-Width: 1570
-VWidth: 3742
+Width: 1540
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 510 1555 basechar 0
@@ -4759,22 +4609,20 @@ EndChar
 
 StartChar: uniFEC6
 Encoding: 65222 65222 206
-Width: 1612
-VWidth: 3742
+Width: 1582
 GlyphClass: 2
 Flags: HW
-AnchorPoint: "Anchor-7" 752 -218 basechar 0
-AnchorPoint: "Anchor-10" 538 1550 basechar 0
+AnchorPoint: "Anchor-7" 683 -220 basechar 0
+AnchorPoint: "Anchor-10" 456 1533 basechar 0
 LayerCount: 2
 Fore
-Refer: 261 -1 N 1 0 0 1 966 1031 2
+Refer: 261 -1 N 1 0 0 1 936 1031 2
 Refer: 202 65218 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFEC7
 Encoding: 65223 65223 207
 Width: 1296
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 467 -218 basechar 0
@@ -4788,7 +4636,6 @@ EndChar
 StartChar: uniFEC8
 Encoding: 65224 65224 208
 Width: 1339
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 484 -223 basechar 0
@@ -4802,7 +4649,6 @@ EndChar
 StartChar: uniFEC9
 Encoding: 65225 65225 209
 Width: 1262
-VWidth: 3739
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 526 1786 basechar 0
@@ -4815,7 +4661,6 @@ EndChar
 StartChar: uniFECA
 Encoding: 65226 65226 210
 Width: 1263
-VWidth: 3739
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 562 -813 basechar 0
@@ -4831,9 +4676,9 @@ SplineSet
  1285 180 1293 154 1293 102 c 2
  1293 77 l 2
  1293 26 1285 0 1269 0 c 2
- 1233 0 l 2
- 920 0 749 127 717 381 c 1
- 437 289 250 120 250 -130 c 0
+ 1233 0 l 6
+ 920 0 754 125 712 379 c 5
+ 432 287 250 120 250 -130 c 0
  250 -367 422 -485 766 -485 c 0
  883 -485 1009 -476 1145 -458 c 0
  1158 -456 1164 -461 1162 -472 c 2
@@ -4851,7 +4696,6 @@ EndChar
 StartChar: uniFECB
 Encoding: 65227 65227 211
 Width: 1003
-VWidth: 3739
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 466 1172 basechar 0
@@ -4882,7 +4726,6 @@ EndChar
 StartChar: uniFECC
 Encoding: 65228 65228 212
 Width: 959
-VWidth: 3741
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 483 1068 basechar 0
@@ -4899,15 +4742,15 @@ SplineSet
  989 77 l 2
  989 26 981 0 965 0 c 2
  920 0 l 2
- 768 0 640 61 535 182 c 1
- 399 62 241 1 62 0 c 2
+ 768 0 636 57 531 178 c 5
+ 395 58 241 1 62 0 c 2
  -5 0 l 2
  -42 0 -60 26 -60 77 c 2
  -60 102 l 2
  -60 154 -42 180 -5 180 c 2
  64 180 l 2
- 259 180 392 226 463 319 c 1
- 442 425 335 485 145 498 c 1
+ 259 180 392 216 463 309 c 1
+ 452 415 335 485 145 498 c 1
  145 614 l 1
  221 660 336 684 488 684 c 0
 EndSplineSet
@@ -4916,7 +4759,6 @@ EndChar
 StartChar: uniFECD
 Encoding: 65229 65229 213
 Width: 1262
-VWidth: 3736
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 566 1941 basechar 0
@@ -4929,7 +4771,6 @@ EndChar
 StartChar: uniFECE
 Encoding: 65230 65230 214
 Width: 1263
-VWidth: 3736
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 572 -813 basechar 0
@@ -4943,7 +4784,6 @@ EndChar
 StartChar: uniFECF
 Encoding: 65231 65231 215
 Width: 1003
-VWidth: 3736
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 463 1476 basechar 0
@@ -4957,7 +4797,6 @@ EndChar
 StartChar: uniFED0
 Encoding: 65232 65232 216
 Width: 959
-VWidth: 3738
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 478 1351 basechar 0
@@ -4971,7 +4810,6 @@ EndChar
 StartChar: uniFED1
 Encoding: 65233 65233 217
 Width: 1728
-VWidth: 3770
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 729 1473 basechar 0
@@ -4984,7 +4822,6 @@ EndChar
 StartChar: uniFED2
 Encoding: 65234 65234 218
 Width: 1893
-VWidth: 3737
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 1448 1444 basechar 0
@@ -4998,7 +4835,6 @@ EndChar
 StartChar: uniFED3
 Encoding: 65235 65235 219
 Width: 832
-VWidth: 3770
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 369 1650 basechar 0
@@ -5012,7 +4848,6 @@ EndChar
 StartChar: uniFED4
 Encoding: 65236 65236 220
 Width: 907
-VWidth: 3737
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 451 1473 basechar 0
@@ -5026,7 +4861,6 @@ EndChar
 StartChar: uniFED5
 Encoding: 65237 65237 221
 Width: 1390
-VWidth: 3770
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 922 1436 basechar 0
@@ -5039,7 +4873,6 @@ EndChar
 StartChar: uniFED6
 Encoding: 65238 65238 222
 Width: 1409
-VWidth: 3770
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 927 1285 basechar 0
@@ -5053,7 +4886,6 @@ EndChar
 StartChar: uniFED7
 Encoding: 65239 65239 223
 Width: 832
-VWidth: 3770
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 347 1639 basechar 0
@@ -5067,7 +4899,6 @@ EndChar
 StartChar: uniFED8
 Encoding: 65240 65240 224
 Width: 907
-VWidth: 3737
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 452 1444 basechar 0
@@ -5081,7 +4912,6 @@ EndChar
 StartChar: uniFED9
 Encoding: 65241 65241 225
 Width: 1878
-VWidth: 3705
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 769 1788 basechar 0
@@ -5094,7 +4924,6 @@ EndChar
 StartChar: uniFEDA
 Encoding: 65242 65242 226
 Width: 1936
-VWidth: 3705
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 887 1527 basechar 0
@@ -5142,7 +4971,6 @@ EndChar
 StartChar: uniFEDB
 Encoding: 65243 65243 227
 Width: 975
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 251 1472 basechar 0
@@ -5171,7 +4999,6 @@ EndChar
 StartChar: uniFEDC
 Encoding: 65244 65244 228
 Width: 1211
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 243 1473 basechar 0
@@ -5207,7 +5034,6 @@ EndChar
 StartChar: uniFEDD
 Encoding: 65245 65245 229
 Width: 1325
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 563 1284 basechar 0
@@ -5220,7 +5046,6 @@ EndChar
 StartChar: uniFEDE
 Encoding: 65246 65246 230
 Width: 1379
-VWidth: 3705
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 587 1004 basechar 0
@@ -5253,7 +5078,6 @@ EndChar
 StartChar: uniFEDF
 Encoding: 65247 65247 231
 Width: 556
-VWidth: 3705
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 259 1523 basechar 0
@@ -5279,7 +5103,6 @@ EndChar
 StartChar: uniFEE0
 Encoding: 65248 65248 232
 Width: 651
-VWidth: 3705
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 288 1508 basechar 0
@@ -5312,7 +5135,6 @@ EndChar
 StartChar: uniFEE1
 Encoding: 65249 65249 233
 Width: 1110
-VWidth: 3772
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 640 1291 basechar 0
@@ -5325,7 +5147,6 @@ EndChar
 StartChar: uniFEE2
 Encoding: 65250 65250 234
 Width: 1249
-VWidth: 3782
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 570 1171 basechar 0
@@ -5363,7 +5184,6 @@ EndChar
 StartChar: uniFEE3
 Encoding: 65251 65251 235
 Width: 1008
-VWidth: 3749
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 544 1121 basechar 0
@@ -5394,7 +5214,6 @@ EndChar
 StartChar: uniFEE4
 Encoding: 65252 65252 236
 Width: 1145
-VWidth: 3749
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 573 1072 basechar 0
@@ -5432,7 +5251,6 @@ EndChar
 StartChar: uniFEE5
 Encoding: 65253 65253 237
 Width: 1395
-VWidth: 2859
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 645 1371 basechar 0
@@ -5445,7 +5263,6 @@ EndChar
 StartChar: uniFEE6
 Encoding: 65254 65254 238
 Width: 1453
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 648 1008 basechar 0
@@ -5459,7 +5276,6 @@ EndChar
 StartChar: uniFEE7
 Encoding: 65255 65255 239
 Width: 576
-VWidth: 2840
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 219 1355 basechar 0
@@ -5473,7 +5289,6 @@ EndChar
 StartChar: uniFEE8
 Encoding: 65256 65256 240
 Width: 688
-VWidth: 3741
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 295 1254 basechar 0
@@ -5487,7 +5302,6 @@ EndChar
 StartChar: uniFEE9
 Encoding: 65257 65257 241
 Width: 877
-VWidth: 2853
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 398 1363 basechar 0
@@ -5500,7 +5314,6 @@ EndChar
 StartChar: uniFEEA
 Encoding: 65258 65258 242
 Width: 1036
-VWidth: 3733
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 587 1209 basechar 0
@@ -5535,7 +5348,6 @@ EndChar
 StartChar: uniFEEB
 Encoding: 65259 65259 243
 Width: 1226
-VWidth: 3739
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 538 1341 basechar 0
@@ -5574,7 +5386,6 @@ EndChar
 StartChar: uniFEEC
 Encoding: 65260 65260 244
 Width: 928
-VWidth: 3768
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 340 -726 basechar 0
@@ -5612,7 +5423,6 @@ EndChar
 StartChar: uniFEED
 Encoding: 65261 65261 245
 Width: 806
-VWidth: 3773
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 488 1330 basechar 0
@@ -5625,7 +5435,6 @@ EndChar
 StartChar: uniFEEE
 Encoding: 65262 65262 246
 Width: 816
-VWidth: 3773
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 356 -678 basechar 0
@@ -5658,7 +5467,6 @@ EndChar
 StartChar: uniFEEF
 Encoding: 65263 65263 247
 Width: 1474
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 659 1024 basechar 0
@@ -5671,7 +5479,6 @@ EndChar
 StartChar: uniFEF0
 Encoding: 65264 65264 248
 Width: 1441
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 685 784 basechar 0
@@ -5702,7 +5509,6 @@ EndChar
 StartChar: uniFEF1
 Encoding: 65265 65265 249
 Width: 1474
-VWidth: 2885
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 663 1322 basechar 0
@@ -5715,7 +5521,6 @@ EndChar
 StartChar: uniFEF2
 Encoding: 65266 65266 250
 Width: 1441
-VWidth: 3742
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 663 829 basechar 0
@@ -5729,7 +5534,6 @@ EndChar
 StartChar: uniFEF3
 Encoding: 65267 65267 251
 Width: 626
-VWidth: 2898
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 308 -681 basechar 0
@@ -5742,7 +5546,6 @@ EndChar
 StartChar: uniFEF4
 Encoding: 65268 65268 252
 Width: 728
-VWidth: 2902
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 372 1058 basechar 0
@@ -5755,7 +5558,6 @@ EndChar
 StartChar: uniFEF5
 Encoding: 65269 65269 253
 Width: 1197
-VWidth: 2824
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-9" 269 1740 baselig 1
@@ -5772,7 +5574,6 @@ EndChar
 StartChar: uniFEF6
 Encoding: 65270 65270 254
 Width: 1281
-VWidth: 2822
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-9" 954 1622 baselig 0
@@ -5789,7 +5590,6 @@ EndChar
 StartChar: uniFEF7
 Encoding: 65271 65271 255
 Width: 1197
-VWidth: 2813
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-6" 334 -255 baselig 1
@@ -5806,7 +5606,6 @@ EndChar
 StartChar: uniFEF8
 Encoding: 65272 65272 256
 Width: 1281
-VWidth: 2814
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-9" 209 1924 baselig 1
@@ -5823,7 +5622,6 @@ EndChar
 StartChar: uniFEF9
 Encoding: 65273 65273 257
 Width: 1197
-VWidth: 2849
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-6" 924 -192 baselig 0
@@ -5840,7 +5638,6 @@ EndChar
 StartChar: uniFEFA
 Encoding: 65274 65274 258
 Width: 1281
-VWidth: 2849
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-9" 934 1538 baselig 0
@@ -5857,7 +5654,6 @@ EndChar
 StartChar: uniFEFB
 Encoding: 65275 65275 259
 Width: 1197
-VWidth: 3705
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-9" 201 1398 baselig 1
@@ -5889,7 +5685,6 @@ EndChar
 StartChar: uniFEFC
 Encoding: 65276 65276 260
 Width: 1281
-VWidth: 3705
 GlyphClass: 3
 Flags: HW
 AnchorPoint: "Anchor-9" 908 1536 baselig 0
@@ -5913,7 +5708,7 @@ SplineSet
  1247 0 l 2
  1091 0 992 88 951 265 c 1
  825 72 585 -25 233 -26 c 1
- 202 18 172 63 144 107 c 0
+ 144 107 l 2
  134 122 135 130 147 130 c 0
  357 144 508 167 602 197 c 1
  502 529 335 853 102 1169 c 1
@@ -5928,7 +5723,6 @@ EndChar
 StartChar: arabic_dot
 Encoding: 65536 -1 261
 Width: 233
-VWidth: 3243
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -5949,7 +5743,6 @@ EndChar
 StartChar: arabic_2dots
 Encoding: 65537 -1 262
 Width: 612
-VWidth: 3243
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -5979,7 +5772,6 @@ EndChar
 StartChar: arabic_3dots
 Encoding: 65538 -1 263
 Width: 590
-VWidth: 3243
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -6018,7 +5810,6 @@ EndChar
 StartChar: arabic_3dots_a
 Encoding: 65539 -1 264
 Width: 636
-VWidth: 3243
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -6057,7 +5848,6 @@ EndChar
 StartChar: uni066E.fina
 Encoding: 65540 -1 265
 Width: 1942
-VWidth: 3745
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 1040 1793 basechar 0
@@ -6088,7 +5878,6 @@ EndChar
 StartChar: uni06A1.fina
 Encoding: 65543 -1 266
 Width: 1893
-VWidth: 3740
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 746 1973 basechar 0
@@ -6126,7 +5915,6 @@ EndChar
 StartChar: uni06A1.init
 Encoding: 65544 -1 267
 Width: 832
-VWidth: 3773
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 487 2032 basechar 0
@@ -6157,7 +5945,6 @@ EndChar
 StartChar: uni06A1.medi
 Encoding: 65545 -1 268
 Width: 907
-VWidth: 3740
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 435 1479 basechar 0
@@ -6195,7 +5982,6 @@ EndChar
 StartChar: uni066F.fina
 Encoding: 65546 -1 269
 Width: 1409
-VWidth: 3773
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 460 754 basechar 0
@@ -6231,7 +6017,6 @@ EndChar
 StartChar: arabic_gaf_bar
 Encoding: 65550 -1 270
 Width: 788
-VWidth: 3131
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
@@ -6249,7 +6034,6 @@ EndChar
 StartChar: uni0651064B
 Encoding: 65552 -1 271
 Width: 0
-VWidth: 2447
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 592 617 mark 0
@@ -6268,7 +6052,6 @@ EndChar
 StartChar: uni0651064C
 Encoding: 65553 -1 272
 Width: 0
-VWidth: 2447
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 578 627 mark 0
@@ -6287,7 +6070,6 @@ EndChar
 StartChar: uni064B0651
 Encoding: 65554 -1 273
 Width: 0
-VWidth: 2447
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 550 707 mark 0
@@ -6306,7 +6088,6 @@ EndChar
 StartChar: uni0651064E
 Encoding: 65555 -1 274
 Width: 0
-VWidth: 2447
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 594 819 mark 0
@@ -6325,7 +6106,6 @@ EndChar
 StartChar: uni0651064F
 Encoding: 65556 -1 275
 Width: 0
-VWidth: 2447
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 590 665 mark 0
@@ -6344,7 +6124,6 @@ EndChar
 StartChar: uni064E0651
 Encoding: 65557 -1 276
 Width: 0
-VWidth: 2447
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 591 912 mark 0
@@ -6363,7 +6142,6 @@ EndChar
 StartChar: uni0654064E
 Encoding: 65558 -1 277
 Width: 0
-VWidth: 2447
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 684 1132 mark 0
@@ -6382,7 +6160,6 @@ EndChar
 StartChar: uni0654064F
 Encoding: 65559 -1 278
 Width: 0
-VWidth: 2447
 GlyphClass: 4
 Flags: HW
 AnchorPoint: "Anchor-10" 689 1009 mark 0
@@ -6401,7 +6178,6 @@ EndChar
 StartChar: guillemotleft
 Encoding: 171 171 279
 Width: 1236
-VWidth: 3378
 Flags: HW
 LayerCount: 2
 Fore
@@ -6434,7 +6210,6 @@ EndChar
 StartChar: guillemotright
 Encoding: 187 187 280
 Width: 1236
-VWidth: 3378
 Flags: HW
 LayerCount: 2
 Fore
@@ -6467,7 +6242,6 @@ EndChar
 StartChar: uni06CA
 Encoding: 1738 1738 281
 Width: 806
-VWidth: 2862
 Flags: HW
 AnchorPoint: "Anchor-10" 375 1290 basechar 0
 AnchorPoint: "Anchor-7" 369 -785 basechar 0
@@ -6481,7 +6255,6 @@ EndChar
 StartChar: uni06CA.fina
 Encoding: 65561 -1 282
 Width: 816
-VWidth: 2861
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 518 -842 basechar 0
@@ -6495,7 +6268,6 @@ EndChar
 StartChar: uni202F
 Encoding: 8239 8239 283
 Width: 148
-VWidth: -1
 Flags: HW
 LayerCount: 2
 EndChar
@@ -6503,7 +6275,6 @@ EndChar
 StartChar: uni200B
 Encoding: 8203 8203 284
 Width: 0
-VWidth: -1
 Flags: HW
 LayerCount: 2
 EndChar
@@ -6511,7 +6282,6 @@ EndChar
 StartChar: uni200C
 Encoding: 8204 8204 285
 Width: 0
-VWidth: -1
 Flags: HW
 LayerCount: 2
 EndChar
@@ -6519,7 +6289,6 @@ EndChar
 StartChar: uni200D
 Encoding: 8205 8205 286
 Width: 0
-VWidth: -1
 Flags: HW
 LayerCount: 2
 EndChar
@@ -6527,7 +6296,6 @@ EndChar
 StartChar: uni06C0
 Encoding: 1728 1728 287
 Width: 877
-VWidth: 2853
 Flags: HW
 AnchorPoint: "Anchor-7" 378 -293 basechar 0
 AnchorPoint: "Anchor-10" 308 1737 basechar 0
@@ -6542,7 +6310,6 @@ EndChar
 StartChar: uniFBA5.fina
 Encoding: 64421 64421 288
 Width: 1036
-VWidth: 2849
 Flags: HW
 AnchorPoint: "Anchor-7" 535 -216 basechar 0
 AnchorPoint: "Anchor-10" 415 1738 basechar 0
@@ -6556,7 +6323,6 @@ EndChar
 StartChar: exclam
 Encoding: 33 33 289
 Width: 676
-VWidth: -1
 Flags: HW
 LayerCount: 2
 Fore
@@ -6583,7 +6349,6 @@ EndChar
 StartChar: period
 Encoding: 46 46 290
 Width: 676
-VWidth: 3384
 Flags: HW
 LayerCount: 2
 Fore
@@ -6599,7 +6364,6 @@ EndChar
 StartChar: colon
 Encoding: 58 58 291
 Width: 676
-VWidth: 3384
 Flags: HW
 LayerCount: 2
 Fore
@@ -6620,7 +6384,6 @@ EndChar
 StartChar: uniFDFC
 Encoding: 65020 65020 292
 Width: 2565
-VWidth: 3744
 Flags: HW
 LayerCount: 2
 Fore
@@ -6677,7 +6440,6 @@ EndChar
 StartChar: uniFDF2
 Encoding: 65010 65010 293
 Width: 2682
-VWidth: 3702
 Flags: HW
 AnchorPoint: "Anchor-6" 2409 -234 baselig 0
 AnchorPoint: "Anchor-9" 2413 1719 baselig 0
@@ -6700,158 +6462,155 @@ EndChar
 
 StartChar: uniFD3E
 Encoding: 64830 64830 294
-Width: 1506
-VWidth: 10
+Width: 1466
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-689 650 m 0
- 689 607 726 570 771 570 c 0
- 817 570 853 607 853 655 c 0
- 853 698 813 734 770 734 c 0
- 722 734 689 693 689 650 c 0
-711 187 m 0
- 756 -15 856 -179 1010 -302 c 1
- 925 -144 870 21 843 189 c 0
- 840 209 845 224 859 238 c 2
- 900 280 l 2
- 911 291 925 297 941 297 c 2
- 1131 297 l 1
- 1131 1027 l 1
- 941 1027 l 2
- 925 1027 911 1033 900 1044 c 2
- 856 1089 l 2
- 842 1102 837 1119 840 1138 c 0
- 872 1339 933 1522 1023 1687 c 1
- 856 1557 748 1371 701 1128 c 0
- 699 1116 693 1106 685 1098 c 2
- 631 1044 l 2
- 620 1033 607 1027 591 1027 c 2
- 400 1027 l 1
- 400 837 l 2
- 400 821 395 808 384 797 c 2
- 249 662 l 1
- 384 527 l 2
- 395 516 400 503 400 487 c 2
- 400 297 l 1
- 591 297 l 2
- 607 297 620 291 631 280 c 2
- 696 215 l 2
- 704 207 709 197 711 187 c 0
-950 646 m 0
- 950 548 863 466 765 466 c 0
- 660 466 580 551 580 657 c 0
- 580 755 667 837 765 837 c 0
- 870 837 950 752 950 646 c 0
-1255 1802 m 1
- 1108 1668 1009 1449 957 1148 c 1
- 964 1141 l 1
- 1188 1141 l 2
- 1226 1141 1245 1118 1245 1084 c 2
- 1245 240 l 2
- 1244 202 1225 183 1188 183 c 2
- 964 183 l 1
- 960 179 l 1
- 1014 -109 1113 -307 1252 -422 c 0
- 1293 -456 1263 -489 1201 -522 c 1
- 886 -429 687 -206 604 145 c 1
- 567 183 l 1
- 342 183 l 2
- 316 183 286 206 286 240 c 2
- 286 463 l 1
- 128 622 l 2
- 117 633 111 648 111 663 c 0
- 111 677 116 690 128 702 c 2
- 286 861 l 1
- 286 1084 l 2
- 286 1119 320 1141 343 1141 c 2
- 567 1141 l 1
- 592 1166 l 1
- 670 1557 874 1801 1201 1898 c 1
- 1245 1915 1271 1862 1255 1802 c 1
+701 658 m 4
+ 701 615 738 578 783 578 c 4
+ 829 578 865 615 865 663 c 4
+ 865 706 825 742 782 742 c 4
+ 734 742 701 701 701 658 c 4
+723 187 m 0
+ 768 -15 868 -179 1022 -302 c 1
+ 937 -144 882 21 855 189 c 0
+ 852 209 857 224 871 238 c 2
+ 912 280 l 2
+ 923 291 937 297 953 297 c 2
+ 1143 297 l 1
+ 1143 1027 l 1
+ 953 1027 l 2
+ 937 1027 923 1033 912 1044 c 2
+ 868 1089 l 2
+ 854 1102 849 1119 852 1138 c 0
+ 884 1339 945 1522 1035 1687 c 1
+ 868 1557 760 1371 713 1128 c 0
+ 711 1116 705 1106 697 1098 c 2
+ 643 1044 l 2
+ 632 1033 619 1027 603 1027 c 2
+ 412 1027 l 1
+ 412 837 l 2
+ 412 821 407 808 396 797 c 2
+ 261 662 l 1
+ 396 527 l 2
+ 407 516 412 503 412 487 c 2
+ 412 297 l 1
+ 603 297 l 2
+ 619 297 632 291 643 280 c 2
+ 708 215 l 2
+ 716 207 721 197 723 187 c 0
+962 654 m 4
+ 962 556 875 474 777 474 c 4
+ 672 474 592 559 592 665 c 4
+ 592 763 679 845 777 845 c 4
+ 882 845 962 760 962 654 c 4
+1267 1802 m 1
+ 1120 1668 1021 1449 969 1148 c 1
+ 976 1141 l 1
+ 1200 1141 l 2
+ 1238 1141 1257 1118 1257 1084 c 2
+ 1257 240 l 2
+ 1256 202 1237 183 1200 183 c 2
+ 976 183 l 1
+ 972 179 l 1
+ 1026 -109 1125 -307 1264 -422 c 0
+ 1305 -456 1275 -489 1213 -522 c 1
+ 898 -429 699 -206 616 145 c 1
+ 579 183 l 1
+ 354 183 l 2
+ 328 183 298 206 298 240 c 2
+ 298 463 l 1
+ 140 622 l 2
+ 129 633 123 648 123 663 c 0
+ 123 677 128 690 140 702 c 2
+ 298 861 l 1
+ 298 1084 l 2
+ 298 1119 332 1141 355 1141 c 2
+ 579 1141 l 1
+ 604 1166 l 1
+ 682 1557 886 1801 1213 1898 c 1
+ 1257 1915 1283 1862 1267 1802 c 1
 EndSplineSet
 EndChar
 
 StartChar: uniFD3F
 Encoding: 64831 64831 295
-Width: 1506
-VWidth: 10
+Width: 1466
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-251 1802 m 1
- 235 1862 261 1915 305 1898 c 1
- 632 1801 836 1557 914 1166 c 1
- 939 1141 l 1
- 1163 1141 l 2
- 1186 1141 1220 1119 1220 1084 c 2
- 1220 861 l 1
- 1378 702 l 2
- 1390 690 1395 677 1395 663 c 0
- 1395 648 1389 633 1378 622 c 2
- 1220 463 l 1
- 1220 240 l 2
- 1220 206 1190 183 1164 183 c 2
- 939 183 l 1
- 902 145 l 1
- 819 -206 620 -429 305 -522 c 1
- 243 -489 213 -456 254 -422 c 0
- 393 -307 492 -109 546 179 c 1
- 542 183 l 1
- 318 183 l 2
- 281 183 262 202 261 240 c 2
- 261 1084 l 2
- 261 1118 280 1141 318 1141 c 2
- 542 1141 l 1
- 549 1148 l 1
- 497 1449 398 1668 251 1802 c 1
-556 646 m 0
- 556 752 636 837 741 837 c 0
- 839 837 926 755 926 657 c 0
- 926 551 846 466 741 466 c 0
- 643 466 556 548 556 646 c 0
-795 187 m 0
- 797 197 802 207 810 215 c 2
- 875 280 l 2
- 886 291 899 297 915 297 c 2
- 1106 297 l 1
- 1106 487 l 2
- 1106 503 1111 516 1122 527 c 2
- 1257 662 l 1
- 1122 797 l 2
- 1111 808 1106 821 1106 837 c 2
- 1106 1027 l 1
- 915 1027 l 2
- 899 1027 886 1033 875 1044 c 2
- 821 1098 l 2
- 813 1106 807 1116 805 1128 c 0
- 758 1371 650 1557 483 1687 c 1
- 573 1522 634 1339 666 1138 c 0
- 669 1119 664 1102 650 1089 c 2
- 606 1044 l 2
- 595 1033 581 1027 565 1027 c 2
- 375 1027 l 1
- 375 297 l 1
- 565 297 l 2
- 581 297 595 291 606 280 c 2
- 647 238 l 2
- 661 224 666 209 663 189 c 0
- 636 21 581 -144 496 -302 c 1
- 650 -179 750 -15 795 187 c 0
-817 650 m 0
- 817 693 784 734 736 734 c 0
- 693 734 653 698 653 655 c 0
- 653 607 689 570 735 570 c 0
- 780 570 817 607 817 650 c 0
+199 1802 m 1
+ 183 1862 209 1915 253 1898 c 1
+ 580 1801 784 1557 862 1166 c 1
+ 887 1141 l 1
+ 1111 1141 l 2
+ 1134 1141 1168 1119 1168 1084 c 2
+ 1168 861 l 1
+ 1326 702 l 2
+ 1338 690 1343 677 1343 663 c 0
+ 1343 648 1337 633 1326 622 c 2
+ 1168 463 l 1
+ 1168 240 l 2
+ 1168 206 1138 183 1112 183 c 2
+ 887 183 l 1
+ 850 145 l 1
+ 767 -206 568 -429 253 -522 c 1
+ 191 -489 161 -456 202 -422 c 0
+ 341 -307 440 -109 494 179 c 1
+ 490 183 l 1
+ 266 183 l 2
+ 229 183 210 202 209 240 c 2
+ 209 1084 l 2
+ 209 1118 228 1141 266 1141 c 2
+ 490 1141 l 1
+ 497 1148 l 1
+ 445 1449 346 1668 199 1802 c 1
+504 654 m 4
+ 504 760 584 845 689 845 c 4
+ 787 845 874 763 874 665 c 4
+ 874 559 794 474 689 474 c 4
+ 591 474 504 556 504 654 c 4
+743 187 m 0
+ 745 197 750 207 758 215 c 2
+ 823 280 l 2
+ 834 291 847 297 863 297 c 2
+ 1054 297 l 1
+ 1054 487 l 2
+ 1054 503 1059 516 1070 527 c 2
+ 1205 662 l 1
+ 1070 797 l 2
+ 1059 808 1054 821 1054 837 c 2
+ 1054 1027 l 1
+ 863 1027 l 2
+ 847 1027 834 1033 823 1044 c 2
+ 769 1098 l 2
+ 761 1106 755 1116 753 1128 c 0
+ 706 1371 598 1557 431 1687 c 1
+ 521 1522 582 1339 614 1138 c 0
+ 617 1119 612 1102 598 1089 c 2
+ 554 1044 l 2
+ 543 1033 529 1027 513 1027 c 2
+ 323 1027 l 1
+ 323 297 l 1
+ 513 297 l 2
+ 529 297 543 291 554 280 c 2
+ 595 238 l 2
+ 609 224 614 209 611 189 c 0
+ 584 21 529 -144 444 -302 c 1
+ 598 -179 698 -15 743 187 c 0
+773 658 m 4
+ 773 701 740 742 692 742 c 4
+ 649 742 609 706 609 663 c 4
+ 609 615 645 578 691 578 c 4
+ 736 578 773 615 773 658 c 4
 EndSplineSet
 EndChar
 
 StartChar: NameMe.303
 Encoding: 65562 -1 296
 Width: 556
-VWidth: 3705
 Flags: HW
 AnchorPoint: "Anchor-10" 255 1396 basechar 0
 AnchorPoint: "Anchor-7" 211 -260 basechar 0
@@ -6876,7 +6635,6 @@ EndChar
 StartChar: NameMe.304
 Encoding: 65563 -1 297
 Width: 651
-VWidth: 3705
 Flags: HW
 LayerCount: 2
 Fore
@@ -6906,7 +6664,6 @@ EndChar
 StartChar: NameMe.305
 Encoding: 65564 -1 298
 Width: 521
-VWidth: 2817
 Flags: HW
 LayerCount: 2
 Fore
@@ -6916,7 +6673,6 @@ EndChar
 StartChar: NameMe.306
 Encoding: 65566 -1 299
 Width: 541
-VWidth: 3705
 Flags: HW
 LayerCount: 2
 Fore
@@ -6939,7 +6695,6 @@ EndChar
 StartChar: uni06C1
 Encoding: 1729 1729 300
 Width: 972
-VWidth: 2424
 Flags: HW
 AnchorPoint: "Anchor-7" 421 -224 basechar 0
 AnchorPoint: "Anchor-10" 539 1110 basechar 0
@@ -6963,7 +6718,6 @@ EndChar
 StartChar: uni06BE
 Encoding: 1726 1726 301
 Width: 1226
-VWidth: 2854
 Flags: HW
 AnchorPoint: "Anchor-7" 506 -214 basechar 0
 AnchorPoint: "Anchor-10" 539 1529 basechar 0
@@ -6976,7 +6730,6 @@ EndChar
 StartChar: uniFBAA
 Encoding: 64426 64426 302
 Width: 1226
-VWidth: 2854
 Flags: HW
 AnchorPoint: "Anchor-10" 539 1529 basechar 0
 AnchorPoint: "Anchor-7" 506 -214 basechar 0
@@ -6988,7 +6741,6 @@ EndChar
 StartChar: uniFBAB
 Encoding: 64427 64427 303
 Width: 928
-VWidth: 2875
 Flags: HW
 AnchorPoint: "Anchor-10" 471 1388 basechar 0
 AnchorPoint: "Anchor-7" 485 -917 basechar 0
@@ -7000,7 +6752,6 @@ EndChar
 StartChar: NameMe.65567
 Encoding: 65567 -1 304
 Width: 678
-VWidth: 3745
 Flags: HW
 LayerCount: 2
 Fore
@@ -7026,7 +6777,6 @@ EndChar
 StartChar: NameMe.65541
 Encoding: 65541 -1 305
 Width: 576
-VWidth: 3744
 Flags: HW
 AnchorPoint: "Anchor-10" 323 1302 basechar 0
 AnchorPoint: "Anchor-7" 351 -260 basechar 0
@@ -7051,7 +6801,6 @@ EndChar
 StartChar: NameMe.65542
 Encoding: 65542 -1 306
 Width: 688
-VWidth: 3744
 Flags: HW
 AnchorPoint: "Anchor-10" 392 1159 basechar 0
 AnchorPoint: "Anchor-7" 351 -219 basechar 0

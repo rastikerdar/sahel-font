@@ -1,0 +1,10 @@
+# FontForge Script
+# http://fontforge.org/scripting.html
+
+Open($1); 
+SetFontNames("Sahel-VF", "Sahel VF", "Sahel VF"); 
+SetTTFName(0x409, 2, "Regular")
+SetTTFName(0x409, 3, "Sahel Variable Font")
+SetTTFName(0x409, 16, "Sahel VF")
+Generate($2)
+

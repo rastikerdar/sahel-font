@@ -6,7 +6,7 @@
   </axis>
  </axes>
  <sources>
-  <source familyname="Sahel" name="Sahel" stylename="Sahel" filename="Sahel.ufo">
+  <source familyname="Sahel VF" name="Sahel" stylename="Sahel" filename="Sahel.ufo">
    <lib copy="1"/>
    <groups copy="1"/>
    <info copy="1"/>
@@ -15,12 +15,12 @@
     <dimension xvalue="400" name="weight"/>
    </location>
   </source>
-  <source familyname="Sahel" name="Sahel-Bold" stylename="Sahel-Bold" filename="Sahel-Bold.ufo">
+  <source familyname="Sahel VF" name="Sahel-Bold" stylename="Sahel-Bold" filename="Sahel-Bold.ufo">
    <location>
-    <dimension xvalue="581" name="weight"/>
+    <dimension xvalue="700" name="weight"/>
    </location>
   </source>
-  <source familyname="Sahel" name="Sahel-Black" stylename="Sahel-Black" filename="Sahel-Black.ufo">
+  <source familyname="Sahel VF" name="Sahel-Black" stylename="Sahel-Black" filename="Sahel-Black.ufo">
    <location>
     <dimension xvalue="900" name="weight"/>
    </location>
