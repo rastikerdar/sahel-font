@@ -1,12 +1,15 @@
 # Sahel-Font
 A Persian (Farsi) Font with variable version
 
-![Sahel-VF](https://user-images.githubusercontent.com/25493297/62076134-204a8200-b25c-11e9-9cb4-2a03076b225a.gif)
+![Sahel-VF](./sample-variable.gif)
 
 فونت فارسی ساحل  
 [نمایش فونت](http://rastikerdar.github.io/sahel-font/)  
 [صفحه دریافت (دانلود) بسته فونت شامل فایل های ttf,woff,eot](https://github.com/rastikerdar/sahel-font/releases)  
 با تشکر از برنامه [FontForge](https://fontforge.github.io)  
+نسخه وریبل فونت با نام `Sahel-VF‍` در بسته فونت موجود می‌باشد.  
+نسخه‌های بدون حروف لاتین یا تمام ارقام فارسی درون بسته فشرده موجود می‌باشد.  
+فرآیند تولید بسته نهایی شامل انواع نسخه‌ها و فرمت‌ها توسط ابزار [fontbuilder](https://github.com/rastikerdar/fontbuilder) انجام می‌شود.
 
 ## Known problems for variable version
 - mark placement distortion.
@@ -18,8 +21,7 @@ A Persian (Farsi) Font with variable version
 - [ ] Testing font in all supported programs.
 - [ ] Adding other axes.
 
-##
-طریقه استفاده در صفحات وب:
+## طریقه استفاده در صفحات وب
 
 <p dir="rtl">
 کد زیر را در قسمت style یا فایل css وارد نمایید:
@@ -62,6 +64,26 @@ A Persian (Farsi) Font with variable version
        url('Sahel-Black.ttf') format('truetype');
   font-weight: 900;
 }
+```
+
+## طریقه استفاده از نسخه متغیر variable
+
+```css
+@font-face {
+  font-family: Sahel VF;
+  src: url('Sahel-VF.woff2') format('woff2');
+}
+
+.foo {
+  font-family: Sahel VF;
+  font-variation-settings: "wght" 600;
+}
+
+.bar {
+  font-family: Sahel VF;
+  font-variation-settings: "wght" 900;
+}
+
 ```
 
 ## Install
