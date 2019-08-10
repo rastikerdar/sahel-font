@@ -1,0 +1,117 @@
+:root {
+  --page-bg: #eee;
+}
+
+/* FF Meta Variable Demo Font */
+@font-face {
+  font-family: "Sahel-VF";
+  src: url("https://cdn.rawgit.com/rastikerdar/sahel-font/v2.0.0/dist/Sahel-VF.woff2")
+    format("truetype");
+}
+
+body {
+  display: grid;
+  background-color: var(--page-bg);
+  font-size: 125%;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+main{
+  direction: rtl;
+  margin: 1em 20em 1em 1em;
+  font-family: "Sahel-VF", open sans, sans-serif;
+}
+aside{
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 1;
+  display: block;
+  padding: 0;
+}
+#FontToggle{
+  background-color: transparent;
+}
+main, aside {
+  padding: 1em 2em;
+  line-height: 1.5;
+  color: #222;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 0.5em;
+  /*   font-variation-settings: "wght" 400, "ital" 1; */
+}
+
+form {
+  font-family: sans-serif;
+  font-size: 80%;
+  background-color: rgba(255, 255, 255, 0.7);
+/*   background-color: var(--page-bg); */
+/*   background-image: linear-gradient(to bottom, #f0f0f0, var(--page-bg)); */
+  border-radius: 0.2em;
+}
+
+input,
+button,
+textarea,
+select {
+  font-size: 14px;
+  color: #0078d7;
+  font-family: "FF Meta VF", sans-serif;
+}
+
+form > h2 {
+  display: flex;
+  align-items: flex-start
+}
+
+input[type="range"] {
+  width: calc(100% - 4.3em);
+  width: 80%;
+}
+
+form p {
+  margin-top: 2em;
+}
+
+form p:first-child {
+  margin-top: 0;
+}
+
+form p:last-child {
+  margin-bottom: 0;
+}
+
+form p > span {
+  display: flex;
+  justify-content: space-between;
+}
+
+form p > span > span {
+  font-size: 85%;
+}
+
+form button {
+  background-color: transparent;
+  padding: 0.25em 0.5em;
+  margin-left: 0.5em;
+  border: none;
+  border-radius: 0;
+}
+
+form button:focus,
+form button:hover {
+  color: #888;
+  outline: none;
+}
+
+@media screen and (min-width: 50em) {
+  body {
+    display: grid;
+    grid-template-areas:
+    "main aside"
+}
+    grid-gap: 0;
+  }
+}
