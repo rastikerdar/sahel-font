@@ -4,7 +4,7 @@ FullName: Sahel
 FamilyName: Sahel
 Weight: Regular
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(Latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 2.0.0
+Version: 2.0.1
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -23,7 +23,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1564877709
+ModificationTime: 1565704192
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -61,7 +61,7 @@ Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 5" { "'mkmk' Mark to Mark 
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 6" { "'mkmk' Mark to Mark in Arabic lookup 6 subtable"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "Sahel Regular " "" "Version 2.0.0" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Regular"
+LangName: 1033 "" "" "" "Sahel Regular " "" "Version 2.0.1" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Regular"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -127,7 +127,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 50 25 11
+WinInfo: 0 25 13
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 281600 140800 93866 553984 -1048576 93866 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -2367,28 +2367,28 @@ EndChar
 
 StartChar: uni06F6
 Encoding: 1782 1782 89
-Width: 1180
+Width: 1041
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-540 1189 m 4
- 357 1189 278 1050 278 991 c 4
- 278 939 365 825 637 825 c 4
- 656 825 681 836 713 858 c 4
- 813 925 879 961 906 961 c 4
- 925 961 931 952 926 932 c 6
- 883 750 l 5
- 683 661 457 408 206 -8 c 5
- 137 77 l 6
- 134 81 134 83 136 88 c 4
- 249 342 358 527 454 651 c 5
- 242 696 134 797 134 955 c 4
- 134 1077 238 1381 532 1381 c 4
- 629 1381 715 1347 793 1278 c 5
- 745 1154 l 5
- 655 1177 588 1189 540 1189 c 4
+540 1189 m 0
+ 357 1189 278 1050 278 991 c 0
+ 278 939 365 825 637 825 c 0
+ 656 825 681 836 713 858 c 0
+ 813 925 879 961 906 961 c 0
+ 925 961 931 952 926 932 c 2
+ 883 750 l 1
+ 683 661 457 408 206 -8 c 1
+ 137 77 l 2
+ 134 81 134 83 136 88 c 0
+ 249 342 358 527 454 651 c 1
+ 242 696 134 797 134 955 c 0
+ 134 1077 238 1381 532 1381 c 0
+ 629 1381 715 1347 793 1278 c 1
+ 745 1154 l 1
+ 655 1177 588 1189 540 1189 c 0
 EndSplineSet
 EndChar
 

@@ -4,7 +4,7 @@ FullName: Sahel Bold
 FamilyName: Sahel
 Weight: Bold
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(Latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 2.0.0
+Version: 2.0.1
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -23,7 +23,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1564883003
+ModificationTime: 1565704403
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -61,7 +61,7 @@ Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 5" { "'mkmk' Mark to Mark 
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 6" { "'mkmk' Mark to Mark in Arabic lookup 6 subtable"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "Sahel Bold " "" "Version 2.0.0" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Bold"
+LangName: 1033 "" "" "" "Sahel Bold " "" "Version 2.0.1" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Bold"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -2367,7 +2367,7 @@ EndChar
 
 StartChar: uni06F6
 Encoding: 1782 1782 89
-Width: 1093
+Width: 1078
 GlyphClass: 2
 Flags: HMW
 LayerCount: 2
@@ -5442,7 +5442,7 @@ StartChar: uniFEEE
 Encoding: 65262 65262 246
 Width: 835
 GlyphClass: 2
-Flags: HMWO
+Flags: HMW
 AnchorPoint: "Anchor-7" 332 -682 basechar 0
 AnchorPoint: "Anchor-10" 417 1132 basechar 0
 LayerCount: 2
