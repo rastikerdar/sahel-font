@@ -4,7 +4,7 @@ FullName: Sahel Black
 FamilyName: Sahel Black
 Weight: Black
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(Latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 2.0.1
+Version: 2.0.2
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -23,7 +23,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1565704395
+ModificationTime: 1567713627
 PfmFamily: 33
 TTFWeight: 900
 TTFWidth: 5
@@ -45,6 +45,7 @@ HheadDOffset: 0
 OS2CapHeight: 1638
 OS2XHeight: 1082
 OS2Vendor: '    '
+OS2CodePages: 00000041.00080000
 Lookup: 4 1 1 "'ccmp' Glyph Composition/Decomposition in Arabic lookup 0" { "'ccmp' Glyph Composition/Decomposition in Arabic lookup 0 subtable"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
 Lookup: 1 9 0 "'fina' Terminal Forms in Arabic lookup 1" { "'fina' Terminal Forms in Arabic lookup 1 subtable"  } ['fina' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
 Lookup: 1 9 0 "'medi' Medial Forms in Arabic lookup 2" { "'medi' Medial Forms in Arabic lookup 2 subtable"  } ['medi' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
@@ -61,7 +62,7 @@ Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 5" { "'mkmk' Mark to Mark 
 Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 6" { "'mkmk' Mark to Mark in Arabic lookup 6 subtable"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "Sahel Black " "" "Version 2.0.1" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Black"
+LangName: 1033 "" "" "" "Sahel Black " "" "Version 2.0.2" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Black"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
