@@ -14,7 +14,7 @@ A Persian (Farsi) Font with variable version
 ## Known problems for variable version
 - mark placement distortion.
 
-## To Do
+## To Do (variable)
 - [x] Adding all 3 Weights as masters to variable version.
 - [ ] Font testing page
 - [ ] Latin section is empty. It's better to use an opensource variable font with a wide range.
@@ -33,6 +33,7 @@ A Persian (Farsi) Font with variable version
   font-family: Sahel;
   src: url('Sahel.eot');
   src: url('Sahel.eot?#iefix') format('embedded-opentype'),
+       url('Sahel.woff2') format('woff2'),
        url('Sahel.woff') format('woff'),
        url('Sahel.ttf') format('truetype');
   font-weight: normal;
@@ -42,15 +43,27 @@ A Persian (Farsi) Font with variable version
   font-family: Sahel;
   src: url('Sahel-Bold.eot');
   src: url('Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Sahel-Bold.woff2') format('woff2'),
        url('Sahel-Bold.woff') format('woff'),
        url('Sahel-Bold.ttf') format('truetype');
   font-weight: bold;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('Sahel-Light.eot');
+  src: url('Sahel-Light.eot?#iefix') format('embedded-opentype'),
+       url('Sahel-Light.woff2') format('woff2'),  
+       url('Sahel-Light.woff') format('woff'),
+       url('Sahel-Light.ttf') format('truetype');
+  font-weight: 300;
 }
       
 @font-face {
   font-family: Sahel;
   src: url('Sahel-SemiBold.eot');
   src: url('Sahel-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('Sahel-SemiBold.woff2') format('woff2'),  
        url('Sahel-SemiBold.woff') format('woff'),
        url('Sahel-SemiBold.ttf') format('truetype');
   font-weight: 600;
@@ -60,6 +73,7 @@ A Persian (Farsi) Font with variable version
   font-family: Sahel;
   src: url('Sahel-Black.eot');
   src: url('Sahel-Black.eot?#iefix') format('embedded-opentype'),
+       url('Sahel-Black.woff2') format('woff2'),  
        url('Sahel-Black.woff') format('woff'),
        url('Sahel-Black.ttf') format('truetype');
   font-weight: 900;
@@ -96,7 +110,7 @@ Or [RawGit](https://rawgit.com) CDN:
 <link href="https://cdn.rawgit.com/rastikerdar/sahel-font/v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
 ```
 
-Replace [X.Y.Z] with the latest version (e.g. 2.0.2) and integrate the font into your CSS:
+Replace [X.Y.Z] with the latest version (e.g. 3.0.0) and integrate the font into your CSS:
 
 ```
 font-family: 'Sahel', sans-serif;
