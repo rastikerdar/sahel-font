@@ -4,7 +4,7 @@ FullName: Sahel SemiBold
 FamilyName: Sahel SemiBold
 Weight: SemiBold
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(Latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 3.0.0
+Version: 3.0.1
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -23,7 +23,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1572432572
+ModificationTime: 1572474202
 PfmFamily: 33
 TTFWeight: 600
 TTFWidth: 5
@@ -88,7 +88,7 @@ ChainSub2: coverage "'calt' Contextual Alternates lookup 1 subtable 1" 0 0 0 1
  1
   SeqLookup: 0 "Single Substitution 1"
 EndFPST
-LangName: 1033 "" "" "" "Sahel SemiBold" "" "Version 3.0.0" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "SemiBold"
+LangName: 1033 "" "" "" "Sahel SemiBold" "" "Version 3.0.1" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "SemiBold"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -154,7 +154,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 24 11
+WinInfo: 72 24 11
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3058,7 +3058,7 @@ EndChar
 StartChar: uniFB9F
 Encoding: 64415 64415 115
 GlifName: uniF_B_9F_
-Width: 1453
+Width: 1463
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 575 1014 basechar 0
@@ -3066,7 +3066,7 @@ AnchorPoint: "Anchor-7" 451 -1000 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1302 47 m 5
+1302 47 m 1
  1289 -326 1065 -534 679 -535 c 0
  327 -534 100 -353 100 -23 c 0
  100 123 134 271 200 418 c 1
@@ -3079,12 +3079,12 @@ SplineSet
  1151 569 1164 565 1178 538 c 0
  1218 462 1274 364 1304 333 c 0
  1329 307 1369 294 1425 294 c 2
- 1458 294 l 2
- 1475 294 1483 262 1483 197 c 2
- 1483 124 l 2
- 1483 41 1475 0 1458 0 c 2
+ 1468 294 l 2
+ 1485 294 1493 262 1493 197 c 2
+ 1493 124 l 2
+ 1493 41 1485 0 1468 0 c 2
  1425 0 l 2
- 1379 0 1338 16 1302 47 c 5
+ 1379 0 1338 16 1302 47 c 1
 EndSplineSet
 EndChar
 
@@ -3749,7 +3749,7 @@ AnchorPoint: "Anchor-10" 326 986 basechar 0
 AnchorPoint: "Anchor-7" 203 -644 basechar 0
 LayerCount: 2
 Fore
-Refer: 264 -1 N 1 0 0 1 68 -446 2
+Refer: 264 -1 S 1 0 0 1 68 -446 2
 Refer: 301 -1 N 1 0 0 1 0 0 2
 EndChar
 
@@ -5606,9 +5606,9 @@ EndChar
 StartChar: uniFEE6
 Encoding: 65254 65254 241
 GlifName: uniF_E_E_6
-Width: 1453
+Width: 1463
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-7" 672 -732 basechar 0
 AnchorPoint: "Anchor-10" 667 994 basechar 0
 LayerCount: 2
@@ -5642,7 +5642,7 @@ AnchorPoint: "Anchor-7" 265 -228 basechar 0
 LayerCount: 2
 Fore
 Refer: 301 -1 N 1 0 0 1 0 0 2
-Refer: 264 -1 N 1 0 0 1 220 881 2
+Refer: 264 -1 S 1 0 0 1 220 881 2
 EndChar
 
 StartChar: uniFEE9
@@ -6911,24 +6911,24 @@ AnchorPoint: "Anchor-7" 361 -209 basechar 0
 LayerCount: 2
 Fore
 SplineSet
--5 0 m 2
- -42 0 -60 48 -60 144 c 2
- -60 177 l 2
- -60 255 -42 294 -5 294 c 2
- 94 294 l 2
- 235 294 310 343 318 442 c 2
- 333 614 l 1
- 476 614 l 1
- 492 445 l 2
- 502 344 549 294 673 294 c 2
- 693 294 l 2
- 710 294 718 262 718 197 c 2
- 718 124 l 2
- 718 41 710 0 693 0 c 2
- 672 0 l 2
- 539 0 470 53 403 159 c 1
- 334 53 226 0 99 0 c 2
- -5 0 l 2
+-5 0 m 6
+ -42 0 -60 48 -60 144 c 6
+ -60 177 l 6
+ -60 255 -42 294 -5 294 c 6
+ 94 294 l 6
+ 235 294 310 343 318 442 c 6
+ 333 614 l 5
+ 476 614 l 5
+ 492 445 l 6
+ 502 344 549 294 673 294 c 6
+ 693 294 l 6
+ 710 294 718 262 718 197 c 6
+ 718 124 l 6
+ 718 41 710 0 693 0 c 6
+ 672 0 l 6
+ 539 0 470 53 403 159 c 5
+ 334 53 226 0 99 0 c 6
+ -5 0 l 6
 EndSplineSet
 EndChar
 
