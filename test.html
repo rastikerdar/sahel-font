@@ -4,7 +4,7 @@
   <title>Sahel font test</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-  <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rastikerdar/sahel-font/v2.0.2/dist/font-face.css">
+  <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/rastikerdar/sahel-font/v3.0.0/dist/font-face.css">
   <style>
     * {
       margin: 0;
@@ -78,6 +78,10 @@
       display: inline-block;
       margin: 0 10px;
     }
+
+    .style0-font * {
+      font-weight: 300 !important;
+    }
     
     .style1-font * {
       font-weight: 400 !important;
@@ -107,6 +111,7 @@
 <body contenteditable="false" class="sahel-font">
   <section class="font-buttons">
     <ul class="font-selection">
+      <li><a href="#" id="style0" style="font-weight: 300 !important;" onclick="changeFont('style0', this); return false;">سبک</a></li>
       <li><a href="#" id="style1" style="font-weight: 400 !important;" onclick="changeFont('style1', this); return false;">معمولی</a></li>
       <li><a href="#" id="style2" style="font-weight: 600 !important;" onclick="changeFont('style2', this); return false;">نیمه‌ضخیم</a></li>
       <li><a href="#" id="style3" style="font-weight: 700 !important;" onclick="changeFont('style3', this); return false;">ضخیم</a></li>
