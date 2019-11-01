@@ -4,7 +4,7 @@ FullName: Sahel Light
 FamilyName: Sahel Light
 Weight: Light
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(Latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 3.0.1
+Version: 3.1.0
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -23,7 +23,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1572474765
+ModificationTime: 1572615046
 PfmFamily: 33
 TTFWeight: 300
 TTFWidth: 5
@@ -88,7 +88,7 @@ ChainSub2: coverage "'calt' Contextual Alternates lookup 1 subtable 1" 0 0 0 1
  1
   SeqLookup: 0 "Single Substitution 1"
 EndFPST
-LangName: 1033 "" "" "" "Sahel Light" "" "Version 3.0.1" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Light"
+LangName: 1033 "" "" "" "Sahel Light" "" "Version 3.1.0" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Light"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -154,7 +154,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 24 12
+WinInfo: 48 24 12
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3382,7 +3382,7 @@ EndChar
 StartChar: uniFBFD
 Encoding: 64509 64509 121
 GlifName: uniF_B_F_D_
-Width: 1480
+Width: 1470
 VWidth: 2950
 GlyphClass: 2
 Flags: HW
@@ -3810,7 +3810,7 @@ EndChar
 StartChar: uniFE8A
 Encoding: 65162 65162 149
 GlifName: uniF_E_8A_
-Width: 1480
+Width: 1470
 VWidth: 2703
 GlyphClass: 2
 Flags: HW
@@ -6226,7 +6226,7 @@ EndChar
 StartChar: uniFEF0
 Encoding: 65264 65264 251
 GlifName: uniF_E_F_0
-Width: 1480
+Width: 1470
 VWidth: 2950
 GlyphClass: 2
 Flags: HW
@@ -6234,8 +6234,8 @@ AnchorPoint: "Anchor-7" 698.902 -698.086 basechar 0
 AnchorPoint: "Anchor-10" 681.6 653.22 basechar 0
 LayerCount: 2
 Fore
+Refer: 35 1600 N 0.530966 0 0 1 1354.86 0 2
 Refer: 321 -1 N 1 0 0 1 0 0 2
-Refer: 35 1600 N 0.570996 0 0 1 1353.85 0 2
 Substitution2: "Single Substitution 1 subtable" uniFBFD.compact
 EndChar
 
@@ -6255,7 +6255,7 @@ EndChar
 StartChar: uniFEF2
 Encoding: 65266 65266 253
 GlifName: uniF_E_F_2
-Width: 1480
+Width: 1470
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 663 829 basechar 0
@@ -7502,7 +7502,7 @@ EndChar
 
 StartChar: uni06CE.fina
 Encoding: 65567 -1 312
-Width: 1480
+Width: 1470
 Flags: HW
 LayerCount: 2
 Fore
@@ -7608,7 +7608,7 @@ EndChar
 StartChar: uniFBFD.compact
 Encoding: 65575 -1 321
 Width: 1351
-Flags: HW
+Flags: HWO
 AnchorPoint: "Anchor-7" 698.902 -713.086 basechar 0
 AnchorPoint: "Anchor-10" 681.6 638.22 basechar 0
 LayerCount: 2
@@ -7624,8 +7624,8 @@ SplineSet
  1359.80175781 146.349609375 1366 125.888671875 1366 87 c 2
  1366 62 l 2
  1366 23.400390625 1359.5625 3.4052734375 1356.453125 0.005859375 c 2
- 1251.14160156 0.9990234375 l 1
- 1203.17871094 1.4521484375 l 1
+ 1251.14160156 -0.0009765625 l 1
+ 1203.17871094 0.4521484375 l 1
  1242.33789062 -26.24609375 l 2
  1278.51464844 -51.8349609375 1297 -90.763671875 1297 -159 c 0
  1297 -281.165039062 1119.00976562 -539 667 -539 c 0

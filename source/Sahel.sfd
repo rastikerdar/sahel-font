@@ -4,7 +4,7 @@ FullName: Sahel
 FamilyName: Sahel
 Weight: Regular
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(Latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 3.0.1
+Version: 3.1.0
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -23,7 +23,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1572474739
+ModificationTime: 1572618269
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -88,7 +88,7 @@ ChainSub2: coverage "'calt' Contextual Alternates lookup 1 subtable 1" 0 0 0 1
  1
   SeqLookup: 0 "Single Substitution 1"
 EndFPST
-LangName: 1033 "" "" "" "Sahel Regular" "" "Version 3.0.1" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Regular"
+LangName: 1033 "" "" "" "Sahel Regular" "" "Version 3.1.0" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Regular"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -154,7 +154,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 24 12
+WinInfo: 48 24 12
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3177,7 +3177,7 @@ EndChar
 StartChar: uniFBFD
 Encoding: 64509 64509 121
 GlifName: uniF_B_F_D_
-Width: 1480
+Width: 1470
 VWidth: 2950
 GlyphClass: 2
 Flags: HW
@@ -3605,7 +3605,7 @@ EndChar
 StartChar: uniFE8A
 Encoding: 65162 65162 149
 GlifName: uniF_E_8A_
-Width: 1480
+Width: 1470
 VWidth: 2703
 GlyphClass: 2
 Flags: HW
@@ -5819,7 +5819,7 @@ EndChar
 StartChar: uniFEF0
 Encoding: 65264 65264 251
 GlifName: uniF_E_F_0
-Width: 1480
+Width: 1470
 VWidth: 2950
 GlyphClass: 2
 Flags: HW
@@ -5827,8 +5827,8 @@ AnchorPoint: "Anchor-7" 698.902 -698.086 basechar 0
 AnchorPoint: "Anchor-10" 681.6 653.22 basechar 0
 LayerCount: 2
 Fore
+Refer: 35 1600 S 0.530966 0 0 1 1354.86 0 2
 Refer: 321 -1 N 1 0 0 1 0 0 2
-Refer: 35 1600 N 0.570996 0 0 1 1353.85 0 2
 Substitution2: "Single Substitution 1 subtable" uniFBFD.compact
 EndChar
 
@@ -5848,7 +5848,7 @@ EndChar
 StartChar: uniFEF2
 Encoding: 65266 65266 253
 GlifName: uniF_E_F_2
-Width: 1480
+Width: 1470
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-10" 663 829 basechar 0
@@ -6091,16 +6091,16 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-451.98046875 258.604492188 m 1
- 584.584960938 126 l 1
- 451.98046875 -6.6044921875 l 1
- 319.375976562 126 l 1
- 451.98046875 258.604492188 l 1
-160.01953125 258.604492188 m 1
- 292.624023438 126 l 1
- 160.01953125 -6.6044921875 l 1
- 27.4150390625 126 l 1
- 160.01953125 258.604492188 l 1
+451.98046875 258.604492188 m 5
+ 584.584960938 126 l 5
+ 451.98046875 -6.6044921875 l 5
+ 319.375976562 126 l 5
+ 451.98046875 258.604492188 l 5
+160.01953125 258.604492188 m 5
+ 292.624023438 126 l 5
+ 160.01953125 -6.6044921875 l 5
+ 27.4150390625 126 l 5
+ 160.01953125 258.604492188 l 5
 EndSplineSet
 EndChar
 
@@ -6113,21 +6113,21 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-295 448.764648438 m 5
- 419.03515625 324.73046875 l 5
- 295 200.6953125 l 5
- 170.96484375 324.73046875 l 5
- 295 448.764648438 l 5
+295 448.764648438 m 1
+ 419.03515625 324.73046875 l 1
+ 295 200.6953125 l 1
+ 170.96484375 324.73046875 l 1
+ 295 448.764648438 l 1
 445.080078125 226.3046875 m 5
  569.115234375 102.26953125 l 5
  445.080078125 -21.7646484375 l 5
  321.044921875 102.26953125 l 5
  445.080078125 226.3046875 l 5
-144.919921875 226.3046875 m 5
- 268.955078125 102.26953125 l 5
- 144.919921875 -21.7646484375 l 5
- 20.884765625 102.26953125 l 5
- 144.919921875 226.3046875 l 5
+144.919921875 226.3046875 m 1
+ 268.955078125 102.26953125 l 1
+ 144.919921875 -21.7646484375 l 1
+ 20.884765625 102.26953125 l 1
+ 144.919921875 226.3046875 l 1
 EndSplineSet
 EndChar
 
@@ -6145,16 +6145,16 @@ SplineSet
  318 40.3046875 l 1
  442.03515625 -83.73046875 l 1
  318 -207.764648438 l 1
-468.080078125 14.6953125 m 1
- 344.044921875 138.73046875 l 1
- 468.080078125 262.764648438 l 1
- 592.115234375 138.73046875 l 1
- 468.080078125 14.6953125 l 1
-167.919921875 14.6953125 m 5
- 43.884765625 138.73046875 l 5
- 167.919921875 262.764648438 l 5
- 291.955078125 138.73046875 l 5
- 167.919921875 14.6953125 l 5
+468.080078125 14.6953125 m 5
+ 344.044921875 138.73046875 l 5
+ 468.080078125 262.764648438 l 5
+ 592.115234375 138.73046875 l 5
+ 468.080078125 14.6953125 l 5
+167.919921875 14.6953125 m 1
+ 43.884765625 138.73046875 l 1
+ 167.919921875 262.764648438 l 1
+ 291.955078125 138.73046875 l 1
+ 167.919921875 14.6953125 l 1
 EndSplineSet
 EndChar
 
@@ -6194,13 +6194,18 @@ Encoding: 65543 -1 269
 GlifName: uni06A_1.fina
 Width: 1893
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 AnchorPoint: "Anchor-10" 746 1973 basechar 0
 AnchorPoint: "Anchor-7" 933 -461 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1296 199 m 5
+1465 618 m 0
+ 1405 618 1312 536 1312 438 c 0
+ 1312 358 1428 251 1477 251 c 0
+ 1530 251 1623 380 1623 447 c 0
+ 1623 529 1527 618 1465 618 c 0
+1296 199 m 1
  1209 266 1165 364 1165 469 c 0
  1165 636 1308 813 1470 813 c 0
  1627 813 1771 643 1771 473 c 0
@@ -6212,18 +6217,13 @@ SplineSet
  1923 26 1915 0 1899 0 c 2
  1870 0 l 2
  1727 0 1592 19 1466 98 c 1
- 1329 19 1112 2 817 2 c 0
+ 1328 19 1112 2 817 2 c 0
  417 2 105 89 105 445 c 0
  105 558 129 652 176 747 c 1
  277 712 l 1
  255 633 245 573 245 514 c 0
  245 241 521 181 819 181 c 0
- 1020 181 1179 182 1296 199 c 5
-1465 618 m 0
- 1405 618 1312 536 1312 438 c 0
- 1312 358 1428 251 1477 251 c 0
- 1530 251 1623 380 1623 447 c 0
- 1623 529 1527 618 1465 618 c 0
+ 1020 181 1178 182 1296 199 c 1
 EndSplineSet
 EndChar
 
@@ -7041,7 +7041,7 @@ EndChar
 
 StartChar: uni06CE.fina
 Encoding: 65567 -1 312
-Width: 1480
+Width: 1470
 Flags: HW
 LayerCount: 2
 Fore
@@ -7162,8 +7162,8 @@ SplineSet
  1373 180 1381 154 1381 102 c 2
  1381 77 l 2
  1381 26 1373 0 1357 0 c 2
- 1251 1 l 1
- 1292 -28 1312 -73 1312 -144 c 0
+ 1251 0 l 5
+ 1292 -29 1312 -73 1312 -144 c 0
  1312 -278 1124 -539 667 -539 c 0
  331 -539 107 -365 107 -35 c 0
  107 101 140 241 205 385 c 1
