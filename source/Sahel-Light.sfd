@@ -4,7 +4,7 @@ FullName: Sahel Light
 FamilyName: Sahel Light
 Weight: Light
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(Latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 3.1.1
+Version: 3.2.0
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -23,7 +23,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1572971299
+ModificationTime: 1573276743
 PfmFamily: 33
 TTFWeight: 300
 TTFWidth: 5
@@ -68,13 +68,13 @@ Lookup: 4 1 1 "'rlig' Required Ligatures in Arabic lookup 14" { "'rlig' Required
 Lookup: 6 9 0 "'calt' Contextual Alternates lookup 1" { "'calt' Contextual Alternates lookup 1 subtable 1"  } ['calt' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'URD ' 'dflt' > ) ]
 Lookup: 4 9 1 "'liga' Standard Ligatures in Arabic lookup 17" { "'liga' Standard Ligatures in Arabic lookup 17 subtable"  } ['liga' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'URD ' 'dflt' > ) ]
 Lookup: 4 1 1 "'liga' Standard Ligatures in Arabic lookup 19" { "'liga' Standard Ligatures in Arabic lookup 19 subtable"  } ['liga' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'URD ' 'dflt' > ) ]
-Lookup: 258 9 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0 subtable 0" [307,30,6] "'kern' Horizontal Kerning lookup 0 subtable 1" [307,30,2] "'kern' Horizontal Kerning lookup 0 subtable 2" [307,30,2] "'kern' Horizontal Kerning lookup 0 subtable 3" [307,30,2] "'kern' Horizontal Kerning lookup 0 subtable 4" [307,30,2] "'kern' Horizontal Kerning lookup 0 subtable 5" [307,30,2] "'kern' Horizontal Kerning lookup 0 subtable 6" [307,30,2] } ['kern' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
-Lookup: 261 1 0 "'mark' Mark Positioning lookup 8" { "'mark' Mark Positioning lookup 8 subtable"  } ['mark' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
-Lookup: 260 1 0 "'mark' Mark Positioning lookup 9" { "'mark' Mark Positioning lookup 9 subtable"  } ['mark' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
-Lookup: 261 1 0 "'mark' Mark Positioning lookup 5" { "'mark' Mark Positioning lookup 5 subtable"  } ['mark' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
-Lookup: 260 1 0 "'mark' Mark Positioning lookup 6" { "'mark' Mark Positioning lookup 6 subtable"  } ['mark' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > 'hebr' <'dflt' > 'nko ' <'dflt' > ) ]
-Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0" { "'mkmk' Mark to Mark in Arabic lookup 0 subtable"  } ['mkmk' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
-Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1" { "'mkmk' Mark to Mark in Arabic lookup 1 subtable"  } ['mkmk' ('arab' <'KUR ' 'SND ' 'URD ' 'dflt' > ) ]
+Lookup: 258 9 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0 subtable 0" [307,30,6] "'kern' Horizontal Kerning lookup 0 subtable 1" [307,30,2] "'kern' Horizontal Kerning lookup 0 subtable 2" [307,30,2] "'kern' Horizontal Kerning lookup 0 subtable 3" [307,30,2] "'kern' Horizontal Kerning lookup 0 subtable 4" [307,30,2] "'kern' Horizontal Kerning lookup 0 subtable 5" [307,30,2] "'kern' Horizontal Kerning lookup 0 subtable 6" [307,30,2] } ['kern' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'URD ' 'dflt' > ) ]
+Lookup: 261 1 0 "'mark' Mark Positioning lookup 8" { "'mark' Mark Positioning lookup 8 subtable"  } ['mark' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'URD ' 'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning lookup 9" { "'mark' Mark Positioning lookup 9 subtable"  } ['mark' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'URD ' 'dflt' > ) ]
+Lookup: 261 1 0 "'mark' Mark Positioning lookup 5" { "'mark' Mark Positioning lookup 5 subtable"  } ['mark' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'URD ' 'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning lookup 6" { "'mark' Mark Positioning lookup 6 subtable"  } ['mark' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'URD ' 'dflt' > ) ]
+Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0" { "'mkmk' Mark to Mark in Arabic lookup 0 subtable"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'URD ' 'dflt' > ) ]
+Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1" { "'mkmk' Mark to Mark in Arabic lookup 1 subtable"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'FAR ' 'KUR ' 'URD ' 'dflt' > ) ]
 MarkAttachClasses: 5
 "MarkClass-1" 307 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni0315 uni033D uni033E uni033F uni0340 uni0341 uni0342 uni0343 uni0344 uni0346 uni034A uni034B uni034C uni0351 uni0352 uni0357
 "MarkClass-2" 300 uni0316 uni0317 uni0318 uni0319 uni031C uni031D uni031E uni031F uni0320 uni0321 uni0322 dotbelowcomb uni0324 uni0325 uni0326 uni0329 uni032A uni032B uni032C uni032D uni032E uni032F uni0330 uni0331 uni0332 uni0333 uni0339 uni033A uni033B uni033C uni0345 uni0347 uni0348 uni0349 uni034D uni034E uni0353
@@ -88,7 +88,7 @@ ChainSub2: coverage "'calt' Contextual Alternates lookup 1 subtable 1" 0 0 0 1
  1
   SeqLookup: 0 "Single Substitution 1"
 EndFPST
-LangName: 1033 "" "" "" "Sahel Light" "" "Version 3.1.1" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Light"
+LangName: 1033 "" "" "" "Sahel Light" "" "Version 3.2.0" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Light"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -3289,7 +3289,7 @@ EndChar
 StartChar: uniFBAD
 Encoding: 64429 64429 117
 GlifName: uniF_B_A_D_
-Width: 948
+Width: 918
 VWidth: 2703
 GlyphClass: 2
 Flags: HW
@@ -6024,19 +6024,19 @@ SplineSet
  212 315.879882812 343.60546875 298 504 298 c 0
 1021.44726562 0 m 2
  990 0 l 2
- 848.629882812 0 752.573242188 73.4267578125 698.138671875 227.010742188 c 2
- 692.04296875 244.208984375 l 1
- 676.348632812 234.90234375 l 1
- 508.002929688 135.068359375 l 1
- 254.668945312 139.571289062 132.784179688 184.708984375 116.551757812 249.637695312 c 0
+ 848.485351562 0 748.485351562 73.6748046875 694.138671875 227.010742188 c 2
+ 687.977539062 244.391601562 l 1
+ 672.21484375 234.822265625 l 1
+ 507.918945312 135.0703125 l 1
+ 254.740234375 139.5703125 132.783203125 184.71484375 116.551757812 249.637695312 c 0
  111.143554688 271.2734375 107 314.779296875 107 371 c 0
- 107 564.203125 257.723632812 670.762695312 559.841796875 773.802734375 c 2
- 572.215820312 778.0234375 l 1
- 569.725585938 790.857421875 l 1
- 558.092773438 850.811523438 l 1
- 634.537109375 941.4140625 l 2
- 640.590820312 948.8125 645.375 952.75 647.598632812 954.036132812 c 0
- 650.85546875 949.8359375 655.958984375 936.717773438 660.298828125 915.020507812 c 2
+ 107 564.419921875 250.805664062 667.790039062 552.841796875 770.802734375 c 2
+ 565.577148438 775.146484375 l 1
+ 562.637695312 788.27734375 l 1
+ 549.33984375 847.674804688 l 1
+ 634.155273438 940.971679688 l 2
+ 640.70703125 948.342773438 646.03515625 952.430664062 648.1015625 953.5234375 c 0
+ 651.416015625 948.938476562 656.061523438 936.208984375 660.298828125 915.020507812 c 2
  767.291015625 387.05859375 l 2
  797.920898438 233.912109375 872.639648438 150 991 150 c 2
  1021.43261719 150 l 2
@@ -6102,50 +6102,50 @@ EndChar
 StartChar: uniFEEC
 Encoding: 65260 65260 247
 GlifName: uniF_E_E_C_
-Width: 948
+Width: 918
 GlyphClass: 2
 Flags: HW
-AnchorPoint: "Anchor-7" 508 -753 basechar 0
-AnchorPoint: "Anchor-10" 472 1088 basechar 0
+AnchorPoint: "Anchor-7" 508 -743 basechar 0
+AnchorPoint: "Anchor-10" 472 1078 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-311.5 153.008789062 m 2
- 521.161132812 159.997070312 641 217.866210938 641 340 c 0
- 641 413.435546875 583.688476562 510.426757812 474.2265625 633.948242188 c 2
- 461.060546875 648.805664062 l 1
- 450.364257812 632.083007812 l 2
- 377.77734375 518.6015625 326.383789062 364.627929688 296.177734375 170.303710938 c 2
- 293.395507812 152.405273438 l 1
- 311.5 153.008789062 l 2
-732 391 m 0
- 732 141.654296875 558.381835938 23.498046875 321.452148438 -1.080078125 c 2
- 301.84375 -3.1142578125 l 1
- 309.033203125 -21.470703125 l 2
- 357.072265625 -144.123046875 437.97265625 -249.461914062 551.931640625 -335.948242188 c 2
- 572.784179688 -351.774414062 l 1
- 575.893554688 -325.782226562 l 2
- 614.651367188 -1.806640625 735.169921875 150 931 150 c 2
- 953.432617188 150 l 2
- 956.801757812 146.349609375 963 125.888671875 963 87 c 2
- 963 62 l 2
- 963 23.3994140625 956.56640625 3.41015625 953.447265625 0 c 2
- 924 0 l 2
- 775.526367188 0 701 -95.4111328125 701 -272 c 0
- 701 -333.549804688 708.349609375 -389.899414062 722.03125 -440.159179688 c 1
- 604.899414062 -546.72265625 l 1
- 366.596679688 -373.952148438 235.521484375 -195.416992188 206.818359375 -12.6728515625 c 2
- 204.828125 -0 l 1
- 192 0 l 1
+321.5 153.008789062 m 2
+ 532.6796875 160.047851562 621 220.057617188 621 340 c 0
+ 621 413.920898438 550.944335938 528.28515625 463.543945312 614.66796875 c 2
+ 450.35546875 627.704101562 l 1
+ 440.364257812 612.083007812 l 2
+ 367.169921875 497.65234375 320.256835938 312.325195312 306.073242188 169.482421875 c 2
+ 304.380859375 152.4375 l 1
+ 321.5 153.008789062 l 2
+712 381 m 0
+ 712 150.4765625 567.150390625 23.3701171875 331.452148438 -1.080078125 c 2
+ 313.512695312 -2.94140625 l 1
+ 318.612304688 -20.240234375 l 2
+ 347.841796875 -119.4140625 443.10546875 -255.248046875 550.127929688 -322.298828125 c 2
+ 572.736328125 -336.463867188 l 1
+ 573.090820312 -309.787109375 l 2
+ 577.395507812 14.40625 704.44921875 150 901 150 c 2
+ 923.432617188 150 l 2
+ 926.801757812 146.349609375 933 125.888671875 933 87 c 2
+ 933 62 l 2
+ 933 23.3994140625 926.56640625 3.41015625 923.447265625 0 c 2
+ 894 0 l 2
+ 744.760742188 0 673.890625 -74.0908203125 673.890625 -179.76953125 c 0
+ 673.890625 -244.844726562 696.140625 -325.282226562 727.463867188 -413.240234375 c 1
+ 618.201171875 -528.826171875 l 1
+ 392.279296875 -404.115234375 281.646484375 -223.08984375 216.337890625 -10.59375 c 2
+ 213.08203125 -0 l 1
+ 202 0 l 1
  -5 0 l 2
  -30.9931640625 0 -45 14.0703125 -45 62 c 2
  -45 87 l 2
  -45 136.053710938 -30.9130859375 150 -5 150 c 2
- 184 150 l 1
- 197.571289062 150 l 1
- 198.924804688 163.502929688 l 2
- 234.16796875 514.927734375 405.127929688 811 479 811 c 0
- 507.750976562 811 732 637.978515625 732 391 c 0
+ 194 150 l 1
+ 207.7578125 150 l 1
+ 208.944335938 163.70703125 l 2
+ 236.241210938 479.134765625 395.811523438 790.322265625 468.96875 791.000976562 c 0
+ 499.373046875 789.516601562 712 596.82421875 712 381 c 0
 EndSplineSet
 EndChar
 
