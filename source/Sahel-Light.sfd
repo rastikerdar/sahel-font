@@ -4,7 +4,7 @@ FullName: Sahel Light
 FamilyName: Sahel Light
 Weight: Light
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(Latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 3.2.0
+Version: 3.2.1
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -23,7 +23,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1573276743
+ModificationTime: 1573382427
 PfmFamily: 33
 TTFWeight: 300
 TTFWidth: 5
@@ -88,7 +88,7 @@ ChainSub2: coverage "'calt' Contextual Alternates lookup 1 subtable 1" 0 0 0 1
  1
   SeqLookup: 0 "Single Substitution 1"
 EndFPST
-LangName: 1033 "" "" "" "Sahel Light" "" "Version 3.2.0" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Light"
+LangName: 1033 "" "" "" "Sahel Light" "" "Version 3.2.1" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Light"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -6780,13 +6780,13 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-724.649351089 2074.49537162 m 2
- 708.404618394 1986.58270056 l 1
- 50.7715478642 1747.53210371 l 1
- 68.5970371388 1843.45021266 l 1
- 718.492678789 2084.92519878 l 2
- 722.223271781 2086.16872978 724.94823986 2086.20554148 725.447003299 2086.13273723 c 0
- 725.854945537 2084.98002221 726.106368441 2081.0519497 724.649351089 2074.49537162 c 2
+724.159307828 2074.59506306 m 2
+ 707.964926287 1986.9548806 l 1
+ 51.4229843885 1748.30091062 l 1
+ 69.0368396147 1843.08022684 l 1
+ 718.658857375 2084.45354536 l 2
+ 721.767333733 2085.48970415 724.337214182 2085.71143817 725.067632407 2085.67925654 c 0
+ 725.453383205 2084.08198061 725.453083442 2080.41705332 724.159307828 2074.59506306 c 2
 EndSplineSet
 EndChar
 
