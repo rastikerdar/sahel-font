@@ -4,7 +4,7 @@ FullName: Sahel Light
 FamilyName: Sahel Light
 Weight: Light
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(Latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 3.2.1
+Version: 3.3.0
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -23,7 +23,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1573382427
+ModificationTime: 1574888217
 PfmFamily: 33
 TTFWeight: 300
 TTFWidth: 5
@@ -88,7 +88,7 @@ ChainSub2: coverage "'calt' Contextual Alternates lookup 1 subtable 1" 0 0 0 1
  1
   SeqLookup: 0 "Single Substitution 1"
 EndFPST
-LangName: 1033 "" "" "" "Sahel Light" "" "Version 3.2.1" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Light"
+LangName: 1033 "" "" "" "Sahel Light" "" "Version 3.3.0" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Light"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -154,7 +154,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 48 24 12
+WinInfo: 24 24 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 307200 153600 102400 553984 -1048576 102400 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -1674,19 +1674,19 @@ AnchorPoint: "Anchor-1" 485 1566 mark 0
 LayerCount: 2
 Fore
 SplineSet
-315 1823.5 m 0
- 350.320621931 1823.5 404.373042185 1818.52338309 457.088441072 1812.55560208 c 0
- 506.289933077 1806.53092959 553.377257784 1802.5 583 1802.5 c 0
- 666.34899371 1802.5 725.56378674 1807.4194839 759.792642853 1815.71738841 c 0
- 789.216407031 1822.96016113 806.790743827 1822.86676161 811.862746 1819.60417011 c 0
- 815.223764688 1817.44217755 817.445016516 1806.8976095 794.82261206 1773.25403364 c 0
- 741.397341313 1697.48728604 688.127039476 1669.5 526 1669.5 c 0
- 479.316513556 1669.5 424.486614759 1672.48510601 362.602881424 1677.47572966 c 2
- 362.004785017 1677.52396324 l 1
- 361.406627743 1677.47649044 l 2
- 297.835761211 1672.43118358 235.90815085 1642.61876199 176.433583787 1591.46428301 c 1
+315 1820.5 m 0
+ 350.3203125 1820.5 404.373046875 1815.5234375 457.088867188 1809.55566406 c 0
+ 506.290039062 1803.53125 553.376953125 1799.5 583 1799.5 c 0
+ 666.348632812 1799.5 725.563476562 1804.41992188 759.79296875 1812.71777344 c 0
+ 789.216796875 1819.95996094 806.791015625 1819.8671875 811.862304688 1816.60449219 c 0
+ 815.223632812 1814.44238281 817.445016516 1806.8976095 794.82261206 1773.25403364 c 0
+ 741.397341313 1697.48728604 688.126953125 1674.5 526 1674.5 c 4
+ 479.31640625 1674.5 424.486328125 1677.48535156 362.602539062 1682.47558594 c 6
+ 362.004882812 1682.52441406 l 5
+ 361.40625 1682.4765625 l 6
+ 297.8359375 1677.43164062 235.90815085 1642.61876199 176.433583787 1591.46428301 c 1
  161.38128173 1602.04976958 150.149639509 1612.40337112 142.495142826 1622.1610189 c 1
- 196.186161951 1759.68983738 255.394484587 1823.5 315 1823.5 c 0
+ 196.186161951 1759.68983738 255.39453125 1820.5 315 1820.5 c 0
 EndSplineSet
 EndChar
 
@@ -1794,17 +1794,17 @@ EndChar
 StartChar: uni0660
 Encoding: 1632 1632 59
 GlifName: afii57392
-Width: 774
+Width: 834
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-387 701.3125 m 1
- 571.3125 517 l 1
- 387 332.6875 l 1
- 202.6875 517 l 1
- 387 701.3125 l 1
+417 711.3125 m 5
+ 601.3125 527 l 5
+ 417 342.6875 l 5
+ 232.6875 527 l 5
+ 417 711.3125 l 5
 EndSplineSet
 EndChar
 
@@ -2579,13 +2579,24 @@ EndChar
 StartChar: uni06F0
 Encoding: 1776 1776 86
 GlifName: uni06F_0
-Width: 774
+Width: 834
+VWidth: 2311
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Fore
-Refer: 59 1632 S 1 0 0 1 0 0 2
-PairPos2: "'kern' Horizontal Kerning lookup 0 subtable 6" uni06F8 dx=-40 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+SplineSet
+417 392.642578125 m 0
+ 484.399414062 392.642578125 540.256835938 448.499023438 540.256835938 515.899414062 c 0
+ 540.256835938 583.298828125 484.399414062 639.15625 417 639.15625 c 0
+ 349.600585938 639.15625 293.743164062 583.298828125 293.743164062 515.899414062 c 0
+ 293.743164062 448.499023438 349.600585938 392.642578125 417 392.642578125 c 0
+417 743.704101562 m 0
+ 539.1328125 743.704101562 640.659179688 640.419921875 640.659179688 517.985351562 c 0
+ 640.659179688 395.614257812 539.220703125 293.295898438 417 293.295898438 c 0
+ 294.779296875 293.295898438 193.340820312 395.614257812 193.340820312 517.985351562 c 0
+ 193.340820312 640.419921875 294.8671875 743.704101562 417 743.704101562 c 0
+EndSplineSet
 PairPos2: "'kern' Horizontal Kerning lookup 0 subtable 6" uni06F7 dx=-40 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 0 subtable 6" uni06F6 dx=-40 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 0 subtable 6" uni06F4 dx=-40 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -2705,7 +2716,6 @@ SplineSet
  602.239257812 210.163085938 l 1
  588.932617188 174.206054688 l 2
 EndSplineSet
-PairPos2: "'kern' Horizontal Kerning lookup 0 subtable 6" uni06F0 dx=-30 dy=0 dh=-30 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 0 subtable 6" uni06F7 dx=-70 dy=0 dh=-70 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 0 subtable 6" uni06F6 dx=-70 dy=0 dh=-70 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 0 subtable 6" uni06F4 dx=-70 dy=0 dh=-70 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -2772,7 +2782,6 @@ PairPos2: "'kern' Horizontal Kerning lookup 0 subtable 6" uni06F6 dx=-70 dy=0 dh
 PairPos2: "'kern' Horizontal Kerning lookup 0 subtable 6" uni06F4 dx=-70 dy=0 dh=-70 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 0 subtable 6" uni06F3 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 0 subtable 6" uni06F2 dx=-100 dy=0 dh=-100 dv=0 dx=0 dy=0 dh=0 dv=0
-PairPos2: "'kern' Horizontal Kerning lookup 0 subtable 6" uni06F0 dx=-70 dy=0 dh=-70 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: uni06F9
