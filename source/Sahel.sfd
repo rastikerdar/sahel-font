@@ -4,7 +4,7 @@ FullName: Sahel
 FamilyName: Sahel
 Weight: Regular
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(Latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 3.3.0
+Version: 3.3.1
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -23,7 +23,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1574888269
+ModificationTime: 1579096155
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -88,7 +88,7 @@ ChainSub2: coverage "'calt' Contextual Alternates lookup 1 subtable 1" 0 0 0 1
  1
   SeqLookup: 0 "Single Substitution 1"
 EndFPST
-LangName: 1033 "" "" "" "Sahel Regular" "" "Version 3.3.0" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Regular"
+LangName: 1033 "" "" "" "Sahel Regular" "" "Version 3.3.1" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Regular"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -1009,7 +1009,7 @@ Width: 1262
 GlyphClass: 2
 Flags: HW
 AnchorPoint: "Anchor-7" 701 -822 basechar 0
-AnchorPoint: "Anchor-10" 685 1297 basechar 0
+AnchorPoint: "Anchor-10" 685 1286 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1021,15 +1021,15 @@ SplineSet
  978.200744754 -650.424129583 891 -655 788 -655 c 0
  390 -655 103 -514 103 -182 c 0
  103 44 232 235 460 360 c 1
- 357 426 306 517 306 633 c 0
- 306 852 492 1016 704 1016 c 0
- 825 1016 926 974 1001 898 c 1
- 990 859 970 805 955 769 c 1
- 861 806 776 824 703 824 c 0
- 551 824 449 700 449 648 c 0
- 449 593 577 457 679 457 c 1
- 778 472 978 499 1068 509 c 0
- 1090 511 1099 501 1091 477 c 2
+ 367 426 316 526 316 622 c 0
+ 316 831 492 993 704 993 c 4
+ 825 993 926 951 1001 875 c 1
+ 990 836 970 794 955 758 c 1
+ 861 795 776 813 703 813 c 0
+ 551 813 459 689 459 637 c 0
+ 459 582 577 446 679 446 c 1
+ 778 461 978 488 1068 498 c 0
+ 1090 500 1099 490 1091 466 c 2
  1033 295 l 1
  629 295 250 158 250 -152 c 0
  250 -375 420 -485 763 -485 c 0
@@ -1049,7 +1049,7 @@ AnchorPoint: "Anchor-7" 701 -822 basechar 0
 AnchorPoint: "Anchor-10" 672 1580 basechar 0
 LayerCount: 2
 Fore
-Refer: 264 -1 N 1 0 0 1 563 1196 2
+Refer: 264 -1 S 1 0 0 1 563 1186 2
 Refer: 33 1593 N 1 0 0 1 0 0 2
 Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uniFECE
 Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" uniFED0
@@ -1205,8 +1205,8 @@ SplineSet
  152 -723 122 -744 120 -693 c 0
  113 -529 108 -363 105 -198 c 1
  105 42 133 213 290 269 c 1
- 350 493 440 735 630 735 c 0
- 806 735 1010 464 1010 291 c 0
+ 350 493 439 725 629 725 c 4
+ 805 725 1010 464 1010 291 c 0
  1010 159 869 41 829 41 c 0
  824 41 807 44 781 49 c 0
  702 65 533 95 395 95 c 0
@@ -1309,7 +1309,7 @@ LayerCount: 2
 Fore
 SplineSet
 1256 520 m 0
- 1055 520 921 399 885 235 c 1
+ 1045 520 921 399 885 235 c 1
  1162 159 l 2
  1262.77538102 131.350436977 1314 80 1314 5 c 0
  1314 -231 1102 -489 663 -489 c 0
@@ -1322,9 +1322,9 @@ SplineSet
  1191 -40 1179.43701003 -32.1506861483 1157 -26 c 2
  898 45 l 2
  799 71 745 97 745 167 c 0
- 745 298 881 732 1256 732 c 0
- 1298 732 1342 725 1386 712 c 1
- 1382 671 1369 607 1348 517 c 1
+ 745 298 858 710 1253 710 c 0
+ 1295 710 1339 703 1383 690 c 5
+ 1348 517 l 5
  1310 519 1284 520 1256 520 c 0
 EndSplineSet
 Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uniFEF0
@@ -5011,8 +5011,8 @@ LayerCount: 2
 Fore
 SplineSet
 145 430 m 0
- 145 662 318 841 537 841 c 0
- 649 841 747 800 830 719 c 1
+ 145 662 320 841 539 841 c 4
+ 651 841 747 800 830 719 c 1
  784 598 l 1
  684 637 608 656 555 656 c 0
  397 656 284 504 284 448 c 0

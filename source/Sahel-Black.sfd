@@ -4,7 +4,7 @@ FullName: Sahel Black
 FamilyName: Sahel Black
 Weight: Black
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(Latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 3.3.0
+Version: 3.3.1
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -23,7 +23,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1574892634
+ModificationTime: 1579096139
 PfmFamily: 33
 TTFWeight: 900
 TTFWidth: 5
@@ -88,7 +88,7 @@ ChainSub2: coverage "'calt' Contextual Alternates lookup 1 subtable 1" 0 0 0 1
  1
   SeqLookup: 0 "Single Substitution 1"
 EndFPST
-LangName: 1033 "" "" "" "Sahel Black" "" "Version 3.3.0" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Black"
+LangName: 1033 "" "" "" "Sahel Black" "" "Version 3.3.1" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "Black"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -1308,24 +1308,24 @@ AnchorPoint: "Anchor-10" 673 994 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-1349 583 m 4
- 1197 583 1083 544 1005 466 c 5
- 1243 395 l 6
- 1398 348 1461 317 1461 152 c 4
- 1461 -268 1154 -547 730 -547 c 4
- 320 -547 78 -351 78 51 c 4
- 78 249 130 447 233 644 c 5
- 402 581 l 5
- 354 446 330 331 330 238 c 4
- 330 19 471 -90 754 -90 c 4
- 1068 -90 1202 17 1202 26 c 4
- 1202 29 1198 31 1190 33 c 6
- 922 107 l 6
- 789 143 733 174 733 263 c 4
+1349 583 m 0
+ 1197 583 1083 544 1005 466 c 1
+ 1243 395 l 2
+ 1398 348 1461 317 1461 152 c 0
+ 1461 -268 1154 -547 730 -547 c 0
+ 320 -547 78 -351 78 51 c 0
+ 78 249 130 447 233 644 c 1
+ 402 581 l 1
+ 354 446 330 331 330 238 c 0
+ 330 19 471 -90 754 -90 c 0
+ 1068 -90 1202 17 1202 26 c 0
+ 1202 29 1198 31 1190 33 c 2
+ 922 107 l 2
+ 789 143 733 174 733 263 c 0
  733 622 996 984 1327 984 c 0
- 1406 984 1472 963 1526 920 c 1
- 1508 796 1492 688 1474 571 c 5
- 1439 579 1397 583 1349 583 c 4
+ 1406 984 1472 963 1526 920 c 5
+ 1474 571 l 1
+ 1439 579 1397 583 1349 583 c 0
 EndSplineSet
 Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uniFEF0
 Substitution2: "'medi' Medial Forms in Arabic lookup 11 subtable" uniFBE9

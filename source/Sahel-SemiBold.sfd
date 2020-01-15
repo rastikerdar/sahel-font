@@ -4,7 +4,7 @@ FullName: Sahel SemiBold
 FamilyName: Sahel SemiBold
 Weight: SemiBold
 Copyright: Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved.\nBased on DejaVu font.\nNon-Arabic(Latin) glyphs and data are imported from Open Sans font under the Apache License, Version 2.0.
-Version: 3.3.0
+Version: 3.3.1
 ItalicAngle: 0
 UnderlinePosition: -500
 UnderlineWidth: 100
@@ -23,7 +23,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1431850356
-ModificationTime: 1574892670
+ModificationTime: 1579096203
 PfmFamily: 33
 TTFWeight: 600
 TTFWidth: 5
@@ -88,7 +88,7 @@ ChainSub2: coverage "'calt' Contextual Alternates lookup 1 subtable 1" 0 0 0 1
  1
   SeqLookup: 0 "Single Substitution 1"
 EndFPST
-LangName: 1033 "" "" "" "Sahel SemiBold" "" "Version 3.3.0" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "SemiBold"
+LangName: 1033 "" "" "" "Sahel SemiBold" "" "Version 3.3.1" "" "" "Saber Rastikerdar (saber.rastikerdar@gmail.com)" "" "" "" "" "SIL Open Font License 1.1+AAoA-Copyright (c) 2016 by Saber Rastikerdar. All Rights Reserved." "http://scripts.sil.org/OFL_web" "" "Sahel" "SemiBold"
 GaspTable: 2 8 2 65535 3 0
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
@@ -461,7 +461,7 @@ Encoding: 1574 1574 14
 GlifName: afii57414
 Width: 1474
 GlyphClass: 3
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-10" 506 1232 basechar 0
 AnchorPoint: "Anchor-7" 665 -679 basechar 0
 LayerCount: 2
@@ -1323,8 +1323,8 @@ SplineSet
  874 57 l 2
  735.1171875 93.65625 730 128 730 192 c 0
  730 459 966 785 1235 785 c 0
- 1290 785 1345 775 1403 756 c 1
- 1394 661 1380 577 1362 506 c 1
+ 1290 785 1345 775 1403 756 c 5
+ 1362 506 l 1
  1329 509 1285 515 1251 515 c 0
 EndSplineSet
 Substitution2: "'fina' Terminal Forms in Arabic lookup 9 subtable" uniFEF0
@@ -3612,7 +3612,7 @@ Encoding: 65161 65161 148
 GlifName: uniF_E_89
 Width: 1474
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-10" 528 1268 basechar 0
 AnchorPoint: "Anchor-7" 663 -660 basechar 0
 LayerCount: 2
@@ -5826,7 +5826,7 @@ Encoding: 65263 65263 250
 GlifName: uniF_E_E_F_
 Width: 1474
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-10" 659 1024 basechar 0
 AnchorPoint: "Anchor-7" 498 -801 basechar 0
 LayerCount: 2
