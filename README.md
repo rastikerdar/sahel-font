@@ -124,6 +124,28 @@ Arch user's could use [sahel-fonts](https://aur.archlinux.org/packages/sahel-fon
 pacaur -S sahel-fonts
 ```
 
+
+#### Linux
+gnu/inux users could use [kateb](https://github.com/kiamazi/kateb) font manager, to install sahel font.
+
+ubuntu users must install this dependensies too:
+```
+sudo apt install openssl libssl-dev
+````
+
+##### install kateb
+```
+sudo cpan kateb
+```
+and
+```
+kateb install sahel
+```
+or
+```
+kateb update sahel
+```
+
 ## Contributors
 
 - Amin Abedi [@aminabedi68](https://github.com/aminabedi68)
