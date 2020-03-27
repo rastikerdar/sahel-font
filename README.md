@@ -124,6 +124,16 @@ Arch user's could use [sahel-fonts](https://aur.archlinux.org/packages/sahel-fon
 pacaur -S sahel-fonts
 ```
 
+
+#### GNU/Linux
+gnu/linux users could use [kateb](https://github.com/kiamazi/kateb) font manager, to install sahel font.
+
+```
+kateb install sahel
+or
+kateb update sahel
+```
+
 ## Contributors
 
 - Amin Abedi [@aminabedi68](https://github.com/aminabedi68)
