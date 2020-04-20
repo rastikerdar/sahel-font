@@ -1,0 +1,19 @@
+{
+  "name": "sahel-font",
+  "version": "3.4.0",
+  "author": "Saber Rastikerdar <saber.rastikerdar@gmail.com>",
+  "license": "OFL",
+  "description": "A Persian (farsi) Font - فونت (قلم) فارسی ساحل",
+  "keywords": ["font", "farsi", "persian"],
+  "scripts": {
+    "test": "echo \"visit http://rastikerdar.github.io/sahel-font/\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rastikerdar/sahel-font"
+  },
+  "bugs": {
+    "url": "https://github.com/rastikerdar/sahel-font/issues"
+  },
+  "homepage": "https://github.com/rastikerdar/sahel-font#readme"
+}
