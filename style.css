@@ -5,7 +5,7 @@
 /* FF Meta Variable Demo Font */
 @font-face {
   font-family: "Sahel-VF";
-  src: url("https://cdn.rawgit.com/rastikerdar/sahel-font/v3.4.0/dist/Sahel-VF.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/Sahel-VF.woff2")
     format("truetype");
 }
 
