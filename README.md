@@ -104,10 +104,10 @@ A Persian (Farsi) Font with variable version
 
 Grab the [latest release](https://github.com/rastikerdar/sahel-font/releases/latest) file.
 
-Or [RawGit](https://rawgit.com) CDN:
+Or [jsDelivr](https://www.jsdelivr.com) CDN:
 
 ```html
-<link href="https://cdn.rawgit.com/rastikerdar/sahel-font/v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
 ```
 
 Replace [X.Y.Z] with the latest version (e.g. 3.4.0) and integrate the font into your CSS:
