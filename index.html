@@ -245,6 +245,23 @@
         }
       }
 
+      .singlefile {
+        margin-bottom: 10px;
+      }
+
+      .singlefile a {
+        display: inline-block;
+        border-bottom: 1px solid #d5d5d5;
+        color: #007fba;
+        margin: 5px 10px 0;
+        font-size: 1em;
+      }
+
+      .singlefile select {
+        font-family: Sahel;
+        min-width: 80px;
+      }
+
       .clear {
         clear: both;
       }
@@ -268,6 +285,17 @@
           <a href="https://github.com/rastikerdar/sahel-font" class="github"
             >GitHub</a
           >
+        </div>
+        <div class="singlefile">
+          دانلود فایل نسخه
+          <select onchange="setSingleFileDownload(this.value, 'Sahel', 'v3.4.0')">
+            <option value="Light">سبک</option>
+            <option value="Regular" selected="selected">معمولی</option>
+            <option value="SemiBold">نیمه‌ضخیم</option>
+            <option value="Bold">ضخیم</option>
+            <option value="Black">سیاه</option>
+          </select>
+          <a id="singlefiledownload" href="https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/Sahel.ttf">Sahel.ttf</a>
         </div>
         <div class="description">
           تقاضا می‌گردد هر گونه ایراد یا
@@ -331,5 +359,14 @@
         (برای کدنویسی)
       </div>
     </footer>
+
+    <script>
+      function setSingleFileDownload(weight, font, version) {
+        var filename = font + (weight != "Regular" ? "-"+weight : '') +".ttf";
+        var singlefiledownloadEl = document.getElementById("singlefiledownload");
+        singlefiledownloadEl.text = filename;
+        singlefiledownloadEl.href = "https://cdn.jsdelivr.net/gh/rastikerdar/"+font.toLowerCase()+"-font@"+version+"/dist/"+filename;
+      }
+    </script>
   </body>
 </html>
