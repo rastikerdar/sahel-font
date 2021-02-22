@@ -1,6 +1,8 @@
 # Sahel-Font
 A Persian (Farsi) Font with variable version
 
+<div dir="rtl">
+
 ![Sahel-VF](./sample-variable.gif)
 
 فونت فارسی ساحل  
@@ -10,6 +12,7 @@ A Persian (Farsi) Font with variable version
 نسخه وریبل فونت با نام `Sahel-VF‍` در بسته فونت موجود می‌باشد.  
 نسخه‌های بدون حروف لاتین یا تمام ارقام فارسی درون بسته فشرده موجود می‌باشد.  
 فرآیند تولید بسته نهایی شامل انواع نسخه‌ها و فرمت‌ها توسط ابزار [fontbuilder](https://github.com/rastikerdar/fontbuilder) انجام می‌شود.
+</div>
 
 ## Known problems for variable version
 - mark placement distortion.
@@ -21,11 +24,12 @@ A Persian (Farsi) Font with variable version
 - [ ] Testing font in all supported programs.
 - [ ] Adding other axes.
 
+<div dir="rtl">
+
 ## طریقه استفاده در صفحات وب
 
-<p dir="rtl">
 کد زیر را در قسمت style یا فایل css وارد نمایید:
-</p>
+</div>
 
 
 ```css
@@ -80,7 +84,10 @@ A Persian (Farsi) Font with variable version
 }
 ```
 
+<div dir="rtl">
+
 ## طریقه استفاده از نسخه متغیر variable
+</div>
 
 ```css
 @font-face {
