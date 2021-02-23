@@ -1,30 +1,29 @@
-# Sahel-Font
-A Persian (Farsi) Font with variable version
-
 <div dir="rtl">
 
+# فونت ساحل
+فونت فارسی همراه با نسخه متغیر
+  
 ![Sahel-VF](./sample-variable.gif)
-
-فونت فارسی ساحل  
+ 
 [نمایش فونت](http://rastikerdar.github.io/sahel-font/)  
 [صفحه دریافت (دانلود) بسته فونت شامل فایل های ttf,woff,eot](https://github.com/rastikerdar/sahel-font/releases)  
 با تشکر از برنامه [FontForge](https://fontforge.github.io)  
-نسخه وریبل فونت با نام `Sahel-VF‍` در بسته فونت موجود می‌باشد.  
-نسخه‌های بدون حروف لاتین یا تمام ارقام فارسی درون بسته فشرده موجود می‌باشد.  
+نسخه متغیر فونت با نام `Sahel-VF‍` در بسته فونت موجود می‌باشد.  
+نسخه‌های «بدون حروف لاتین» یا «تمام ارقام فارسی» درون بسته فشرده موجود می‌باشد.  
 فرآیند تولید بسته نهایی شامل انواع نسخه‌ها و فرمت‌ها توسط ابزار [fontbuilder](https://github.com/rastikerdar/fontbuilder) انجام می‌شود.
-</div>
 
-## Known problems for variable version
+
+## مشکلات شناخته شده در نسخه متغیر
 - mark placement distortion.
 
-## To Do (variable)
-- [x] Adding all 3 Weights as masters to variable version.
-- [ ] Font testing page
+
+## برای انجام (متغیر)
+- [x] افزودن همه سه حالت به نسخه متغیر.
+- [ ] صفحه تست فونت
 - [ ] Latin section is empty. It's better to use an opensource variable font with a wide range.
-- [ ] Testing font in all supported programs.
+- [ ] تست فونت در تمام برنامه‌های پشتیبانی شده.
 - [ ] Adding other axes.
 
-<div dir="rtl">
 
 ## طریقه استفاده در صفحات وب
 
@@ -107,33 +106,43 @@ A Persian (Farsi) Font with variable version
 
 ```
 
-## Install
+<div dir="rtl">
 
-Grab the [latest release](https://github.com/rastikerdar/sahel-font/releases/latest) file.
+## نصب
 
-Or [jsDelivr](https://www.jsdelivr.com) CDN:
+فایل [آخرین نسخه](https://github.com/rastikerdar/sahel-font/releases/latest) را دریافت کنید.
+
+یا از شبکه توزیع محتوا [jsDelivr](https://www.jsdelivr.com) استفاده کنید:
+</div>
 
 ```html
 <link href="https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
 ```
+<div dir="rtl">
 
-Replace [X.Y.Z] with the latest version (e.g. 3.4.0) and integrate the font into your CSS:
+[X.Y.Z] را با آخرین نسخه (مثال: 3.4.0) جایگزین کنید و در CSS خود قرار دهید:
+</div>
 
 ```
 font-family: 'Sahel', sans-serif;
 ```
 
-#### Arch Linux
+<div dir="rtl">
 
-Arch user's could use [sahel-fonts](https://aur.archlinux.org/packages/sahel-fonts/) package from [AUR](https://aur.archlinux.org/) repository to install sahel font. Use your favorite [AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers) like pacaur or yaourt for installing package:
+#### آرچ لینوکس
+
+کاربران آرچ می‌توانند از بسته [sahel-fonts](https://aur.archlinux.org/packages/sahel-fonts/) از مخزن [AUR](https://aur.archlinux.org/) برای نصب فونت ساحل استفاده کنند. از [AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers) مورد علاقه خود مانند pacaur یا yaourt برای نصب بسته استفاده کنید:
+</div>
 
 ```shell
 pacaur -S sahel-fonts
 ```
 
+<div dir="rtl">
 
-#### GNU/Linux
-gnu/linux users could use [kateb](https://github.com/kiamazi/kateb) font manager, to install sahel font.
+#### گنو لینوکس
+کاربران گنو لینوکس می‌توانند از ابزار مدیرت فونت [کاتب](https://github.com/kiamazi/kateb) برای نصب فونت ساحل استفاده کنند:
+</div>
 
 ```
 kateb install sahel
@@ -141,10 +150,12 @@ or
 kateb update sahel
 ```
 
-## Contributors
+<div dir="rtl">
 
-- Amin Abedi [@aminabedi68](https://github.com/aminabedi68)
+## همکاران
 
-## License
-2016 Saber Rastikerdar ([@rastikerdar](https://github.com/rastikerdar)). See the `LICENSE` file.
+- امین عابدی [@aminabedi68](https://github.com/aminabedi68)
 
+## مجوز
+۲۰۱۶ صابر راستی کردار ([@rastikerdar](https://github.com/rastikerdar)). فایل `LICENSE` را مشاهده کنید.
+</div>
