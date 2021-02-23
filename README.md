@@ -18,11 +18,11 @@
 
 
 ## برای انجام (متغیر)
-- [x] افزودن همه سه حالت به نسخه متغیر.
-- [ ] صفحه تست فونت
-- [ ] Latin section is empty. It's better to use an opensource variable font with a wide range.
-- [ ] تست فونت در تمام برنامه‌های پشتیبانی شده.
-- [ ] Adding other axes.
+- ✔ افزودن همه سه حالت به نسخه متغیر.
+-  صفحه تست فونت
+-  Latin section is empty. It's better to use an opensource variable font with a wide range.
+-  تست فونت در تمام برنامه‌های پشتیبانی شده.
+-  Adding other axes.
 
 
 ## طریقه استفاده در صفحات وب
