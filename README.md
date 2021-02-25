@@ -155,7 +155,7 @@ kateb update sahel
 
 <div dir="rtl">
 
-## همکاران
+## مشارکت کنندگان
 
 - امین عابدی [@aminabedi68](https://github.com/aminabedi68)
 
