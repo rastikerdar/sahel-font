@@ -2,7 +2,7 @@
 
 # فونت ساحل
 
-[**English Versin**](https://github.com/mskf1383/sahel-font/blob/patch-2/README_EN.md)
+[**English Version**](https://github.com/mskf1383/sahel-font/blob/patch-2/README_EN.md)
 
 فونت فارسی همراه با نسخه متغیر
   
